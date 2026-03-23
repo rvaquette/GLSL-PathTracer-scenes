@@ -1,0 +1,158 @@
+{
+  "id": "w3sSR4",
+  "common": true,
+  "bufferA": {
+    "inputs": [
+      {
+        "filepath": "/media/a//media/previz/cubemap00.png",
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "cubemap"
+      },
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "type": "bufferA"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 2,
+        "type": "keyboard"
+      }
+    ]
+  },
+  "bufferB": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferA"
+      },
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "type": "bufferB"
+      },
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 2,
+        "type": "keyboard"
+      }
+    ]
+  },
+  "bufferC": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferB"
+      },
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "type": "bufferC"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 2,
+        "type": "keyboard"
+      }
+    ]
+  },
+  "cubeA": {
+    "inputs": [
+      {
+        "filepath": "/media/a//media/previz/cubemap00.png",
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "cubemap"
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferB"
+      },
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "type": "bufferC"
+      }
+    ]
+  }
+}

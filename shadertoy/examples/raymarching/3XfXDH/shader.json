@@ -1,0 +1,19 @@
+{
+  "id": "3XfXDH",
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "texture",
+        "filepath": "/media/a/bd6464771e47eed832c5eb2cd85cdc0bfc697786b903bfd30f890f9d4fc36657.jpg",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

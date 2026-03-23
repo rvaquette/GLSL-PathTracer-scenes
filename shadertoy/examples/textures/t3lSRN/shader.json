@@ -1,0 +1,19 @@
+{
+  "id": "t3lSRN",
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "texture",
+        "filepath": "/media/a/e6e5631ce1237ae4c05b3563eda686400a401df4548d0f9fad40ecac1659c46c.jpg",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

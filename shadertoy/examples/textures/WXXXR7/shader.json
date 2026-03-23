@@ -1,0 +1,19 @@
+{
+  "id": "WXXXR7",
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "texture",
+        "filepath": "/media/a/3871e838723dd6b166e490664eead8ec60aedd6b8d95bc8e2fe3f882f0fd90f0.jpg",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

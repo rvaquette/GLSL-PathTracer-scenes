@@ -1,0 +1,36 @@
+{
+  "id": "W3lXW4",
+  "common": true,
+  "bufferA": {
+    "inputs": []
+  },
+  "sound": {
+    "inputs": []
+  },
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferA"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "type": "musicstream"
+      }
+    ]
+  }
+}

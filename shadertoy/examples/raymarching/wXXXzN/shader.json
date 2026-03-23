@@ -1,0 +1,22 @@
+{
+  "id": "wXXXzN",
+  "common": true,
+  "bufferA": {
+    "inputs": []
+  },
+  "image": {
+    "inputs": [
+      {
+        "channel": 1,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

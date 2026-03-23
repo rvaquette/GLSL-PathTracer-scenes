@@ -1,0 +1,48 @@
+{
+  "id": "Wt33zH",
+  "common": true,
+  "cubeA": {
+    "inputs": [
+      {
+        "filepath": "/media/a//media/previz/cubemap00.png",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "cubemap"
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+        {
+            "channel": 0,
+            "type": "cubemap",
+            "filepath": "/media/a//media/previz/cubemap00.png",
+            "sampler": {
+                "filter": "linear",
+                "wrap": "clamp",
+                "vflip": "true",
+                "srgb": "false",
+                "internal": "byte"
+            }
+        },
+        {
+            "channel": 1,
+            "type": "texture",
+            "filepath": "/media/a/95b90082f799f48677b4f206d856ad572f1d178c676269eac6347631d4447258.jpg",
+            "sampler": {
+                "filter": "mipmap",
+                "wrap": "repeat",
+                "vflip": "true",
+                "srgb": "false",
+                "internal": "byte"
+            }
+        }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "3XlSWN",
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "filepath": "/media/a/95b90082f799f48677b4f206d856ad572f1d178c676269eac6347631d4447258.jpg",
+        "type": "texture"
+      },
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "filepath": "/media/a/f735bee5b64ef98879dc618b016ecf7939a5756040c2cde21ccb15e69a6e1cfb.png",
+        "type": "texture"
+      },
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 2,
+        "filepath": "/media/a/585f9546c092f53ded45332b343144396c0b2d70d9965f585ebc172080d8aa58.jpg",
+        "type": "cubemap"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "33XSzM",
+  "common": true,
+  "bufferA": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "texture",
+        "filepath": "/media/a/cb49c003b454385aa9975733aff4571c62182ccdda480aaba9a8d250014f00ec.png",
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      },
+      {
+        "channel": 1,
+        "type": "volume",
+        "filepath": "/media/a/aea6b99da1d53055107966b59ac5444fc8bc7b3ce2d0bbb6a4a3cbae1d97f3aa.bin",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "bufferB": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      },
+      {
+        "channel": 1,
+        "type": "bufferB",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferB",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

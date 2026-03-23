@@ -1,0 +1,20 @@
+{
+  "id": "wXXXW4",
+  "common": true,
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "volume",
+        "filepath": "/media/a/27012b4eadd0c3ce12498b867058e4f717ce79e10a99568cca461682d84a4b04.bin",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

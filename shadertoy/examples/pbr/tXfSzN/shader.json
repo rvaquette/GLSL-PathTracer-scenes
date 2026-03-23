@@ -1,0 +1,45 @@
+{
+  "id": "tXfSzN",
+  "bufferA": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      },
+      {
+        "channel": 1,
+        "type": "texture",
+        "filepath": "/media/a/92d7758c402f0927011ca8d0a7e40251439fba3a1dac26f5b8b62026323501aa.jpg",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

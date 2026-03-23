@@ -1,0 +1,31 @@
+{
+  "id": "3XlXW4",
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "cubemap",
+        "filepath": "/media/a/488bd40303a2e2b9a71987e48c66ef41f5e937174bf316d3ed0e86410784b919.jpg",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      },
+      {
+        "channel": 1,
+        "type": "cubemap",
+        "filepath": "/media/a/550a8cce1bf403869fde66dddf6028dd171f1852f4a704a465e1b80d23955663.png",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

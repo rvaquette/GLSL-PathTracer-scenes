@@ -1,0 +1,71 @@
+{
+  "id": "w3XSRN",
+  "common": true,
+  "cubeA": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "type": "cubemap",
+        "channel": 0,
+        "filepath": "/media/a//media/previz/cubemap00.png"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "repeat",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "type": "texture",
+        "channel": 1,
+        "filepath": "/media/a/f735bee5b64ef98879dc618b016ecf7939a5756040c2cde21ccb15e69a6e1cfb.png"
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "nearest",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "type": "cubemap",
+        "channel": 0,
+        "filepath": "/media/a//media/previz/cubemap00.png"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "repeat",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "type": "texture",
+        "channel": 1,
+        "filepath": "/media/a/f735bee5b64ef98879dc618b016ecf7939a5756040c2cde21ccb15e69a6e1cfb.png"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "type": "keyboard",
+        "channel": 2
+      }
+    ]
+  }
+}

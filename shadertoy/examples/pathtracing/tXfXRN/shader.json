@@ -1,0 +1,60 @@
+{
+  "id": "tXfXRN",
+  "bufferA": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "cubemap",
+        "filepath": "/media/a/488bd40303a2e2b9a71987e48c66ef41f5e937174bf316d3ed0e86410784b919.jpg",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "bufferB": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      },
+      {
+        "channel": 1,
+        "type": "bufferB",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferB",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

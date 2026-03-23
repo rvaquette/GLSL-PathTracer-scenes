@@ -1,0 +1,48 @@
+{
+  "id": "t3lXD7",
+  "bufferA": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "bufferB": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferB",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "3XXXzf",
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "filepath": "/media/a/3083c722c0c738cad0f468383167a0d246f91af2bfa373e9c5c094fb8c8413e0.png",
+        "type": "texture"
+      }
+    ]
+  }
+}

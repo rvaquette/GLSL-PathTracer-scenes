@@ -1,0 +1,19 @@
+{
+  "id": "t3XXW4",
+  "common": true,
+  "image": {
+    "inputs": [
+      {
+        "channel": 2,
+        "type": "keyboard",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

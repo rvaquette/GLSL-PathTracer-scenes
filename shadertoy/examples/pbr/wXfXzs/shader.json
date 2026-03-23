@@ -1,0 +1,31 @@
+{
+  "id": "wXfXzs",
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "repeat",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "filepath": "/media/a/10eb4fe0ac8a7dc348a2cc282ca5df1759ab8bf680117e4047728100969e7b43.jpg",
+        "type": "texture"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "filepath": "/media/a/94284d43be78f00eb6b298e6d78656a1b34e2b91b34940d02f1ca8b22310e8a0.png",
+        "type": "cubemap"
+      }
+    ]
+  }
+}

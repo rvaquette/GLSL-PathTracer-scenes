@@ -1,0 +1,45 @@
+{
+  "id": "wXlSRX",
+  "bufferA": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferA"
+      },
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "repeat",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "filepath": "/media/a/52d2a8f514c4fd2d9866587f4d7b2a5bfa1a11a0e772077d7682deb8b3b517e5.jpg",
+        "type": "texture"
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferA"
+      }
+    ]
+  }
+}

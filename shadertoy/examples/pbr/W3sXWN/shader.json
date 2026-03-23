@@ -1,0 +1,19 @@
+{
+  "id": "W3sXWN",
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "cubemap",
+        "filepath": "/media/a/585f9546c092f53ded45332b343144396c0b2d70d9965f585ebc172080d8aa58.jpg",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "w3sXzN",
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "music",
+        "filepath": "/media/a/d96b229eeb7a08d53adfcf1ff89e54c9ffeebed193d317d1a01cc8125c0f5cca.mp3",
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

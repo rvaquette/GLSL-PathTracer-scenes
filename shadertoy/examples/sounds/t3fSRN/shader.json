@@ -1,0 +1,34 @@
+{
+  "id": "t3fSRN",
+  "bufferA": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "filepath": "/media/a/a6a1cf7a09adfed8c362492c88c30d74fb3d2f4f7ba180ba34b98556660fada1.mp3",
+        "type": "music"
+      }
+    ]
+  },
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "linear",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "type": "bufferA"
+      }
+    ]
+  }
+}

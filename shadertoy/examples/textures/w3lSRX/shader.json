@@ -1,0 +1,20 @@
+{
+  "id": "w3lSRX",
+  "common": true,
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "cubemap",
+        "filepath": "/media/a/793a105653fbdadabdc1325ca08675e1ce48ae5f12e37973829c87bea4be3232.png",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

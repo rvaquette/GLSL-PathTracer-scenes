@@ -1,0 +1,59 @@
+{
+  "id": "4tl3RM",
+  "sound": {
+    "inputs": [
+    ]
+  },
+  "image": {
+    "inputs": [
+		{
+			"channel": 0,
+			"type": "texture",
+			"filepath": "/media/a/95b90082f799f48677b4f206d856ad572f1d178c676269eac6347631d4447258.jpg",
+			"sampler": {
+				"filter": "mipmap",
+				"wrap": "repeat",
+				"vflip": "false",
+				"srgb": "false",
+				"internal": "byte"
+			}
+		},
+		{
+			"channel": 1,
+			"type": "texture",
+			"filepath": "/media/a/f735bee5b64ef98879dc618b016ecf7939a5756040c2cde21ccb15e69a6e1cfb.png",
+			"sampler": {
+				"filter": "mipmap",
+				"wrap": "repeat",
+				"vflip": "false",
+				"srgb": "false",
+				"internal": "byte"
+			}
+		},
+		{
+			"channel": 2,
+			"type": "cubemap",
+			"filepath": "/media/a/94284d43be78f00eb6b298e6d78656a1b34e2b91b34940d02f1ca8b22310e8a0.png",
+			"sampler": {
+				"filter": "linear",
+				"wrap": "clamp",
+				"vflip": "false",
+				"srgb": "false",
+				"internal": "byte"
+			}
+		},
+		{
+			"channel": 3,
+			"type": "cubemap",
+			"filepath": "/media/a/0681c014f6c88c356cf9c0394ffe015acc94ec1474924855f45d22c3e70b5785.png",
+			"sampler": {
+				"filter": "linear",
+				"wrap": "clamp",
+				"vflip": "false",
+				"srgb": "false",
+				"internal": "byte"
+			}
+		}
+    ]
+  }
+}

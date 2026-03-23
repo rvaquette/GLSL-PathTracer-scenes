@@ -1,0 +1,32 @@
+{
+  "id": "33fSz7",
+  "common": true,
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 0,
+        "filepath": "/media/a/793a105653fbdadabdc1325ca08675e1ce48ae5f12e37973829c87bea4be3232.png",
+        "type": "cubemap"
+      },
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "false",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "channel": 1,
+        "filepath": "/media/a/585f9546c092f53ded45332b343144396c0b2d70d9965f585ebc172080d8aa58.jpg",
+        "type": "cubemap"
+      }
+    ]
+  }
+}

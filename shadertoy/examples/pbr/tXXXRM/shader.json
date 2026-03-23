@@ -1,0 +1,23 @@
+{
+  "id": "tXXXRM",
+  "common": true,
+  "cubeA": {
+    "inputs": []
+  },
+  "image": {
+    "inputs": [
+      {
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        },
+        "type": "cubemap",
+        "channel": 0,
+        "filepath": "/media/a//media/previz/cubemap00.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "W3lXW4",
+  "common": true,
+  "bufferA": {
+    "inputs": []
+  },
+  "image": {
+    "inputs": [
+      {
+        "channel": 0,
+        "type": "bufferA",
+        "sampler": {
+          "filter": "mipmap",
+          "wrap": "clamp",
+          "vflip": "true",
+          "srgb": "false",
+          "internal": "byte"
+        }
+      }
+    ]
+  }
+}

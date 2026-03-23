@@ -1,0 +1,45 @@
+{
+  "id": "4dGyDm",
+  "common": true,
+  "bufferA": {
+    "inputs": [
+				{
+					"channel": 0,
+					"type": "bufferA",
+					"sampler": {
+						"filter": "nearest",
+						"wrap": "clamp",
+						"vflip": "true",
+						"srgb": "false",
+						"internal": "byte"
+					}
+				},
+				{
+					"channel": 1,
+					"type": "keyboard",
+					"sampler": {
+						"filter": "nearest",
+						"wrap": "clamp",
+						"vflip": "true",
+						"srgb": "false",
+						"internal": "byte"
+					}
+				}
+    ]
+  },
+  "image": {
+    "inputs": [
+				{
+					"channel": 0,
+					"type": "bufferA",
+					"sampler": {
+						"filter": "nearest",
+						"wrap": "clamp",
+						"vflip": "true",
+						"srgb": "false",
+						"internal": "byte"
+					}
+				}
+    ]
+  }
+}
