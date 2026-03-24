@@ -35,6 +35,7 @@
       "materialsTex": 0,
       "transformsTex": 56,
       "lightsTex": 60,
+      "BVH": 60,
       "vertexIndicesTex": 1395489,
       "verticesTex": 1940055,
       "normalsTex": 3573753
@@ -99,6 +100,7 @@
       "materialsTex": 0,
       "transformsTex": 48,
       "lightsTex": 84,
+      "BVH": 84,
       "vertexIndicesTex": 291,
       "verticesTex": 352,
       "normalsTex": 535
@@ -158,6 +160,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 11919,
       "verticesTex": 16199,
       "normalsTex": 29039
@@ -216,6 +219,7 @@
       "materialsTex": 0,
       "transformsTex": 248,
       "lightsTex": 520,
+      "BVH": 530,
       "vertexIndicesTex": 4018880,
       "verticesTex": 5510630,
       "normalsTex": 9985880
@@ -280,6 +284,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 16479,
       "verticesTex": 22515,
       "normalsTex": 40623
@@ -338,6 +343,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 61731,
       "verticesTex": 83171,
       "normalsTex": 147491
@@ -396,6 +402,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 52,
+      "BVH": 52,
       "vertexIndicesTex": 75661,
       "verticesTex": 102648,
       "normalsTex": 183609
@@ -454,6 +461,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 28,
+      "BVH": 28,
       "vertexIndicesTex": 27457,
       "verticesTex": 37384,
       "normalsTex": 67165
@@ -513,6 +521,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 24,
+      "BVH": 24,
       "vertexIndicesTex": 74928,
       "verticesTex": 101788,
       "normalsTex": 182368
@@ -571,6 +580,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 20151,
       "verticesTex": 27717,
       "normalsTex": 50415
@@ -629,6 +639,7 @@
       "materialsTex": 0,
       "transformsTex": 24,
       "lightsTex": 36,
+      "BVH": 36,
       "vertexIndicesTex": 75747,
       "verticesTex": 103406,
       "normalsTex": 186383
@@ -687,6 +698,7 @@
       "materialsTex": 0,
       "transformsTex": 48,
       "lightsTex": 128,
+      "BVH": 143,
       "vertexIndicesTex": 670451,
       "verticesTex": 905716,
       "normalsTex": 1611511
@@ -751,6 +763,7 @@
       "materialsTex": 0,
       "transformsTex": 64,
       "lightsTex": 92,
+      "BVH": 97,
       "vertexIndicesTex": 220,
       "verticesTex": 254,
       "normalsTex": 356
@@ -815,6 +828,7 @@
       "materialsTex": 0,
       "transformsTex": 72,
       "lightsTex": 100,
+      "BVH": 105,
       "vertexIndicesTex": 44448,
       "verticesTex": 60342,
       "normalsTex": 108024
@@ -879,6 +893,7 @@
       "materialsTex": 0,
       "transformsTex": 232,
       "lightsTex": 408,
+      "BVH": 438,
       "vertexIndicesTex": 13731636,
       "verticesTex": 18979676,
       "normalsTex": 34723796
@@ -943,6 +958,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 20,
+      "BVH": 20,
       "vertexIndicesTex": 2235905,
       "verticesTex": 3067717,
       "normalsTex": 5563153
@@ -1008,6 +1024,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 20,
+      "BVH": 20,
       "vertexIndicesTex": 11279,
       "verticesTex": 15247,
       "normalsTex": 27151
@@ -1072,6 +1089,7 @@
       "materialsTex": 0,
       "transformsTex": 72,
       "lightsTex": 116,
+      "BVH": 121,
       "vertexIndicesTex": 301300,
       "verticesTex": 408834,
       "normalsTex": 731436
@@ -1136,6 +1154,7 @@
       "materialsTex": 0,
       "transformsTex": 88,
       "lightsTex": 132,
+      "BVH": 217,
       "vertexIndicesTex": 301396,
       "verticesTex": 408930,
       "normalsTex": 731532
@@ -1200,6 +1219,7 @@
       "materialsTex": 0,
       "transformsTex": 72,
       "lightsTex": 116,
+      "BVH": 121,
       "vertexIndicesTex": 301300,
       "verticesTex": 408834,
       "normalsTex": 731436
@@ -1264,6 +1284,7 @@
       "materialsTex": 0,
       "transformsTex": 112,
       "lightsTex": 168,
+      "BVH": 168,
       "vertexIndicesTex": 211164,
       "verticesTex": 293381,
       "normalsTex": 540032
@@ -1322,6 +1343,7 @@
       "materialsTex": 0,
       "transformsTex": 120,
       "lightsTex": 404,
+      "BVH": 404,
       "vertexIndicesTex": 392393,
       "verticesTex": 534192,
       "normalsTex": 959589
@@ -1381,6 +1403,7 @@
       "materialsTex": 0,
       "transformsTex": 88,
       "lightsTex": 128,
+      "BVH": 128,
       "vertexIndicesTex": 5082308,
       "verticesTex": 6921311,
       "normalsTex": 12438320
@@ -1445,6 +1468,7 @@
       "materialsTex": 0,
       "transformsTex": 88,
       "lightsTex": 128,
+      "BVH": 128,
       "vertexIndicesTex": 5082308,
       "verticesTex": 6921311,
       "normalsTex": 12438320
@@ -1509,6 +1533,7 @@
       "materialsTex": 0,
       "transformsTex": 88,
       "lightsTex": 128,
+      "BVH": 128,
       "vertexIndicesTex": 5082308,
       "verticesTex": 6921311,
       "normalsTex": 12438320
@@ -1573,6 +1598,7 @@
       "materialsTex": 0,
       "transformsTex": 56,
       "lightsTex": 92,
+      "BVH": 92,
       "vertexIndicesTex": 126467,
       "verticesTex": 173056,
       "normalsTex": 312823
@@ -1632,6 +1658,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 24,
+      "BVH": 39,
       "vertexIndicesTex": 5184093,
       "verticesTex": 7188935,
       "normalsTex": 13203461
@@ -1697,6 +1724,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 16275,
       "verticesTex": 22372,
       "normalsTex": 40663
@@ -1755,6 +1783,7 @@
       "materialsTex": 0,
       "transformsTex": 328,
       "lightsTex": 560,
+      "BVH": 560,
       "vertexIndicesTex": 3468452,
       "verticesTex": 4760560,
       "normalsTex": 8636884
@@ -1820,6 +1849,7 @@
       "materialsTex": 0,
       "transformsTex": 104,
       "lightsTex": 160,
+      "BVH": 175,
       "vertexIndicesTex": 1304665,
       "verticesTex": 1788585,
       "normalsTex": 3240345
@@ -1885,6 +1915,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 54,
       "vertexIndicesTex": 752151,
       "verticesTex": 1020903,
       "normalsTex": 1827159
@@ -1949,6 +1980,7 @@
       "materialsTex": 0,
       "transformsTex": 40,
       "lightsTex": 56,
+      "BVH": 71,
       "vertexIndicesTex": 1304501,
       "verticesTex": 1788421,
       "normalsTex": 3240181
@@ -2013,6 +2045,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 54,
       "vertexIndicesTex": 752151,
       "verticesTex": 1020903,
       "normalsTex": 1827159
@@ -2077,6 +2110,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 54,
       "vertexIndicesTex": 752151,
       "verticesTex": 1020903,
       "normalsTex": 1827159
@@ -2141,6 +2175,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 54,
       "vertexIndicesTex": 752151,
       "verticesTex": 1020903,
       "normalsTex": 1827159
@@ -2205,6 +2240,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 54,
       "vertexIndicesTex": 752151,
       "verticesTex": 1020903,
       "normalsTex": 1827159
@@ -2270,6 +2306,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 54,
       "vertexIndicesTex": 752151,
       "verticesTex": 1020903,
       "normalsTex": 1827159
@@ -2334,6 +2371,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 1971,
       "verticesTex": 2619,
       "normalsTex": 4563
@@ -2392,6 +2430,7 @@
       "materialsTex": 0,
       "transformsTex": 24,
       "lightsTex": 32,
+      "BVH": 47,
       "vertexIndicesTex": 209015,
       "verticesTex": 310427,
       "normalsTex": 614663
@@ -2455,6 +2494,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 12,
+      "BVH": 12,
       "vertexIndicesTex": 504027,
       "verticesTex": 692898,
       "normalsTex": 1259511
@@ -2513,6 +2553,7 @@
       "materialsTex": 0,
       "transformsTex": 24,
       "lightsTex": 3040,
+      "BVH": 3040,
       "vertexIndicesTex": 369436,
       "verticesTex": 497282,
       "normalsTex": 880820
@@ -2572,6 +2613,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 24,
+      "BVH": 24,
       "vertexIndicesTex": 22470,
       "verticesTex": 30474,
       "normalsTex": 54486
@@ -2631,6 +2673,7 @@
       "materialsTex": 0,
       "transformsTex": 104,
       "lightsTex": 448,
+      "BVH": 458,
       "vertexIndicesTex": 1252148,
       "verticesTex": 1707304,
       "normalsTex": 3072772
@@ -2695,6 +2738,7 @@
       "materialsTex": 0,
       "transformsTex": 168,
       "lightsTex": 248,
+      "BVH": 253,
       "vertexIndicesTex": 703705,
       "verticesTex": 958204,
       "normalsTex": 1721701
@@ -2758,6 +2802,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 44,
+      "BVH": 59,
       "vertexIndicesTex": 1863020,
       "verticesTex": 2775294,
       "normalsTex": 5512116
@@ -2822,6 +2867,7 @@
       "materialsTex": 0,
       "transformsTex": 40,
       "lightsTex": 68,
+      "BVH": 78,
       "vertexIndicesTex": 240906,
       "verticesTex": 326132,
       "normalsTex": 581810
@@ -2886,6 +2932,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 28,
+      "BVH": 38,
       "vertexIndicesTex": 222413,
       "verticesTex": 301495,
       "normalsTex": 538741
@@ -2954,6 +3001,7 @@
       "materialsTex": 0,
       "transformsTex": 24,
       "lightsTex": 36,
+      "BVH": 36,
       "vertexIndicesTex": 344847,
       "verticesTex": 470897,
       "normalsTex": 849047
@@ -3018,6 +3066,7 @@
       "materialsTex": 0,
       "transformsTex": 8,
       "lightsTex": 48,
+      "BVH": 48,
       "vertexIndicesTex": 111990,
       "verticesTex": 152286,
       "normalsTex": 273174
@@ -3076,6 +3125,7 @@
       "materialsTex": 0,
       "transformsTex": 88,
       "lightsTex": 132,
+      "BVH": 217,
       "vertexIndicesTex": 301396,
       "verticesTex": 408930,
       "normalsTex": 731532
@@ -3096,7 +3146,7 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": true
   },
   {
     "scene": "testmaterial",
@@ -3134,6 +3184,7 @@
       "materialsTex": 0,
       "transformsTex": 24,
       "lightsTex": 36,
+      "BVH": 46,
       "vertexIndicesTex": 2833,
       "verticesTex": 3807,
       "normalsTex": 6729
@@ -3198,6 +3249,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 24,
+      "BVH": 29,
       "vertexIndicesTex": 77,
       "verticesTex": 91,
       "normalsTex": 133
@@ -3262,6 +3314,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 20,
+      "BVH": 25,
       "vertexIndicesTex": 34,
       "verticesTex": 36,
       "normalsTex": 42
@@ -3326,6 +3379,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 20,
+      "BVH": 25,
       "vertexIndicesTex": 34,
       "verticesTex": 36,
       "normalsTex": 42
@@ -3390,6 +3444,7 @@
       "materialsTex": 0,
       "transformsTex": 16,
       "lightsTex": 20,
+      "BVH": 25,
       "vertexIndicesTex": 34,
       "verticesTex": 36,
       "normalsTex": 42
@@ -3454,6 +3509,7 @@
       "materialsTex": 0,
       "transformsTex": 48,
       "lightsTex": 72,
+      "BVH": 92,
       "vertexIndicesTex": 146,
       "verticesTex": 158,
       "normalsTex": 194
@@ -3518,6 +3574,7 @@
       "materialsTex": 0,
       "transformsTex": 64,
       "lightsTex": 312,
+      "BVH": 312,
       "vertexIndicesTex": 825078,
       "verticesTex": 1103664,
       "normalsTex": 1939422
@@ -3585,6 +3642,7 @@
       "materialsTex": 0,
       "transformsTex": 32,
       "lightsTex": 48,
+      "BVH": 48,
       "vertexIndicesTex": 222780,
       "verticesTex": 303550,
       "normalsTex": 545860
@@ -3649,6 +3707,7 @@
       "materialsTex": 0,
       "transformsTex": 24,
       "lightsTex": 32,
+      "BVH": 37,
       "vertexIndicesTex": 85,
       "verticesTex": 99,
       "normalsTex": 141
