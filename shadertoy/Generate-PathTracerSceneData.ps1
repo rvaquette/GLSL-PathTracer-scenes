@@ -1,0 +1,388 @@
+param(
+    [string]$BaseDir = ".\shadertoy\examples\glsl-pathtracer",
+    [switch]$UploadToAzure,
+    [string]$StorageAccountName = "",
+    [string]$ContainerName,
+    [string]$ConnectionString,
+    [string]$BlobPrefix = "scene-data"
+)
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+function Parse-Number {
+    param([string]$Text)
+
+    $value = $Text.Trim()
+    if ($value -match '^-?\d+$') {
+        return [int]$value
+    }
+
+    if ($value -match '^-?\d+(?:\.\d+)?(?:[eE][+\-]?\d+)?$') {
+        return [double]$value
+    }
+
+    return $value
+}
+
+function Parse-VectorLiteral {
+    param([string]$Text)
+
+    if ($Text -match 'vec[234]\s*\(([^\)]+)\)') {
+        $components = $Matches[1].Split(',')
+        $values = @()
+        foreach ($component in $components) {
+            $values += [double]($component.Trim())
+        }
+        return $values
+    }
+
+    return $null
+}
+
+function Parse-BooleanLiteral {
+    param([string]$Text)
+
+    $value = $Text.Trim().ToLowerInvariant()
+    if ($value -eq 'true') {
+        return $true
+    }
+
+    if ($value -eq 'false') {
+        return $false
+    }
+
+    return $null
+}
+
+function Parse-GlslLiteral {
+    param(
+        [string]$Type,
+        [string]$Text
+    )
+
+    if ($Type -match '^vec[234]$') {
+        $vector = Parse-VectorLiteral -Text $Text
+        if ($null -ne $vector) {
+            return $vector
+        }
+        return $Text.Trim()
+    }
+
+    if ($Type -eq 'int' -or $Type -eq 'float') {
+        return Parse-Number -Text $Text
+    }
+
+    if ($Type -eq 'bool') {
+        $boolValue = Parse-BooleanLiteral -Text $Text
+        if ($null -ne $boolValue) {
+            return $boolValue
+        }
+        return $Text.Trim()
+    }
+
+    return $Text.Trim()
+}
+
+function Parse-BufferA {
+    param([string]$FilePath)
+
+    $result = [ordered]@{
+        eye = $null
+        lookat = $null
+        fov = $null
+    }
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return $result
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+
+    if ($content -match '(?m)^\s*vec3\s+eye\s*=\s*(vec3\s*\([^;]+\))\s*;') {
+        $result.eye = Parse-VectorLiteral -Text $Matches[1]
+    }
+
+    if ($content -match '(?m)^\s*vec3\s+lookat\s*=\s*(vec3\s*\([^;]+\))\s*;') {
+        $result.lookat = Parse-VectorLiteral -Text $Matches[1]
+    }
+
+    if ($content -match '(?m)^\s*float\s+fov\s*=\s*([^;]+);') {
+        $result.fov = Parse-Number -Text $Matches[1]
+    }
+
+    return $result
+}
+
+function Parse-BufferD {
+    param([string]$FilePath)
+
+    $result = [ordered]@{}
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return $result
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+    $settingMatches = [regex]::Matches(
+        $content,
+        '(?m)^\s*(vec[234]|float|int|bool)\s+([A-Za-z_]\w*)\s*=\s*([^;]+);'
+    )
+
+    foreach ($m in $settingMatches) {
+        $type = $m.Groups[1].Value
+        $name = $m.Groups[2].Value
+        $rawValue = $m.Groups[3].Value.Trim()
+        $result[$name] = Parse-GlslLiteral -Type $type -Text $rawValue
+    }
+
+    return $result
+}
+
+function Parse-CommonCode {
+    param([string]$FilePath)
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return @()
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+    $defines = @()
+
+    $defineMatches = [regex]::Matches(
+        $content,
+        '(?m)^\s*#define\s+(\S+(?:[^\S\r\n]+\S+)*)\s*$'
+    )
+
+    foreach ($m in $defineMatches) {
+        # Ignore OPT_USE_MESHDATA_BLOB
+        if ($m.Groups[1].Value.Trim() -eq 'OPT_USE_MESHDATA_BLOB') {
+            continue
+        }
+        $defines += $m.Groups[1].Value.Trim()
+    }
+
+    return $defines
+}
+
+function Parse-BufferB {
+    param([string]$FilePath)
+
+    $result = [ordered]@{
+        uniforms = [ordered]@{}
+        texIndices = [ordered]@{}
+        namedIndices = [ordered]@{}
+    }
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return $result
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+
+    $defineMatches = [regex]::Matches(
+        $content,
+        '(?m)^\s*#define\s+([A-Za-z_]\w*)\s+\(\s*([+\-]?\d+)\s*\+\s*MESH_DATA_OFFSET\s*\)'
+    )
+
+    foreach ($m in $defineMatches) {
+        $name = $m.Groups[1].Value
+        $indexValue = [int]$m.Groups[2].Value
+        $result.namedIndices[$name] = $indexValue
+        if ($name -like '*Tex') {
+            $result.texIndices[$name] = $indexValue
+        }
+    }
+
+    $uniformMatches = [regex]::Matches(
+        $content,
+        '(?m)^\s*(vec[234]|float|int|bool)\s+([A-Za-z_]\w*)\s*=\s*([^;]+);'
+    )
+
+    foreach ($m in $uniformMatches) {
+        $uType = $m.Groups[1].Value
+        $uName = $m.Groups[2].Value
+        $uRawValue = $m.Groups[3].Value.Trim()
+        $result.uniforms[$uName] = Parse-GlslLiteral -Type $uType -Text $uRawValue
+    }
+
+    # Compatibility key if user expects uniformsLightCol naming.
+    if ($result.uniforms.Contains('uniformLightCol') -and -not $result.uniforms.Contains('uniformsLightCol')) {
+        $result.uniforms['uniformsLightCol'] = $result.uniforms['uniformLightCol']
+    }
+
+    return $result
+}
+
+function Test-AzureBlobExists {
+    param(
+        [string]$BlobName,
+        [string]$ContainerName,
+        [string]$StorageAccountName,
+        [string]$ConnectionString
+    )
+
+    if (-not (Get-Command az -ErrorAction SilentlyContinue)) {
+        return $false
+    }
+
+    $azArgs = @(
+        'storage', 'blob', 'exists',
+        '--name', $BlobName,
+        '--container-name', $ContainerName,
+        '--only-show-errors',
+        '--output', 'json'
+    )
+
+    if ([string]::IsNullOrWhiteSpace($ConnectionString)) {
+        if ([string]::IsNullOrWhiteSpace($StorageAccountName)) {
+            return $false
+        }
+        $azArgs += @('--account-name', $StorageAccountName, '--auth-mode', 'login')
+    } else {
+        $azArgs += @('--connection-string', $ConnectionString)
+    }
+
+    $output = & az @azArgs 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        return $false
+    }
+
+    $result = $output | ConvertFrom-Json
+    return [bool]$result.exists
+}
+
+function Upload-JsonToAzureBlob {
+    param(
+        [string]$JsonFile,
+        [string]$BlobName,
+        [string]$StorageAccountName,
+        [string]$ContainerName,
+        [string]$ConnectionString
+    )
+
+    if (-not (Get-Command az -ErrorAction SilentlyContinue)) {
+        throw "Azure CLI ('az') est requis pour l'upload Blob. Installez-le puis relancez."
+    }
+
+    $authArgs = if ([string]::IsNullOrWhiteSpace($ConnectionString)) {
+        if ([string]::IsNullOrWhiteSpace($StorageAccountName)) {
+            throw "StorageAccountName est requis si ConnectionString n'est pas fourni."
+        }
+        @('--account-name', $StorageAccountName, '--auth-mode', 'login')
+    } else {
+        @('--connection-string', $ConnectionString)
+    }
+
+    # Delete existing blob if present
+    $deleteArgs = @(
+        'storage', 'blob', 'delete',
+        '--name', $BlobName,
+        '--container-name', $ContainerName,
+        '--only-show-errors'
+    ) + $authArgs
+    Write-Host "Suppression du blob existant (si present): $BlobName sous $ContainerName"
+    $null = & az @deleteArgs #2>$null
+
+    ## Upload the new blob
+    #$uploadArgs = @(
+    #    'storage', 'blob', 'upload',
+    #    '--file', $JsonFile,
+    #    '--name', $BlobName,
+    #    '--container-name', $ContainerName,
+    #    '--only-show-errors'
+    #) + $authArgs
+#
+    #$null = & az @uploadArgs
+    #if ($LASTEXITCODE -ne 0) {
+    #    throw "Echec upload Blob pour $JsonFile"
+    #}
+}
+
+if (-not (Test-Path -LiteralPath $BaseDir)) {
+    throw "BaseDir introuvable: $BaseDir"
+}
+
+$resolvedBaseDir = (Resolve-Path -LiteralPath $BaseDir).Path
+$sceneDirs = Get-ChildItem -LiteralPath $resolvedBaseDir -Directory | Sort-Object Name
+
+if ($sceneDirs.Count -eq 0) {
+    Write-Warning "Aucun sous-repertoire trouve dans $resolvedBaseDir"
+    exit 0
+}
+
+$summary = @()
+
+foreach ($sceneDir in $sceneDirs) {
+    Write-Host "Traitement de la scene: $($sceneDir.Name)" -ForegroundColor Cyan
+
+    $bufferAPath = Join-Path $sceneDir.FullName 'bufferACode.glsl'
+    $bufferBPath = Join-Path $sceneDir.FullName 'bufferBCode.glsl'
+    $bufferDPath = Join-Path $sceneDir.FullName 'bufferDCode.glsl'
+    $commonCodePath = Join-Path $sceneDir.FullName 'commonCode.glsl'
+
+    $bufferAData = Parse-BufferA -FilePath $bufferAPath
+    $bufferBData = Parse-BufferB -FilePath $bufferBPath
+    $bufferDData = Parse-BufferD -FilePath $bufferDPath
+    $commonDefines = Parse-CommonCode -FilePath $commonCodePath
+
+    $sceneBlobPrefix = $BlobPrefix.Trim('/')
+    $sceneBlobPath = if ([string]::IsNullOrWhiteSpace($sceneBlobPrefix)) { $sceneDir.Name } else { "$sceneBlobPrefix/$($sceneDir.Name)" }
+
+    $withTexture = $false
+    if (-not [string]::IsNullOrWhiteSpace($ContainerName)) {
+        $withTexture = Test-AzureBlobExists `
+            -BlobName "$sceneBlobPath/textures.png" `
+            -ContainerName $ContainerName `
+            -StorageAccountName $StorageAccountName `
+            -ConnectionString $ConnectionString
+    }
+
+    $data = [ordered]@{
+        scene = $sceneDir.Name
+        camera = [ordered]@{
+            eye = $bufferAData.eye
+            lookat = $bufferAData.lookat
+            fov = $bufferAData.fov
+        }
+        uniforms = $bufferBData.uniforms
+        indices = $bufferBData.texIndices
+        display = $bufferDData
+        defines = $commonDefines
+        withTexture = $withTexture
+    }
+
+    $jsonPath = Join-Path $sceneDir.FullName 'data.json'
+    $jsonContent = $data | ConvertTo-Json -Depth 12
+    Set-Content -LiteralPath $jsonPath -Value $jsonContent -Encoding UTF8
+
+    $uploaded = $false
+    $blobName = $null
+
+    if ($UploadToAzure) {
+        if ([string]::IsNullOrWhiteSpace($ContainerName)) {
+            throw "ContainerName est requis quand UploadToAzure est active."
+        }
+
+        $blobName = "$sceneBlobPath/data.json"
+
+        Upload-JsonToAzureBlob `
+            -JsonFile $jsonPath `
+            -BlobName $blobName `
+            -StorageAccountName $StorageAccountName `
+            -ContainerName $ContainerName `
+            -ConnectionString $ConnectionString
+
+        $uploaded = $true
+    }
+
+    $summary += [pscustomobject]@{
+        Scene = $sceneDir.Name
+        JsonPath = $jsonPath
+        Uploaded = $uploaded
+        BlobName = $blobName
+    }
+}
+
+$summary | Format-Table -AutoSize
+Write-Host "`nTermine. Scenes traitees: $($summary.Count)" -ForegroundColor Green

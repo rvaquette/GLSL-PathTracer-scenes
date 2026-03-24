@@ -52,5 +52,6 @@
     "OPT_LIGHTS",
     "OPT_OPENGL_NORMALMAP",
     "OPT_ROUGHNESS_MOLLIFICATION"
-  ]
+  ],
+  "withTexture": false
 }

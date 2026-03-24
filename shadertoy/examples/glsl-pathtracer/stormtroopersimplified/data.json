@@ -52,5 +52,6 @@
     "OPT_RR",
     "OPT_RR_DEPTH 2",
     "OPT_OPENGL_NORMALMAP"
-  ]
+  ],
+  "withTexture": false
 }

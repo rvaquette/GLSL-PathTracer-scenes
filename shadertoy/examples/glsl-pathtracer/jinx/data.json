@@ -8,5 +8,6 @@
   "uniforms": {},
   "indices": {},
   "display": {},
-  "defines": null
+  "defines": null,
+  "withTexture": false
 }

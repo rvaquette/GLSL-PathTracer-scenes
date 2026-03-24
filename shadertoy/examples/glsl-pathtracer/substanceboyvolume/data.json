@@ -57,5 +57,6 @@
     "OPT_ALPHA_TEST",
     "OPT_MEDIUM",
     "OPT_VOL_MIS"
-  ]
+  ],
+  "withTexture": false
 }
