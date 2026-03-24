@@ -54,5 +54,11 @@
     "OPT_RR_DEPTH 2",
     "OPT_OPENGL_NORMALMAP"
   ],
-  "withTexture": true
+  "withTexture": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "tileWidth": 320,
+  "tileHeight": 180
 }

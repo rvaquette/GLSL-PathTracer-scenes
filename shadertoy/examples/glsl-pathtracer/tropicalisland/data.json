@@ -57,5 +57,11 @@
     "OPT_MEDIUM",
     "OPT_VOL_MIS"
   ],
-  "withTexture": true
+  "withTexture": true,
+  "resolution": [
+    800,
+    800
+  ],
+  "tileWidth": 200,
+  "tileHeight": 200
 }

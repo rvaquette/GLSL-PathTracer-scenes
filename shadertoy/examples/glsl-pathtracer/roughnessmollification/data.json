@@ -53,5 +53,11 @@
     "OPT_OPENGL_NORMALMAP",
     "OPT_ROUGHNESS_MOLLIFICATION"
   ],
-  "withTexture": false
+  "withTexture": false,
+  "resolution": [
+    1280,
+    720
+  ],
+  "tileWidth": 256,
+  "tileHeight": 144
 }

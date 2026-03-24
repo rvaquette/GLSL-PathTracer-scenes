@@ -55,5 +55,11 @@
     "OPT_OPENGL_NORMALMAP",
     "OPT_HIDE_EMITTERS"
   ],
-  "withTexture": true
+  "withTexture": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "tileWidth": 256,
+  "tileHeight": 144
 }

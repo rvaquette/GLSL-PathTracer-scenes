@@ -55,5 +55,11 @@
     "OPT_OPENGL_NORMALMAP",
     "OPT_MEDIUM"
   ],
-  "withTexture": true
+  "withTexture": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "tileWidth": 240,
+  "tileHeight": 144
 }

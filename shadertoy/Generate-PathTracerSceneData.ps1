@@ -165,6 +165,45 @@ function Parse-CommonCode {
     return $defines
 }
 
+function Get-NormalizedSceneName {
+    param([string]$Name)
+
+    if ([string]::IsNullOrWhiteSpace($Name)) {
+        return ''
+    }
+
+    return (($Name -replace '[^A-Za-z0-9]', '').ToLowerInvariant())
+}
+
+function Parse-SceneRendererSettings {
+    param([string]$FilePath)
+
+    $result = [ordered]@{}
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return $result
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+
+    if ($content -match '(?m)^\s*resolution\s+([+\-]?\d+(?:\.\d+)?)\s+([+\-]?\d+(?:\.\d+)?)\s*$') {
+        $result.resolution = @(
+            $(Parse-Number -Text $Matches[1]),
+            $(Parse-Number -Text $Matches[2])
+        )
+    }
+
+    if ($content -match '(?m)^\s*tilewidth\s+([+\-]?\d+(?:\.\d+)?)\s*$') {
+        $result.tileWidth = Parse-Number -Text $Matches[1]
+    }
+
+    if ($content -match '(?m)^\s*tileheight\s+([+\-]?\d+(?:\.\d+)?)\s*$') {
+        $result.tileHeight = Parse-Number -Text $Matches[1]
+    }
+
+    return $result
+}
+
 function Parse-BufferB {
     param([string]$FilePath)
 
@@ -306,6 +345,18 @@ if (-not (Test-Path -LiteralPath $BaseDir)) {
 $resolvedBaseDir = (Resolve-Path -LiteralPath $BaseDir).Path
 $sceneDirs = Get-ChildItem -LiteralPath $resolvedBaseDir -Directory | Sort-Object Name
 
+$pathtracerDir = Join-Path (Split-Path -Parent $PSScriptRoot) 'pathtracer'
+$sceneFileByNormalizedName = @{}
+if (Test-Path -LiteralPath $pathtracerDir) {
+    $sceneFiles = Get-ChildItem -LiteralPath $pathtracerDir -Filter '*.scene' -File
+    foreach ($sceneFile in $sceneFiles) {
+        $normalizedName = Get-NormalizedSceneName -Name $sceneFile.BaseName
+        if (-not [string]::IsNullOrWhiteSpace($normalizedName) -and -not $sceneFileByNormalizedName.ContainsKey($normalizedName)) {
+            $sceneFileByNormalizedName[$normalizedName] = $sceneFile.FullName
+        }
+    }
+}
+
 if ($sceneDirs.Count -eq 0) {
     Write-Warning "Aucun sous-repertoire trouve dans $resolvedBaseDir"
     exit 0
@@ -325,6 +376,12 @@ foreach ($sceneDir in $sceneDirs) {
     $bufferBData = Parse-BufferB -FilePath $bufferBPath
     $bufferDData = Parse-BufferD -FilePath $bufferDPath
     $commonDefines = Parse-CommonCode -FilePath $commonCodePath
+
+    $sceneRendererSettings = [ordered]@{}
+    $normalizedSceneName = Get-NormalizedSceneName -Name $sceneDir.Name
+    if ($sceneFileByNormalizedName.ContainsKey($normalizedSceneName)) {
+        $sceneRendererSettings = Parse-SceneRendererSettings -FilePath $sceneFileByNormalizedName[$normalizedSceneName]
+    }
 
     $sceneBlobPrefix = $BlobPrefix.Trim('/')
     $sceneBlobPath = if ([string]::IsNullOrWhiteSpace($sceneBlobPrefix)) { $sceneDir.Name } else { "$sceneBlobPrefix/$($sceneDir.Name)" }
@@ -350,6 +407,18 @@ foreach ($sceneDir in $sceneDirs) {
         display = $bufferDData
         defines = $commonDefines
         withTexture = $withTexture
+    }
+
+    if ($sceneRendererSettings.Contains('resolution')) {
+        $data.resolution = $sceneRendererSettings.resolution
+    }
+
+    if ($sceneRendererSettings.Contains('tileWidth')) {
+        $data.tileWidth = $sceneRendererSettings.tileWidth
+    }
+
+    if ($sceneRendererSettings.Contains('tileHeight')) {
+        $data.tileHeight = $sceneRendererSettings.tileHeight
     }
 
     $jsonPath = Join-Path $sceneDir.FullName 'data.json'

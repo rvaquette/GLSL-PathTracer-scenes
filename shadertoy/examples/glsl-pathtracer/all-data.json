@@ -55,7 +55,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      900,
+      900
+    ],
+    "tileWidth": 100,
+    "tileHeight": 100
   },
   {
     "scene": "alphablendmodetest",
@@ -230,7 +236,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1270,
+      720
+    ],
+    "tileWidth": 100,
+    "tileHeight": 100
   },
   {
     "scene": "boombox",
@@ -695,7 +707,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      700,
+      900
+    ],
+    "tileWidth": 100,
+    "tileHeight": 100
   },
   {
     "scene": "cornellboxorig",
@@ -753,7 +771,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "cornellboxsphere",
@@ -811,7 +835,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "diningroom",
@@ -869,7 +899,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "dragon",
@@ -928,7 +964,13 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_MEDIUM"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "furnace",
@@ -986,7 +1028,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 320,
+    "tileHeight": 180
   },
   {
     "scene": "hyperiondistantlight",
@@ -1044,7 +1092,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "hyperionrectlights",
@@ -1102,7 +1156,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "hyperionspherelight",
@@ -1160,20 +1220,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
-  },
-  {
-    "scene": "jinx",
-    "camera": {
-      "eye": null,
-      "lookat": null,
-      "fov": null
-    },
-    "uniforms": {},
-    "indices": {},
-    "display": {},
-    "defines": null,
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "jinx2",
@@ -1348,7 +1401,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "mustangwhite",
@@ -1406,7 +1465,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "mustangwhiteorig",
@@ -1464,7 +1529,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "oldshackrooftopprop2gameready",
@@ -1582,7 +1653,13 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_HIDE_EMITTERS"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 100,
+    "tileHeight": 100
   },
   {
     "scene": "pottedplant044k",
@@ -1699,7 +1776,13 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_HIDE_EMITTERS"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapotall",
@@ -1758,7 +1841,13 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_MEDIUM"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapotchrome",
@@ -1816,7 +1905,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapotcloth",
@@ -1874,7 +1969,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapotgold",
@@ -1932,7 +2033,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapotredplastic",
@@ -1990,7 +2097,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapotscratched",
@@ -2048,7 +2161,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapottealglass",
@@ -2107,7 +2226,13 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_MEDIUM"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "rendermanteapottiles",
@@ -2165,7 +2290,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "robot",
@@ -2280,7 +2411,13 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ROUGHNESS_MOLLIFICATION"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "scatteringskull",
@@ -2514,7 +2651,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "staircase",
@@ -2572,65 +2715,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
-  },
-  {
-    "scene": "stormtrooper",
-    "camera": {
-      "eye": [
-        -0.2,
-        -0.5,
-        5.5
-      ],
-      "lookat": [
-        0.25,
-        -0.3,
-        0.0
-      ],
-      "fov": 60.0
-    },
-    "uniforms": {
-      "uniformLightCol": [
-        0.3,
-        0.3,
-        0.3
-      ],
-      "numOfLights": 3,
-      "maxDepth": 2,
-      "topBVHIndex": 5521093,
-      "roughnessMollificationAmt": 0.0,
-      "envMapIntensity": 1.0,
-      "uniformsLightCol": [
-        0.3,
-        0.3,
-        0.3
-      ]
-    },
-    "indices": {
-      "materialsTex": 0,
-      "transformsTex": 32,
-      "lightsTex": 44,
-      "vertexIndicesTex": 16563356,
-      "verticesTex": 24825798,
-      "normalsTex": 49613124
-    },
-    "display": {
-      "enableTonemap": true,
-      "enableAces": false,
-      "simpleAcesFit": false,
-      "backgroundCol": [
-        1.0,
-        1.0,
-        1.0
-      ]
-    },
-    "defines": [
-      "OPT_LIGHTS",
-      "OPT_RR",
-      "OPT_RR_DEPTH 2",
-      "OPT_OPENGL_NORMALMAP"
+    "withTexture": true,
+    "resolution": [
+      640,
+      800
     ],
-    "withTexture": false
+    "tileWidth": 100,
+    "tileHeight": 100
   },
   {
     "scene": "stormtroopersimplified",
@@ -2687,7 +2778,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 100,
+    "tileHeight": 100
   },
   {
     "scene": "substanceboy",
@@ -2745,7 +2842,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "substanceboyvolume",
@@ -2807,7 +2910,13 @@
       "OPT_MEDIUM",
       "OPT_VOL_MIS"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 240,
+    "tileHeight": 144
   },
   {
     "scene": "teapot",
@@ -2865,7 +2974,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 320,
+    "tileHeight": 180
   },
   {
     "scene": "teaset014k",
@@ -3039,7 +3154,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "testmis",
@@ -3097,7 +3218,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "testspherelightlarge",
@@ -3155,7 +3282,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "testspherelightmedium",
@@ -3213,7 +3346,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "testspherelightsmall",
@@ -3271,7 +3410,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "testveach",
@@ -3329,7 +3474,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "tropicalisland",
@@ -3390,7 +3541,13 @@
       "OPT_MEDIUM",
       "OPT_VOL_MIS"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      800,
+      800
+    ],
+    "tileWidth": 200,
+    "tileHeight": 200
   },
   {
     "scene": "tungstenmaterialtestball",
@@ -3448,7 +3605,13 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 256,
+    "tileHeight": 144
   },
   {
     "scene": "volumecube",
@@ -3509,6 +3672,12 @@
       "OPT_MEDIUM",
       "OPT_VOL_MIS"
     ],
-    "withTexture": false
+    "withTexture": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "tileWidth": 320,
+    "tileHeight": 180
   }
 ]
