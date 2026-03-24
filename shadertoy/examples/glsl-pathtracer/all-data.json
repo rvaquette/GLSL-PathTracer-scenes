@@ -1,0 +1,3514 @@
+[
+  {
+    "scene": "ajax",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.5,
+        -1.8
+      ],
+      "lookat": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "fov": 35.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 465141,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 5.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 56,
+      "lightsTex": 60,
+      "vertexIndicesTex": 1395489,
+      "verticesTex": 1940055,
+      "normalsTex": 3573753
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "alphablendmodetest",
+    "camera": {
+      "eye": [
+        -0.0,
+        1.099767,
+        17.945251
+      ],
+      "lookat": [
+        0.0,
+        1.099767,
+        -0.1
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 51,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 48,
+      "lightsTex": 84,
+      "vertexIndicesTex": 291,
+      "verticesTex": 352,
+      "normalsTex": 535
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "barbershopchair014k",
+    "camera": {
+      "eye": [
+        -0.015391,
+        0.744503,
+        4.489269
+      ],
+      "lookat": [
+        -0.015391,
+        0.744503,
+        0.221816
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 3967,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 11919,
+      "verticesTex": 16199,
+      "normalsTex": 29039
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "bedroom",
+    "camera": {
+      "eye": [
+        3.0,
+        1.5,
+        3.8
+      ],
+      "lookat": [
+        0.0,
+        1.0,
+        0.31
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 3,
+      "topBVHIndex": 1339314,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 248,
+      "lightsTex": 520,
+      "vertexIndicesTex": 4018880,
+      "verticesTex": 5510630,
+      "normalsTex": 9985880
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "boombox",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.163,
+        5.553322
+      ],
+      "lookat": [
+        0.0,
+        0.163,
+        0.053
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 5487,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 16479,
+      "verticesTex": 22515,
+      "normalsTex": 40623
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "brassvase014k",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.347689,
+        1.526912
+      ],
+      "lookat": [
+        -0.0,
+        0.347689,
+        0.0
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 20571,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 61731,
+      "verticesTex": 83171,
+      "normalsTex": 147491
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "camera014k",
+    "camera": {
+      "eye": [
+        -0.028593,
+        0.039179,
+        0.76624
+      ],
+      "lookat": [
+        -0.028593,
+        0.039179,
+        0.070854
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 25193,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 52,
+      "vertexIndicesTex": 75661,
+      "verticesTex": 102648,
+      "normalsTex": 183609
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "cashregister014k",
+    "camera": {
+      "eye": [
+        0.075063,
+        0.312858,
+        2.270563
+      ],
+      "lookat": [
+        0.075063,
+        0.312858,
+        0.138612
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 9137,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 28,
+      "vertexIndicesTex": 27457,
+      "verticesTex": 37384,
+      "normalsTex": 67165
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "chandelier014k",
+    "camera": {
+      "eye": [
+        0.000264,
+        -0.399135,
+        2.73286
+      ],
+      "lookat": [
+        0.000264,
+        -0.399135,
+        0.005551
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 24964,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 24,
+      "vertexIndicesTex": 74928,
+      "verticesTex": 101788,
+      "normalsTex": 182368
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "classicconsole014k",
+    "camera": {
+      "eye": [
+        0.000691,
+        0.474531,
+        3.766179
+      ],
+      "lookat": [
+        0.000691,
+        0.474531,
+        -0.043752
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 6711,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 20151,
+      "verticesTex": 27717,
+      "normalsTex": 50415
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "coffeecart014k",
+    "camera": {
+      "eye": [
+        -0.313256,
+        0.863144,
+        5.912437
+      ],
+      "lookat": [
+        -0.313256,
+        0.863144,
+        -0.020858
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 25231,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 24,
+      "lightsTex": 36,
+      "vertexIndicesTex": 75747,
+      "verticesTex": 103406,
+      "normalsTex": 186383
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "coffeepot",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.26,
+        0.7
+      ],
+      "lookat": [
+        0.0,
+        0.16,
+        -0.1
+      ],
+      "fov": 30.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 5,
+      "topBVHIndex": 223396,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 48,
+      "lightsTex": 128,
+      "vertexIndicesTex": 670451,
+      "verticesTex": 905716,
+      "normalsTex": 1611511
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "cornellboxorig",
+    "camera": {
+      "eye": [
+        0.276,
+        0.275,
+        -0.75
+      ],
+      "lookat": [
+        0.276,
+        0.275,
+        0.1
+      ],
+      "fov": 40.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 2,
+      "topBVHIndex": 27,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 2.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 64,
+      "lightsTex": 92,
+      "vertexIndicesTex": 220,
+      "verticesTex": 254,
+      "normalsTex": 356
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "cornellboxsphere",
+    "camera": {
+      "eye": [
+        0.276,
+        0.275,
+        -0.75
+      ],
+      "lookat": [
+        0.276,
+        0.275,
+        0.1
+      ],
+      "fov": 40.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 3,
+      "topBVHIndex": 14767,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 72,
+      "lightsTex": 100,
+      "vertexIndicesTex": 44448,
+      "verticesTex": 60342,
+      "normalsTex": 108024
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "diningroom",
+    "camera": {
+      "eye": [
+        -4.5,
+        1.6,
+        0.0
+      ],
+      "lookat": [
+        0.0,
+        0.8,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 6,
+      "maxDepth": 3,
+      "topBVHIndex": 4576978,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 232,
+      "lightsTex": 408,
+      "vertexIndicesTex": 13731636,
+      "verticesTex": 18979676,
+      "normalsTex": 34723796
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "dragon",
+    "camera": {
+      "eye": [
+        -35.0,
+        12.0,
+        -26.0
+      ],
+      "lookat": [
+        0.0,
+        7.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 8,
+      "topBVHIndex": 745293,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 5.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 20,
+      "vertexIndicesTex": 2235905,
+      "verticesTex": 3067717,
+      "normalsTex": 5563153
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 3",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_MEDIUM"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "furnace",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.0,
+        10.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 3,
+      "topBVHIndex": 3751,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 20,
+      "vertexIndicesTex": 11279,
+      "verticesTex": 15247,
+      "normalsTex": 27151
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "hyperiondistantlight",
+    "camera": {
+      "eye": [
+        -15.0,
+        15.0,
+        0.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 3,
+      "topBVHIndex": 100371,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 72,
+      "lightsTex": 116,
+      "vertexIndicesTex": 301300,
+      "verticesTex": 408834,
+      "normalsTex": 731436
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "hyperionrectlights",
+    "camera": {
+      "eye": [
+        -15.0,
+        15.0,
+        0.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 17,
+      "maxDepth": 3,
+      "topBVHIndex": 100371,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 88,
+      "lightsTex": 132,
+      "vertexIndicesTex": 301396,
+      "verticesTex": 408930,
+      "normalsTex": 731532
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "hyperionspherelight",
+    "camera": {
+      "eye": [
+        -15.0,
+        15.0,
+        0.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 3,
+      "topBVHIndex": 100371,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 72,
+      "lightsTex": 116,
+      "vertexIndicesTex": 301300,
+      "verticesTex": 408834,
+      "normalsTex": 731436
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "jinx",
+    "camera": {
+      "eye": null,
+      "lookat": null,
+      "fov": null
+    },
+    "uniforms": {},
+    "indices": {},
+    "display": {},
+    "defines": null,
+    "withTexture": false
+  },
+  {
+    "scene": "jinx2",
+    "camera": {
+      "eye": [
+        2E-06,
+        0.579889,
+        17.679219
+      ],
+      "lookat": [
+        2E-06,
+        0.579889,
+        -0.40037
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 70304,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 112,
+      "lightsTex": 168,
+      "vertexIndicesTex": 211164,
+      "verticesTex": 293381,
+      "normalsTex": 540032
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "littlesttokyo",
+    "camera": {
+      "eye": [
+        -86.580124,
+        5.653459,
+        1752.591552
+      ],
+      "lookat": [
+        -86.580124,
+        5.653459,
+        -25.581572
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 130521,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 120,
+      "lightsTex": 404,
+      "vertexIndicesTex": 392393,
+      "verticesTex": 534192,
+      "normalsTex": 959589
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "mustangred",
+    "camera": {
+      "eye": [
+        7.3,
+        2.2,
+        9.6
+      ],
+      "lookat": [
+        -0.3,
+        0.4,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 7,
+      "topBVHIndex": 1694040,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.411,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 88,
+      "lightsTex": 128,
+      "vertexIndicesTex": 5082308,
+      "verticesTex": 6921311,
+      "normalsTex": 12438320
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "mustangwhite",
+    "camera": {
+      "eye": [
+        7.3,
+        2.2,
+        9.6
+      ],
+      "lookat": [
+        -0.3,
+        0.4,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 7,
+      "topBVHIndex": 1694040,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.411,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 88,
+      "lightsTex": 128,
+      "vertexIndicesTex": 5082308,
+      "verticesTex": 6921311,
+      "normalsTex": 12438320
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "mustangwhiteorig",
+    "camera": {
+      "eye": [
+        11.913,
+        0.794643,
+        12.0872
+      ],
+      "lookat": [
+        -0.2,
+        0.5,
+        0.0
+      ],
+      "fov": 18.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 7,
+      "topBVHIndex": 1694040,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 88,
+      "lightsTex": 128,
+      "vertexIndicesTex": 5082308,
+      "verticesTex": 6921311,
+      "normalsTex": 12438320
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "oldshackrooftopprop2gameready",
+    "camera": {
+      "eye": [
+        -0.03189,
+        1.005752,
+        6.110609
+      ],
+      "lookat": [
+        -0.03189,
+        1.005752,
+        -0.722523
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 42107,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 56,
+      "lightsTex": 92,
+      "vertexIndicesTex": 126467,
+      "verticesTex": 173056,
+      "normalsTex": 312823
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "panther",
+    "camera": {
+      "eye": [
+        -0.3,
+        0.5,
+        1.6
+      ],
+      "lookat": [
+        -0.1,
+        1.0,
+        -1.0
+      ],
+      "fov": 50.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 3,
+      "topBVHIndex": 1728014,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 24,
+      "vertexIndicesTex": 5184093,
+      "verticesTex": 7188935,
+      "normalsTex": 13203461
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_HIDE_EMITTERS"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "pottedplant044k",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.133811,
+        0.743163
+      ],
+      "lookat": [
+        -0.0,
+        0.133811,
+        0.007836
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 5419,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 16275,
+      "verticesTex": 22372,
+      "normalsTex": 40663
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rank3police",
+    "camera": {
+      "eye": [
+        70.8,
+        -0.503,
+        70.0
+      ],
+      "lookat": [
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "fov": 18.2
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 1155848,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 328,
+      "lightsTex": 560,
+      "vertexIndicesTex": 3468452,
+      "verticesTex": 4760560,
+      "normalsTex": 8636884
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_HIDE_EMITTERS"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapotall",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 10,
+      "topBVHIndex": 434802,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 104,
+      "lightsTex": 160,
+      "vertexIndicesTex": 1304665,
+      "verticesTex": 1788585,
+      "normalsTex": 3240345
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_MEDIUM"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapotchrome",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 3,
+      "topBVHIndex": 250693,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 752151,
+      "verticesTex": 1020903,
+      "normalsTex": 1827159
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapotcloth",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 3,
+      "topBVHIndex": 434802,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 40,
+      "lightsTex": 56,
+      "vertexIndicesTex": 1304501,
+      "verticesTex": 1788421,
+      "normalsTex": 3240181
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapotgold",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 3,
+      "topBVHIndex": 250693,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 752151,
+      "verticesTex": 1020903,
+      "normalsTex": 1827159
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapotredplastic",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 3,
+      "topBVHIndex": 250693,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 752151,
+      "verticesTex": 1020903,
+      "normalsTex": 1827159
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapotscratched",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 3,
+      "topBVHIndex": 250693,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 752151,
+      "verticesTex": 1020903,
+      "normalsTex": 1827159
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapottealglass",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 10,
+      "topBVHIndex": 250693,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 752151,
+      "verticesTex": 1020903,
+      "normalsTex": 1827159
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_MEDIUM"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "rendermanteapottiles",
+    "camera": {
+      "eye": [
+        0.69,
+        0.33,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 22.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 3,
+      "topBVHIndex": 250693,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 752151,
+      "verticesTex": 1020903,
+      "normalsTex": 1827159
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "robot",
+    "camera": {
+      "eye": [
+        -0.020392,
+        0.531845,
+        3.279238
+      ],
+      "lookat": [
+        -0.020392,
+        0.531845,
+        7.9E-05
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 651,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 1971,
+      "verticesTex": 2619,
+      "normalsTex": 4563
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "roughnessmollification",
+    "camera": {
+      "eye": [
+        -40.0,
+        10.0,
+        0.0
+      ],
+      "lookat": [
+        0.0,
+        7.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 8,
+      "topBVHIndex": 69652,
+      "roughnessMollificationAmt": 1.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 24,
+      "lightsTex": 32,
+      "vertexIndicesTex": 209015,
+      "verticesTex": 310427,
+      "normalsTex": 614663
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ROUGHNESS_MOLLIFICATION"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "scatteringskull",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.12639,
+        0.939692
+      ],
+      "lookat": [
+        -0.0,
+        0.12639,
+        0.0
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 168003,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 12,
+      "vertexIndicesTex": 504027,
+      "verticesTex": 692898,
+      "normalsTex": 1259511
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "slumhouse",
+    "camera": {
+      "eye": [
+        -0.514452,
+        2.193204,
+        31.216734
+      ],
+      "lookat": [
+        -0.514452,
+        2.193204,
+        0.286163
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 120624,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 24,
+      "lightsTex": 3040,
+      "vertexIndicesTex": 369436,
+      "verticesTex": 497282,
+      "normalsTex": 880820
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "sofa034k",
+    "camera": {
+      "eye": [
+        -0.0,
+        0.55976,
+        6.184327
+      ],
+      "lookat": [
+        0.0,
+        0.55976,
+        -0.001341
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 7478,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 24,
+      "vertexIndicesTex": 22470,
+      "verticesTex": 30474,
+      "normalsTex": 54486
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "spaceship",
+    "camera": {
+      "eye": [
+        -0.0,
+        1.0,
+        4.0
+      ],
+      "lookat": [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 6,
+      "topBVHIndex": 417058,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 104,
+      "lightsTex": 448,
+      "vertexIndicesTex": 1252148,
+      "verticesTex": 1707304,
+      "normalsTex": 3072772
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "staircase",
+    "camera": {
+      "eye": [
+        0.055551,
+        1.736799,
+        4.94515
+      ],
+      "lookat": [
+        0.055551,
+        1.736799,
+        0.93515
+      ],
+      "fov": 42.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 3,
+      "topBVHIndex": 234444,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 168,
+      "lightsTex": 248,
+      "vertexIndicesTex": 703705,
+      "verticesTex": 958204,
+      "normalsTex": 1721701
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "stormtrooper",
+    "camera": {
+      "eye": [
+        -0.2,
+        -0.5,
+        5.5
+      ],
+      "lookat": [
+        0.25,
+        -0.3,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 2,
+      "topBVHIndex": 5521093,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 16563356,
+      "verticesTex": 24825798,
+      "normalsTex": 49613124
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "stormtroopersimplified",
+    "camera": {
+      "eye": [
+        -0.2,
+        -0.5,
+        5.5
+      ],
+      "lookat": [
+        0.25,
+        -0.3,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 3,
+      "maxDepth": 2,
+      "topBVHIndex": 620981,
+      "roughnessMollificationAmt": 0.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 44,
+      "vertexIndicesTex": 1863020,
+      "verticesTex": 2775294,
+      "normalsTex": 5512116
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "substanceboy",
+    "camera": {
+      "eye": [
+        0.3,
+        0.11,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 2,
+      "topBVHIndex": 80262,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 40,
+      "lightsTex": 68,
+      "vertexIndicesTex": 240906,
+      "verticesTex": 326132,
+      "normalsTex": 581810
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "substanceboyvolume",
+    "camera": {
+      "eye": [
+        0.3,
+        0.11,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 4,
+      "topBVHIndex": 74119,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 28,
+      "vertexIndicesTex": 222413,
+      "verticesTex": 301495,
+      "normalsTex": 538741
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        0.392,
+        0.306,
+        0.226
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_BACKGROUND",
+      "OPT_ALPHA_TEST",
+      "OPT_MEDIUM",
+      "OPT_VOL_MIS"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "teapot",
+    "camera": {
+      "eye": [
+        20.0,
+        12.0,
+        0.0
+      ],
+      "lookat": [
+        -0.953633,
+        2.17253,
+        -0.097261
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 114931,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 5.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 24,
+      "lightsTex": 36,
+      "vertexIndicesTex": 344847,
+      "verticesTex": 470897,
+      "normalsTex": 849047
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "teaset014k",
+    "camera": {
+      "eye": [
+        0.018607,
+        0.081664,
+        2.060675
+      ],
+      "lookat": [
+        0.018607,
+        0.081664,
+        -0.041675
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 37294,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 8,
+      "lightsTex": 48,
+      "vertexIndicesTex": 111990,
+      "verticesTex": 152286,
+      "normalsTex": 273174
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "test",
+    "camera": {
+      "eye": [
+        15.0,
+        15.0,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 60.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 17,
+      "maxDepth": 3,
+      "topBVHIndex": 100371,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 88,
+      "lightsTex": 132,
+      "vertexIndicesTex": 301396,
+      "verticesTex": 408930,
+      "normalsTex": 731532
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "testmaterial",
+    "camera": {
+      "eye": [
+        7.5,
+        5.0,
+        7.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 2,
+      "maxDepth": 8,
+      "topBVHIndex": 923,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 24,
+      "lightsTex": 36,
+      "vertexIndicesTex": 2833,
+      "verticesTex": 3807,
+      "normalsTex": 6729
+    },
+    "display": {
+      "enableTonemap": false,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "testmis",
+    "camera": {
+      "eye": [
+        15.0,
+        10.0,
+        16.0
+      ],
+      "lookat": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "fov": 40.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 10,
+      "topBVHIndex": 12,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 24,
+      "vertexIndicesTex": 77,
+      "verticesTex": 91,
+      "normalsTex": 133
+    },
+    "display": {
+      "enableTonemap": false,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "testspherelightlarge",
+    "camera": {
+      "eye": [
+        3.0,
+        0.25,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "fov": 40.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 2,
+      "topBVHIndex": 1,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 20,
+      "vertexIndicesTex": 34,
+      "verticesTex": 36,
+      "normalsTex": 42
+    },
+    "display": {
+      "enableTonemap": false,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "testspherelightmedium",
+    "camera": {
+      "eye": [
+        3.0,
+        0.25,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "fov": 40.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 2,
+      "topBVHIndex": 1,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 20,
+      "vertexIndicesTex": 34,
+      "verticesTex": 36,
+      "normalsTex": 42
+    },
+    "display": {
+      "enableTonemap": false,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "testspherelightsmall",
+    "camera": {
+      "eye": [
+        3.0,
+        0.25,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "fov": 40.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 2,
+      "topBVHIndex": 1,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 16,
+      "lightsTex": 20,
+      "vertexIndicesTex": 34,
+      "verticesTex": 36,
+      "normalsTex": 42
+    },
+    "display": {
+      "enableTonemap": false,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "testveach",
+    "camera": {
+      "eye": [
+        18.0,
+        4.0,
+        -0.0
+      ],
+      "lookat": [
+        0.0,
+        2.5,
+        0.0
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 4,
+      "maxDepth": 4,
+      "topBVHIndex": 6,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 48,
+      "lightsTex": 72,
+      "vertexIndicesTex": 146,
+      "verticesTex": 158,
+      "normalsTex": 194
+    },
+    "display": {
+      "enableTonemap": false,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": false
+  },
+  {
+    "scene": "tropicalisland",
+    "camera": {
+      "eye": [
+        9.38,
+        13.12,
+        -6.0
+      ],
+      "lookat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 10.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 4,
+      "topBVHIndex": 274798,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 64,
+      "lightsTex": 312,
+      "vertexIndicesTex": 825078,
+      "verticesTex": 1103664,
+      "normalsTex": 1939422
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST",
+      "OPT_MEDIUM",
+      "OPT_VOL_MIS"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "tungstenmaterialtestball",
+    "camera": {
+      "eye": [
+        3.04068,
+        3.17153,
+        3.20454
+      ],
+      "lookat": [
+        2.457235,
+        2.632765,
+        2.59682
+      ],
+      "fov": 35.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 0,
+      "maxDepth": 2,
+      "topBVHIndex": 74236,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 32,
+      "lightsTex": 48,
+      "vertexIndicesTex": 222780,
+      "verticesTex": 303550,
+      "normalsTex": 545860
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_ENVMAP",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP"
+    ],
+    "withTexture": true
+  },
+  {
+    "scene": "volumecube",
+    "camera": {
+      "eye": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "lookat": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "fov": 45.0
+    },
+    "uniforms": {
+      "uniformLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "numOfLights": 1,
+      "maxDepth": 5,
+      "topBVHIndex": 12,
+      "roughnessMollificationAmt": 0.0,
+      "envMapIntensity": 1.0,
+      "uniformsLightCol": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "indices": {
+      "materialsTex": 0,
+      "transformsTex": 24,
+      "lightsTex": 32,
+      "vertexIndicesTex": 85,
+      "verticesTex": 99,
+      "normalsTex": 141
+    },
+    "display": {
+      "enableTonemap": true,
+      "enableAces": false,
+      "simpleAcesFit": false,
+      "backgroundCol": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "defines": [
+      "OPT_LIGHTS",
+      "OPT_RR",
+      "OPT_RR_DEPTH 2",
+      "OPT_OPENGL_NORMALMAP",
+      "OPT_ALPHA_TEST",
+      "OPT_MEDIUM",
+      "OPT_VOL_MIS"
+    ],
+    "withTexture": false
+  }
+]
