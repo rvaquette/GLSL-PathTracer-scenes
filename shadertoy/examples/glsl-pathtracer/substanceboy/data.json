@@ -34,6 +34,7 @@
     "materialsTex": 0,
     "transformsTex": 40,
     "lightsTex": 68,
+    "BVH": 78,
     "vertexIndicesTex": 240906,
     "verticesTex": 326132,
     "normalsTex": 581810

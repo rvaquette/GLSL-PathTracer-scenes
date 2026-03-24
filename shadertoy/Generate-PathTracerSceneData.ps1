@@ -1,10 +1,5 @@
 param(
-    [string]$BaseDir = ".\shadertoy\examples\glsl-pathtracer",
-    [switch]$UploadToAzure,
-    [string]$StorageAccountName = "",
-    [string]$ContainerName,
-    [string]$ConnectionString,
-    [string]$BlobPrefix = "scene-data"
+    [string]$BaseDir = ".\shadertoy\examples\glsl-pathtracer"
 )
 
 Set-StrictMode -Version Latest
@@ -204,6 +199,17 @@ function Parse-SceneRendererSettings {
     return $result
 }
 
+function Test-SceneHasTextures {
+    param([string]$FilePath)
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return $true
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+    return [bool]($content -match '(?m)^\s*\w*texture\s+\S+')
+}
+
 function Parse-BufferB {
     param([string]$FilePath)
 
@@ -228,7 +234,9 @@ function Parse-BufferB {
         $name = $m.Groups[1].Value
         $indexValue = [int]$m.Groups[2].Value
         $result.namedIndices[$name] = $indexValue
-        if ($name -like '*Tex') {
+
+        # Keep texture indices and BVH-related define indices in the exported indices object.
+        if ($name -like '*Tex' -or $name -match 'BVH') {
             $result.texIndices[$name] = $indexValue
         }
     }
@@ -251,91 +259,6 @@ function Parse-BufferB {
     }
 
     return $result
-}
-
-function Test-AzureBlobExists {
-    param(
-        [string]$BlobName,
-        [string]$ContainerName,
-        [string]$StorageAccountName,
-        [string]$ConnectionString
-    )
-
-    if (-not (Get-Command az -ErrorAction SilentlyContinue)) {
-        return $false
-    }
-
-    $azArgs = @(
-        'storage', 'blob', 'exists',
-        '--name', $BlobName,
-        '--container-name', $ContainerName,
-        '--only-show-errors',
-        '--output', 'json'
-    )
-
-    if ([string]::IsNullOrWhiteSpace($ConnectionString)) {
-        if ([string]::IsNullOrWhiteSpace($StorageAccountName)) {
-            return $false
-        }
-        $azArgs += @('--account-name', $StorageAccountName, '--auth-mode', 'login')
-    } else {
-        $azArgs += @('--connection-string', $ConnectionString)
-    }
-
-    $output = & az @azArgs 2>$null
-    if ($LASTEXITCODE -ne 0) {
-        return $false
-    }
-
-    $result = $output | ConvertFrom-Json
-    return [bool]$result.exists
-}
-
-function Upload-JsonToAzureBlob {
-    param(
-        [string]$JsonFile,
-        [string]$BlobName,
-        [string]$StorageAccountName,
-        [string]$ContainerName,
-        [string]$ConnectionString
-    )
-
-    if (-not (Get-Command az -ErrorAction SilentlyContinue)) {
-        throw "Azure CLI ('az') est requis pour l'upload Blob. Installez-le puis relancez."
-    }
-
-    $authArgs = if ([string]::IsNullOrWhiteSpace($ConnectionString)) {
-        if ([string]::IsNullOrWhiteSpace($StorageAccountName)) {
-            throw "StorageAccountName est requis si ConnectionString n'est pas fourni."
-        }
-        @('--account-name', $StorageAccountName, '--auth-mode', 'login')
-    } else {
-        @('--connection-string', $ConnectionString)
-    }
-
-    # Delete existing blob if present
-    $deleteArgs = @(
-        'storage', 'blob', 'delete',
-        '--name', $BlobName,
-        '--container-name', $ContainerName,
-        '--only-show-errors'
-    ) + $authArgs
-    Write-Host "Suppression du blob existant (si present): $BlobName sous $ContainerName"
-    $null = & az @deleteArgs #2>$null
-
-    ## Upload the new blob
-    #$uploadArgs = @(
-    #    'storage', 'blob', 'upload',
-    #    '--file', $JsonFile,
-    #    '--name', $BlobName,
-    #    '--container-name', $ContainerName,
-    #    '--only-show-errors'
-    #) + $authArgs
-#
-    #$null = & az @uploadArgs
-    #if ($LASTEXITCODE -ne 0) {
-    #    throw "Echec upload Blob pour $JsonFile"
-    #}
 }
 
 if (-not (Test-Path -LiteralPath $BaseDir)) {
@@ -383,16 +306,9 @@ foreach ($sceneDir in $sceneDirs) {
         $sceneRendererSettings = Parse-SceneRendererSettings -FilePath $sceneFileByNormalizedName[$normalizedSceneName]
     }
 
-    $sceneBlobPrefix = $BlobPrefix.Trim('/')
-    $sceneBlobPath = if ([string]::IsNullOrWhiteSpace($sceneBlobPrefix)) { $sceneDir.Name } else { "$sceneBlobPrefix/$($sceneDir.Name)" }
-
-    $withTexture = $false
-    if (-not [string]::IsNullOrWhiteSpace($ContainerName)) {
-        $withTexture = Test-AzureBlobExists `
-            -BlobName "$sceneBlobPath/textures.png" `
-            -ContainerName $ContainerName `
-            -StorageAccountName $StorageAccountName `
-            -ConnectionString $ConnectionString
+    $withTexture = $true
+    if ($sceneFileByNormalizedName.ContainsKey($normalizedSceneName)) {
+        $withTexture = Test-SceneHasTextures -FilePath $sceneFileByNormalizedName[$normalizedSceneName]
     }
 
     $data = [ordered]@{
@@ -425,31 +341,9 @@ foreach ($sceneDir in $sceneDirs) {
     $jsonContent = $data | ConvertTo-Json -Depth 12
     Set-Content -LiteralPath $jsonPath -Value $jsonContent -Encoding UTF8
 
-    $uploaded = $false
-    $blobName = $null
-
-    if ($UploadToAzure) {
-        if ([string]::IsNullOrWhiteSpace($ContainerName)) {
-            throw "ContainerName est requis quand UploadToAzure est active."
-        }
-
-        $blobName = "$sceneBlobPath/data.json"
-
-        Upload-JsonToAzureBlob `
-            -JsonFile $jsonPath `
-            -BlobName $blobName `
-            -StorageAccountName $StorageAccountName `
-            -ContainerName $ContainerName `
-            -ConnectionString $ConnectionString
-
-        $uploaded = $true
-    }
-
     $summary += [pscustomobject]@{
         Scene = $sceneDir.Name
         JsonPath = $jsonPath
-        Uploaded = $uploaded
-        BlobName = $blobName
     }
 }
 
