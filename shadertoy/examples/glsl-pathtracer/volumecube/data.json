@@ -1,0 +1,60 @@
+{
+  "scene": "volumecube",
+  "camera": {
+    "eye": [
+      6.0,
+      6.0,
+      6.0
+    ],
+    "lookat": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 1,
+    "maxDepth": 5,
+    "topBVHIndex": 12,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 24,
+    "lightsTex": 32,
+    "vertexIndicesTex": 85,
+    "verticesTex": 99,
+    "normalsTex": 141
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_ALPHA_TEST",
+    "OPT_MEDIUM",
+    "OPT_VOL_MIS"
+  ]
+}

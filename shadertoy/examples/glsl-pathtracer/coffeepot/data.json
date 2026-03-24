@@ -1,0 +1,57 @@
+{
+  "scene": "coffeepot",
+  "camera": {
+    "eye": [
+      -0.0,
+      0.26,
+      0.7
+    ],
+    "lookat": [
+      0.0,
+      0.16,
+      -0.1
+    ],
+    "fov": 30.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 3,
+    "maxDepth": 5,
+    "topBVHIndex": 223396,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 48,
+    "lightsTex": 128,
+    "vertexIndicesTex": 670451,
+    "verticesTex": 905716,
+    "normalsTex": 1611511
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

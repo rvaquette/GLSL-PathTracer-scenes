@@ -1,0 +1,61 @@
+{
+  "scene": "substanceboyvolume",
+  "camera": {
+    "eye": [
+      0.3,
+      0.11,
+      -0.0
+    ],
+    "lookat": [
+      0.0,
+      0.07,
+      0.0
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 2,
+    "maxDepth": 4,
+    "topBVHIndex": 74119,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 16,
+    "lightsTex": 28,
+    "vertexIndicesTex": 222413,
+    "verticesTex": 301495,
+    "normalsTex": 538741
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      0.392,
+      0.306,
+      0.226
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_BACKGROUND",
+    "OPT_ALPHA_TEST",
+    "OPT_MEDIUM",
+    "OPT_VOL_MIS"
+  ]
+}

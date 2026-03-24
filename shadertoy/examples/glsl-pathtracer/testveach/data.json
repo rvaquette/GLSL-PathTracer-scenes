@@ -1,0 +1,57 @@
+{
+  "scene": "testveach",
+  "camera": {
+    "eye": [
+      18.0,
+      4.0,
+      -0.0
+    ],
+    "lookat": [
+      0.0,
+      2.5,
+      0.0
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 4,
+    "maxDepth": 4,
+    "topBVHIndex": 6,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 48,
+    "lightsTex": 72,
+    "vertexIndicesTex": 146,
+    "verticesTex": 158,
+    "normalsTex": 194
+  },
+  "display": {
+    "enableTonemap": false,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

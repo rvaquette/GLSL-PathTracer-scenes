@@ -1,0 +1,57 @@
+{
+  "scene": "testmis",
+  "camera": {
+    "eye": [
+      15.0,
+      10.0,
+      16.0
+    ],
+    "lookat": [
+      0.0,
+      2.0,
+      0.0
+    ],
+    "fov": 40.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 1,
+    "maxDepth": 10,
+    "topBVHIndex": 12,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 16,
+    "lightsTex": 24,
+    "vertexIndicesTex": 77,
+    "verticesTex": 91,
+    "normalsTex": 133
+  },
+  "display": {
+    "enableTonemap": false,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "scene": "teapot",
+  "camera": {
+    "eye": [
+      20.0,
+      12.0,
+      0.0
+    ],
+    "lookat": [
+      -0.953633,
+      2.17253,
+      -0.097261
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 114931,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 5.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 24,
+    "lightsTex": 36,
+    "vertexIndicesTex": 344847,
+    "verticesTex": 470897,
+    "normalsTex": 849047
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

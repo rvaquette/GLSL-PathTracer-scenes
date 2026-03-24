@@ -1,0 +1,57 @@
+{
+  "scene": "brassvase014k",
+  "camera": {
+    "eye": [
+      -0.0,
+      0.347689,
+      1.526912
+    ],
+    "lookat": [
+      -0.0,
+      0.347689,
+      0.0
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 20571,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 8,
+    "lightsTex": 12,
+    "vertexIndicesTex": 61731,
+    "verticesTex": 83171,
+    "normalsTex": 147491
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

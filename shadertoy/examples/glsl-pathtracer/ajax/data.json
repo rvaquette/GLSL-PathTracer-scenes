@@ -1,0 +1,57 @@
+{
+  "scene": "ajax",
+  "camera": {
+    "eye": [
+      -0.0,
+      0.5,
+      -1.8
+    ],
+    "lookat": [
+      0.0,
+      0.5,
+      0.0
+    ],
+    "fov": 35.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 465141,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 5.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 56,
+    "lightsTex": 60,
+    "vertexIndicesTex": 1395489,
+    "verticesTex": 1940055,
+    "normalsTex": 3573753
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

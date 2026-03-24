@@ -1,0 +1,12 @@
+{
+  "scene": "jinx",
+  "camera": {
+    "eye": null,
+    "lookat": null,
+    "fov": null
+  },
+  "uniforms": {},
+  "indices": {},
+  "display": {},
+  "defines": null
+}

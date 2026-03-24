@@ -1,0 +1,57 @@
+{
+  "scene": "tungstenmaterialtestball",
+  "camera": {
+    "eye": [
+      3.04068,
+      3.17153,
+      3.20454
+    ],
+    "lookat": [
+      2.457235,
+      2.632765,
+      2.59682
+    ],
+    "fov": 35.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 74236,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 32,
+    "lightsTex": 48,
+    "vertexIndicesTex": 222780,
+    "verticesTex": 303550,
+    "normalsTex": 545860
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "scene": "cornellboxsphere",
+  "camera": {
+    "eye": [
+      0.276,
+      0.275,
+      -0.75
+    ],
+    "lookat": [
+      0.276,
+      0.275,
+      0.1
+    ],
+    "fov": 40.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 1,
+    "maxDepth": 3,
+    "topBVHIndex": 14767,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 72,
+    "lightsTex": 100,
+    "vertexIndicesTex": 44448,
+    "verticesTex": 60342,
+    "normalsTex": 108024
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

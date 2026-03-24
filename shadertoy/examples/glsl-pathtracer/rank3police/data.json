@@ -1,0 +1,58 @@
+{
+  "scene": "rank3police",
+  "camera": {
+    "eye": [
+      70.8,
+      -0.503,
+      70.0
+    ],
+    "lookat": [
+      0.0,
+      -2.0,
+      0.0
+    ],
+    "fov": 18.2
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 1155848,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 328,
+    "lightsTex": 560,
+    "vertexIndicesTex": 3468452,
+    "verticesTex": 4760560,
+    "normalsTex": 8636884
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_HIDE_EMITTERS"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "scene": "dragon",
+  "camera": {
+    "eye": [
+      -35.0,
+      12.0,
+      -26.0
+    ],
+    "lookat": [
+      0.0,
+      7.0,
+      0.0
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 8,
+    "topBVHIndex": 745293,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 5.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 16,
+    "lightsTex": 20,
+    "vertexIndicesTex": 2235905,
+    "verticesTex": 3067717,
+    "normalsTex": 5563153
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 3",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_MEDIUM"
+  ]
+}

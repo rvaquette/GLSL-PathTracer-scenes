@@ -1,0 +1,58 @@
+{
+  "scene": "slumhouse",
+  "camera": {
+    "eye": [
+      -0.514452,
+      2.193204,
+      31.216734
+    ],
+    "lookat": [
+      -0.514452,
+      2.193204,
+      0.286163
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 120624,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 24,
+    "lightsTex": 3040,
+    "vertexIndicesTex": 369436,
+    "verticesTex": 497282,
+    "normalsTex": 880820
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_ALPHA_TEST"
+  ]
+}

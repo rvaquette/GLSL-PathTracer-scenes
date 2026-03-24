@@ -1,0 +1,57 @@
+{
+  "scene": "hyperionrectlights",
+  "camera": {
+    "eye": [
+      -15.0,
+      15.0,
+      0.0
+    ],
+    "lookat": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 17,
+    "maxDepth": 3,
+    "topBVHIndex": 100371,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 88,
+    "lightsTex": 132,
+    "vertexIndicesTex": 301396,
+    "verticesTex": 408930,
+    "normalsTex": 731532
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "scene": "tropicalisland",
+  "camera": {
+    "eye": [
+      9.38,
+      13.12,
+      -6.0
+    ],
+    "lookat": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fov": 10.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 4,
+    "topBVHIndex": 274798,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 64,
+    "lightsTex": 312,
+    "vertexIndicesTex": 825078,
+    "verticesTex": 1103664,
+    "normalsTex": 1939422
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_ALPHA_TEST",
+    "OPT_MEDIUM",
+    "OPT_VOL_MIS"
+  ]
+}

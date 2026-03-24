@@ -1,0 +1,57 @@
+{
+  "scene": "spaceship",
+  "camera": {
+    "eye": [
+      -0.0,
+      1.0,
+      4.0
+    ],
+    "lookat": [
+      0.0,
+      1.0,
+      -0.5
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 2,
+    "maxDepth": 6,
+    "topBVHIndex": 417058,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 104,
+    "lightsTex": 448,
+    "vertexIndicesTex": 1252148,
+    "verticesTex": 1707304,
+    "normalsTex": 3072772
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

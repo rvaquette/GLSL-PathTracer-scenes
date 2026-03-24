@@ -1,0 +1,58 @@
+{
+  "scene": "cashregister014k",
+  "camera": {
+    "eye": [
+      0.075063,
+      0.312858,
+      2.270563
+    ],
+    "lookat": [
+      0.075063,
+      0.312858,
+      0.138612
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 9137,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 16,
+    "lightsTex": 28,
+    "vertexIndicesTex": 27457,
+    "verticesTex": 37384,
+    "normalsTex": 67165
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_ALPHA_TEST"
+  ]
+}

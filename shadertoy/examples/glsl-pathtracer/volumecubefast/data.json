@@ -1,0 +1,82 @@
+{
+  "scene": "volumecubefast",
+  "camera": {
+    "eye": [
+      6.0,
+      6.0,
+      6.0
+    ],
+    "lookat": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "q": "abs(p) - b",
+    "res": [
+      10000000000.0,
+      0.0
+    ],
+    "cubePos": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "cube": "sdBox(pos - cubePos, vec3(1.))",
+    "planePos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "planeScale": [
+      50.0,
+      0.1,
+      50.0
+    ],
+    "plane": "sdBox(pos - planePos, planeScale)",
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 1,
+    "maxDepth": 5,
+    "topBVHIndex": 12,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 24,
+    "lightsTex": 32,
+    "vertexIndicesTex": 85,
+    "verticesTex": 99,
+    "normalsTex": 141
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP",
+    "OPT_ALPHA_TEST",
+    "OPT_MEDIUM",
+    "OPT_VOL_MIS"
+  ]
+}

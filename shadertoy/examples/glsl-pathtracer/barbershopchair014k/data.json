@@ -1,0 +1,57 @@
+{
+  "scene": "barbershopchair014k",
+  "camera": {
+    "eye": [
+      -0.015391,
+      0.744503,
+      4.489269
+    ],
+    "lookat": [
+      -0.015391,
+      0.744503,
+      0.221816
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 3967,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 8,
+    "lightsTex": 12,
+    "vertexIndicesTex": 11919,
+    "verticesTex": 16199,
+    "normalsTex": 29039
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

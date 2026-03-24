@@ -1,0 +1,57 @@
+{
+  "scene": "stormtrooper",
+  "camera": {
+    "eye": [
+      -0.2,
+      -0.5,
+      5.5
+    ],
+    "lookat": [
+      0.25,
+      -0.3,
+      0.0
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 3,
+    "maxDepth": 2,
+    "topBVHIndex": 5521093,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 32,
+    "lightsTex": 44,
+    "vertexIndicesTex": 16563356,
+    "verticesTex": 24825798,
+    "normalsTex": 49613124
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

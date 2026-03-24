@@ -1,0 +1,57 @@
+{
+  "scene": "chandelier014k",
+  "camera": {
+    "eye": [
+      0.000264,
+      -0.399135,
+      2.73286
+    ],
+    "lookat": [
+      0.000264,
+      -0.399135,
+      0.005551
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 24964,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 16,
+    "lightsTex": 24,
+    "vertexIndicesTex": 74928,
+    "verticesTex": 101788,
+    "normalsTex": 182368
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

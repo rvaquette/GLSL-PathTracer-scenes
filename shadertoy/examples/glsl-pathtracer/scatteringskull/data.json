@@ -1,0 +1,57 @@
+{
+  "scene": "scatteringskull",
+  "camera": {
+    "eye": [
+      -0.0,
+      0.12639,
+      0.939692
+    ],
+    "lookat": [
+      -0.0,
+      0.12639,
+      0.0
+    ],
+    "fov": 45.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 0,
+    "maxDepth": 2,
+    "topBVHIndex": 168003,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 8,
+    "lightsTex": 12,
+    "vertexIndicesTex": 504027,
+    "verticesTex": 692898,
+    "normalsTex": 1259511
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_ENVMAP",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}

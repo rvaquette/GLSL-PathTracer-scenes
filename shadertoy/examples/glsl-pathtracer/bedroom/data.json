@@ -1,0 +1,57 @@
+{
+  "scene": "bedroom",
+  "camera": {
+    "eye": [
+      3.0,
+      1.5,
+      3.8
+    ],
+    "lookat": [
+      0.0,
+      1.0,
+      0.31
+    ],
+    "fov": 60.0
+  },
+  "uniforms": {
+    "uniformLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "numOfLights": 2,
+    "maxDepth": 3,
+    "topBVHIndex": 1339314,
+    "roughnessMollificationAmt": 0.0,
+    "envMapIntensity": 1.0,
+    "uniformsLightCol": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "indices": {
+    "materialsTex": 0,
+    "transformsTex": 248,
+    "lightsTex": 520,
+    "vertexIndicesTex": 4018880,
+    "verticesTex": 5510630,
+    "normalsTex": 9985880
+  },
+  "display": {
+    "enableTonemap": true,
+    "enableAces": false,
+    "simpleAcesFit": false,
+    "backgroundCol": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "defines": [
+    "OPT_LIGHTS",
+    "OPT_RR",
+    "OPT_RR_DEPTH 2",
+    "OPT_OPENGL_NORMALMAP"
+  ]
+}
