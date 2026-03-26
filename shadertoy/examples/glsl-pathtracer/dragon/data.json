@@ -57,6 +57,15 @@
     "OPT_MEDIUM"
   ],
   "withTexture": false,
+  "materials": [
+    "glass"
+  ],
+  "meshes": [
+    {
+      "name": "dragon.obj",
+      "material": "glass"
+    }
+  ],
   "resolution": [
     1280,
     720

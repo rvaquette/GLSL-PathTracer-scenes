@@ -57,6 +57,19 @@
     "OPT_HIDE_EMITTERS"
   ],
   "withTexture": false,
+  "materials": [
+    "orange"
+  ],
+  "meshes": [
+    {
+      "name": "panther.obj",
+      "material": "orange"
+    },
+    {
+      "name": "background.obj",
+      "material": "orange"
+    }
+  ],
   "resolution": [
     1280,
     720

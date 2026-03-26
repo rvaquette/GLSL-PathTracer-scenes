@@ -56,6 +56,25 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "base",
+    "chrome",
+    "checker"
+  ],
+  "meshes": [
+    {
+      "name": "background.obj",
+      "material": "checker"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "chrome"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    }
+  ],
   "resolution": [
     1280,
     720

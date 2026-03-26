@@ -199,6 +199,56 @@ function Parse-SceneRendererSettings {
     return $result
 }
 
+function Parse-SceneAssets {
+    param([string]$FilePath)
+
+    $result = [ordered]@{
+        materials = @()
+        meshes = @()
+    }
+
+    if (-not (Test-Path -LiteralPath $FilePath)) {
+        return $result
+    }
+
+    $content = Get-Content -LiteralPath $FilePath -Raw
+
+    $materialMatches = [regex]::Matches(
+        $content,
+        '(?m)^\s*material\s+([^\s\{]+)\s*\{'
+    )
+
+    foreach ($materialMatch in $materialMatches) {
+        $result.materials += $materialMatch.Groups[1].Value.Trim()
+    }
+
+    $meshMatches = [regex]::Matches(
+        $content,
+        '(?s)mesh\s*\{(.*?)\}'
+    )
+
+    foreach ($meshMatch in $meshMatches) {
+        $meshBlock = $meshMatch.Groups[1].Value
+        $meshFile = $null
+        $meshMaterial = $null
+
+        if ($meshBlock -match '(?m)^\s*file\s+(.+?)\s*$') {
+            $meshFile = Split-Path -Leaf $Matches[1].Trim()
+        }
+
+        if ($meshBlock -match '(?m)^\s*material\s+([^\s#]+)') {
+            $meshMaterial = $Matches[1].Trim()
+        }
+
+        $result.meshes += [ordered]@{
+            name = $meshFile
+            material = $meshMaterial
+        }
+    }
+
+    return $result
+}
+
 function Test-SceneHasTextures {
     param([string]$FilePath)
 
@@ -301,9 +351,14 @@ foreach ($sceneDir in $sceneDirs) {
     $commonDefines = Parse-CommonCode -FilePath $commonCodePath
 
     $sceneRendererSettings = [ordered]@{}
+    $sceneAssets = [ordered]@{
+        materials = @()
+        meshes = @()
+    }
     $normalizedSceneName = Get-NormalizedSceneName -Name $sceneDir.Name
     if ($sceneFileByNormalizedName.ContainsKey($normalizedSceneName)) {
         $sceneRendererSettings = Parse-SceneRendererSettings -FilePath $sceneFileByNormalizedName[$normalizedSceneName]
+        $sceneAssets = Parse-SceneAssets -FilePath $sceneFileByNormalizedName[$normalizedSceneName]
     }
 
     $withTexture = $true
@@ -323,6 +378,8 @@ foreach ($sceneDir in $sceneDirs) {
         display = $bufferDData
         defines = $commonDefines
         withTexture = $withTexture
+        materials = $sceneAssets.materials
+        meshes = $sceneAssets.meshes
     }
 
     if ($sceneRendererSettings.Contains('resolution')) {

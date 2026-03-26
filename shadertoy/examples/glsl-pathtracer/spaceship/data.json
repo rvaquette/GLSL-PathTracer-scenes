@@ -56,6 +56,366 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "Backdrop",
+    "RoughAluminium",
+    "RoughSteel",
+    "DarkPlastic",
+    "PinkLeather",
+    "Leather",
+    "RedLeather",
+    "BrightPinkLeather",
+    "Glass",
+    "DarkRubber",
+    "Light1",
+    "Light2"
+  ],
+  "meshes": [
+    {
+      "name": "Mesh050.obj",
+      "material": "Backdrop"
+    },
+    {
+      "name": "Mesh042.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh038.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh040.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh072.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh027.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh067.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh060.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh065.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh048.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh066.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh046.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh076.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh059.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh057.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh062.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh074.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh075.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh078.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh081.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh034.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh084.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh085.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh073.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh077.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh087.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh052.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh025.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh024.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh086.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh023.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh021.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh039.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh020.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh032.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh018.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh070.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh016.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh015.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh054.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh013.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh079.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh041.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh012.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh011.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh010.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh083.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh069.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh009.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh007.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh017.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh037.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh005.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh004.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh002.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh056.obj",
+      "material": "RoughAluminium"
+    },
+    {
+      "name": "Mesh033.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh064.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh058.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh026.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh047.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh071.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh019.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh006.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh008.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh045.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh049.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh014.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh003.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh051.obj",
+      "material": "RoughSteel"
+    },
+    {
+      "name": "Mesh001.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh055.obj",
+      "material": "RedLeather"
+    },
+    {
+      "name": "Mesh036.obj",
+      "material": "RedLeather"
+    },
+    {
+      "name": "Mesh031.obj",
+      "material": "RedLeather"
+    },
+    {
+      "name": "Mesh022.obj",
+      "material": "RedLeather"
+    },
+    {
+      "name": "Mesh053.obj",
+      "material": "DarkPlastic"
+    },
+    {
+      "name": "Mesh061.obj",
+      "material": "DarkPlastic"
+    },
+    {
+      "name": "Mesh035.obj",
+      "material": "PinkLeather"
+    },
+    {
+      "name": "Mesh030.obj",
+      "material": "PinkLeather"
+    },
+    {
+      "name": "Mesh000.obj",
+      "material": "BrightPinkLeather"
+    },
+    {
+      "name": "Mesh044.obj",
+      "material": "Leather"
+    },
+    {
+      "name": "Mesh028.obj",
+      "material": "Leather"
+    },
+    {
+      "name": "Mesh063.obj",
+      "material": "DarkRubber"
+    },
+    {
+      "name": "Mesh068.obj",
+      "material": "DarkRubber"
+    },
+    {
+      "name": "Mesh029.obj",
+      "material": "Light2"
+    },
+    {
+      "name": "Mesh043.obj",
+      "material": "Light1"
+    }
+  ],
   "resolution": [
     1280,
     720

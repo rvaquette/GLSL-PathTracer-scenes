@@ -56,6 +56,39 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "white",
+    "metal_1",
+    "metal_2",
+    "metal_3",
+    "metal_4"
+  ],
+  "meshes": [
+    {
+      "name": "plate1.obj",
+      "material": "metal_1"
+    },
+    {
+      "name": "plate2.obj",
+      "material": "metal_2"
+    },
+    {
+      "name": "plate3.obj",
+      "material": "metal_3"
+    },
+    {
+      "name": "plate4.obj",
+      "material": "metal_4"
+    },
+    {
+      "name": "floor.obj",
+      "material": "white"
+    },
+    {
+      "name": "wall.obj",
+      "material": "white"
+    }
+  ],
   "resolution": [
     1280,
     720

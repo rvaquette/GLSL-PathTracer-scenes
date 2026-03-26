@@ -56,6 +56,25 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "gold",
+    "base",
+    "checker"
+  ],
+  "meshes": [
+    {
+      "name": "background.obj",
+      "material": "checker"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "gold"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    }
+  ],
   "resolution": [
     1280,
     720

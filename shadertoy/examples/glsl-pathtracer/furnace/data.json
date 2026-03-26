@@ -56,6 +56,15 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "glass"
+  ],
+  "meshes": [
+    {
+      "name": "sphere.obj",
+      "material": "glass"
+    }
+  ],
   "resolution": [
     1280,
     720

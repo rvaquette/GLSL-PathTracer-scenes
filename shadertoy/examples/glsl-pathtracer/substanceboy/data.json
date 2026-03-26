@@ -56,6 +56,42 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "head",
+    "body",
+    "base",
+    "grid"
+  ],
+  "meshes": [
+    {
+      "name": "background.obj",
+      "material": "grid"
+    },
+    {
+      "name": "head.obj",
+      "material": "head"
+    },
+    {
+      "name": "body.obj",
+      "material": "body"
+    },
+    {
+      "name": "base.obj",
+      "material": "base"
+    },
+    {
+      "name": "head.obj",
+      "material": "head"
+    },
+    {
+      "name": "body.obj",
+      "material": "body"
+    },
+    {
+      "name": "base.obj",
+      "material": "base"
+    }
+  ],
   "resolution": [
     1280,
     720

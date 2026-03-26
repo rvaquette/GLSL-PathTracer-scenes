@@ -59,6 +59,265 @@
     "OPT_VOL_MIS"
   ],
   "withTexture": true,
+  "materials": [
+    "water",
+    "wood",
+    "floor",
+    "grass",
+    "rock",
+    "sand",
+    "palm"
+  ],
+  "meshes": [
+    {
+      "name": "boat.obj",
+      "material": "wood"
+    },
+    {
+      "name": "rope.obj",
+      "material": "wood"
+    },
+    {
+      "name": "dock1.obj",
+      "material": "wood"
+    },
+    {
+      "name": "dock2.obj",
+      "material": "wood"
+    },
+    {
+      "name": "oar1.obj",
+      "material": "wood"
+    },
+    {
+      "name": "oar2.obj",
+      "material": "wood"
+    },
+    {
+      "name": "plank1.obj",
+      "material": "wood"
+    },
+    {
+      "name": "plank2.obj",
+      "material": "wood"
+    },
+    {
+      "name": "plank3.obj",
+      "material": "wood"
+    },
+    {
+      "name": "floor.obj",
+      "material": "floor"
+    },
+    {
+      "name": "grass.obj",
+      "material": "grass"
+    },
+    {
+      "name": "rock1.obj",
+      "material": "rock"
+    },
+    {
+      "name": "rock2.obj",
+      "material": "rock"
+    },
+    {
+      "name": "rock3.obj",
+      "material": "rock"
+    },
+    {
+      "name": "rock4.obj",
+      "material": "rock"
+    },
+    {
+      "name": "rock5.obj",
+      "material": "rock"
+    },
+    {
+      "name": "rock6.obj",
+      "material": "rock"
+    },
+    {
+      "name": "rock7.obj",
+      "material": "rock"
+    },
+    {
+      "name": "sand.obj",
+      "material": "sand"
+    },
+    {
+      "name": "water.obj",
+      "material": "water"
+    },
+    {
+      "name": "trunk1.obj",
+      "material": "wood"
+    },
+    {
+      "name": "trunk2.obj",
+      "material": "wood"
+    },
+    {
+      "name": "leaf1.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf2.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf3.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf4.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf5.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf6.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf7.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf8.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf9.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf10.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf11.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf12.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf13.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf14.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf15.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf16.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf17.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf18.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf19.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf20.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf21.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf22.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf23.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf24.obj",
+      "material": "palm"
+    },
+    {
+      "name": "leaf25.obj",
+      "material": "palm"
+    },
+    {
+      "name": "shortleaf1.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf2.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf3.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf4.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf5.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf6.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf7.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf8.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf9.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf10.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf11.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf12.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf13.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf14.obj",
+      "material": "grass"
+    },
+    {
+      "name": "shortleaf15.obj",
+      "material": "grass"
+    }
+  ],
   "resolution": [
     800,
     800

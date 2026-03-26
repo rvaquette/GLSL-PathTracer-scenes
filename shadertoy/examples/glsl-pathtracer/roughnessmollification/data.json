@@ -55,6 +55,20 @@
     "OPT_ROUGHNESS_MOLLIFICATION"
   ],
   "withTexture": false,
+  "materials": [
+    "glass",
+    "white"
+  ],
+  "meshes": [
+    {
+      "name": "box_and_spheres.obj",
+      "material": "glass"
+    },
+    {
+      "name": "background.obj",
+      "material": "white"
+    }
+  ],
   "resolution": [
     1280,
     720

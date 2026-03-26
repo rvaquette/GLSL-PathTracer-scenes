@@ -56,6 +56,29 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "stand",
+    "checker",
+    "test"
+  ],
+  "meshes": [
+    {
+      "name": "Mesh000.obj",
+      "material": "stand"
+    },
+    {
+      "name": "Mesh001.obj",
+      "material": "test"
+    },
+    {
+      "name": "Mesh002.obj",
+      "material": "test"
+    },
+    {
+      "name": "Plane.obj",
+      "material": "checker"
+    }
+  ],
   "resolution": [
     1280,
     720

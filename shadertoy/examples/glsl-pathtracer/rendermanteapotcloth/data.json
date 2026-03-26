@@ -56,6 +56,30 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "marble",
+    "purple_cloth",
+    "base",
+    "checker"
+  ],
+  "meshes": [
+    {
+      "name": "background.obj",
+      "material": "checker"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "marble"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "cloth.obj",
+      "material": "purple_cloth"
+    }
+  ],
   "resolution": [
     1280,
     720

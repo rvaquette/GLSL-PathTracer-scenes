@@ -57,6 +57,20 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "silver",
+      "gold",
+      "redPlastic",
+      "white",
+      "black",
+      "glass"
+    ],
+    "meshes": [
+      {
+        "name": "ajax.obj",
+        "material": "black"
+      }
+    ],
     "resolution": [
       900,
       900
@@ -122,7 +136,9 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ALPHA_TEST"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "barbershopchair014k",
@@ -181,7 +197,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "bedroom",
@@ -241,6 +259,320 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "Boxes",
+      "PlasticCable",
+      "LampEmitter",
+      "Blankets",
+      "Bedsheets",
+      "Window",
+      "PictureBacking",
+      "Picture",
+      "Rocks1",
+      "Rocks2",
+      "Rocks3",
+      "DecoPlant",
+      "Black",
+      "Carpet",
+      "Matress",
+      "WoodFloor",
+      "Walls",
+      "Walls2",
+      "WoodFurniture",
+      "Mirror",
+      "Aluminium",
+      "BookCover",
+      "BookPages",
+      "LampMetal",
+      "Glass",
+      "RoughGlass",
+      "PictureFrame",
+      "CurtainRod",
+      "Curtains",
+      "StainlessSmooth"
+    ],
+    "meshes": [
+      {
+        "name": "Mesh044.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh047.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh032.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh028.obj",
+        "material": "StainlessSmooth"
+      },
+      {
+        "name": "Mesh046.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh027.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh022.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh042.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh036.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh043.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh040.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "Mesh037.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh026.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh023.obj",
+        "material": "LampMetal"
+      },
+      {
+        "name": "Mesh059.obj",
+        "material": "LampEmitter"
+      },
+      {
+        "name": "Mesh049.obj",
+        "material": "RoughGlass"
+      },
+      {
+        "name": "Mesh060.obj",
+        "material": "WoodFloor"
+      },
+      {
+        "name": "Mesh033.obj",
+        "material": "DecoPlant"
+      },
+      {
+        "name": "Mesh025.obj",
+        "material": "Rocks1"
+      },
+      {
+        "name": "Mesh055.obj",
+        "material": "Rocks2"
+      },
+      {
+        "name": "Mesh035.obj",
+        "material": "Rocks3"
+      },
+      {
+        "name": "Mesh048.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh056.obj",
+        "material": "LampMetal"
+      },
+      {
+        "name": "Mesh058.obj",
+        "material": "PlasticCable"
+      },
+      {
+        "name": "Mesh061.obj",
+        "material": "LampEmitter"
+      },
+      {
+        "name": "Mesh051.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh066.obj",
+        "material": "LampMetal"
+      },
+      {
+        "name": "Mesh062.obj",
+        "material": "PlasticCable"
+      },
+      {
+        "name": "Mesh054.obj",
+        "material": "LampEmitter"
+      },
+      {
+        "name": "Mesh063.obj",
+        "material": "BookCover"
+      },
+      {
+        "name": "Mesh064.obj",
+        "material": "BookPages"
+      },
+      {
+        "name": "Mesh057.obj",
+        "material": "Curtains"
+      },
+      {
+        "name": "Mesh041.obj",
+        "material": "Bedsheets"
+      },
+      {
+        "name": "Mesh052.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh065.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh067.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh068.obj",
+        "material": "Bedsheets"
+      },
+      {
+        "name": "Mesh034.obj",
+        "material": "Bedsheets"
+      },
+      {
+        "name": "Mesh021.obj",
+        "material": "Matress"
+      },
+      {
+        "name": "Mesh020.obj",
+        "material": "Carpet"
+      },
+      {
+        "name": "Mesh019.obj",
+        "material": "Carpet"
+      },
+      {
+        "name": "Mesh018.obj",
+        "material": "Black"
+      },
+      {
+        "name": "Mesh017.obj",
+        "material": "Black"
+      },
+      {
+        "name": "Mesh069.obj",
+        "material": "Black"
+      },
+      {
+        "name": "Mesh015.obj",
+        "material": "CurtainRod"
+      },
+      {
+        "name": "Mesh014.obj",
+        "material": "CurtainRod"
+      },
+      {
+        "name": "Mesh012.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh011.obj",
+        "material": "Mirror"
+      },
+      {
+        "name": "Mesh013.obj",
+        "material": "Walls"
+      },
+      {
+        "name": "Mesh039.obj",
+        "material": "Window"
+      },
+      {
+        "name": "Mesh010.obj",
+        "material": "Window"
+      },
+      {
+        "name": "Mesh031.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh045.obj",
+        "material": "StainlessSmooth"
+      },
+      {
+        "name": "Mesh038.obj",
+        "material": "Mirror"
+      },
+      {
+        "name": "Mesh009.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh024.obj",
+        "material": "StainlessSmooth"
+      },
+      {
+        "name": "Mesh030.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh029.obj",
+        "material": "StainlessSmooth"
+      },
+      {
+        "name": "Mesh008.obj",
+        "material": "Walls2"
+      },
+      {
+        "name": "Mesh007.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh006.obj",
+        "material": "WoodFurniture"
+      },
+      {
+        "name": "Mesh005.obj",
+        "material": "StainlessSmooth"
+      },
+      {
+        "name": "Mesh004.obj",
+        "material": "Curtains"
+      },
+      {
+        "name": "Mesh050.obj",
+        "material": "PictureFrame"
+      },
+      {
+        "name": "Mesh053.obj",
+        "material": "PictureBacking"
+      },
+      {
+        "name": "Mesh003.obj",
+        "material": "Picture"
+      },
+      {
+        "name": "Mesh002.obj",
+        "material": "Boxes"
+      },
+      {
+        "name": "Mesh016.obj",
+        "material": "Blankets"
+      },
+      {
+        "name": "Mesh001.obj",
+        "material": "Blankets"
+      },
+      {
+        "name": "Mesh000.obj",
+        "material": "Blankets"
+      }
+    ],
     "resolution": [
       1270,
       720
@@ -305,7 +637,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "brassvase014k",
@@ -364,7 +698,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "camera014k",
@@ -423,7 +759,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "cashregister014k",
@@ -483,7 +821,9 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ALPHA_TEST"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "chandelier014k",
@@ -542,7 +882,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "classicconsole014k",
@@ -601,7 +943,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "coffeecart014k",
@@ -660,7 +1004,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "coffeepot",
@@ -720,6 +1066,95 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "Plastic_Orange",
+      "Plastic_Black",
+      "Glass",
+      "Metal",
+      "Floor"
+    ],
+    "meshes": [
+      {
+        "name": "Mesh003.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh005.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh007.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh008.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh011.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh013.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh014.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh017.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh018.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh019.obj",
+        "material": "Plastic_Black"
+      },
+      {
+        "name": "Mesh000.obj",
+        "material": "Plastic_Orange"
+      },
+      {
+        "name": "Mesh001.obj",
+        "material": "Plastic_Orange"
+      },
+      {
+        "name": "Mesh006.obj",
+        "material": "Plastic_Orange"
+      },
+      {
+        "name": "Mesh009.obj",
+        "material": "Plastic_Orange"
+      },
+      {
+        "name": "Mesh012.obj",
+        "material": "Plastic_Orange"
+      },
+      {
+        "name": "Mesh016.obj",
+        "material": "Plastic_Orange"
+      },
+      {
+        "name": "Mesh010.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh002.obj",
+        "material": "Metal"
+      },
+      {
+        "name": "Mesh015.obj",
+        "material": "Metal"
+      },
+      {
+        "name": "Mesh004.obj",
+        "material": "Floor"
+      }
+    ],
     "resolution": [
       700,
       900
@@ -785,6 +1220,45 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "ceiling_white",
+      "back_wall_white",
+      "floor_white",
+      "small_box_white",
+      "large_box_white",
+      "red",
+      "green"
+    ],
+    "meshes": [
+      {
+        "name": "cbox_ceiling.obj",
+        "material": "ceiling_white"
+      },
+      {
+        "name": "cbox_floor.obj",
+        "material": "floor_white"
+      },
+      {
+        "name": "cbox_back.obj",
+        "material": "back_wall_white"
+      },
+      {
+        "name": "cbox_smallbox.obj",
+        "material": "small_box_white"
+      },
+      {
+        "name": "cbox_largebox.obj",
+        "material": "large_box_white"
+      },
+      {
+        "name": "cbox_greenwall.obj",
+        "material": "green"
+      },
+      {
+        "name": "cbox_redwall.obj",
+        "material": "red"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -850,6 +1324,46 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "ceiling_white",
+      "back_wall_white",
+      "floor_white",
+      "small_box_white",
+      "large_box_white",
+      "red",
+      "green",
+      "glass"
+    ],
+    "meshes": [
+      {
+        "name": "cbox_ceiling.obj",
+        "material": "ceiling_white"
+      },
+      {
+        "name": "cbox_floor.obj",
+        "material": "floor_white"
+      },
+      {
+        "name": "cbox_back.obj",
+        "material": "back_wall_white"
+      },
+      {
+        "name": "glass_sphere.obj",
+        "material": "glass"
+      },
+      {
+        "name": "cbox_largebox.obj",
+        "material": "large_box_white"
+      },
+      {
+        "name": "cbox_greenwall.obj",
+        "material": "green"
+      },
+      {
+        "name": "cbox_redwall.obj",
+        "material": "red"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -915,6 +1429,214 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "BlackPlastic",
+      "StainlessSteel",
+      "Aluminium",
+      "Glass",
+      "Ceramic",
+      "WoodenFloor",
+      "WoodenBox",
+      "Painting",
+      "Walls",
+      "Green",
+      "DarkGlossy",
+      "ShelfBookCover1",
+      "ShelfBookCover2",
+      "Book1",
+      "Book2",
+      "Book3",
+      "Book4",
+      "Book6",
+      "Book7",
+      "Book8",
+      "Book9",
+      "Book10",
+      "Book11",
+      "Book14",
+      "Book15",
+      "Book16",
+      "Book17",
+      "Book18"
+    ],
+    "meshes": [
+      {
+        "name": "bucket1.obj",
+        "material": "WoodenBox"
+      },
+      {
+        "name": "bucket2.obj",
+        "material": "WoodenBox"
+      },
+      {
+        "name": "bucket3.obj",
+        "material": "WoodenBox"
+      },
+      {
+        "name": "bucket4.obj",
+        "material": "WoodenBox"
+      },
+      {
+        "name": "chair_legs.obj",
+        "material": "StainlessSteel"
+      },
+      {
+        "name": "chair_nuts.obj",
+        "material": "StainlessSteel"
+      },
+      {
+        "name": "chair_rubber_pegs.obj",
+        "material": "BlackPlastic"
+      },
+      {
+        "name": "chair_seats.obj",
+        "material": "BlackPlastic"
+      },
+      {
+        "name": "cupboards.obj",
+        "material": "DarkGlossy"
+      },
+      {
+        "name": "floor.obj",
+        "material": "WoodenFloor"
+      },
+      {
+        "name": "floor_frame.obj",
+        "material": "WoodenFloor"
+      },
+      {
+        "name": "frame1.obj",
+        "material": "StainlessSteel"
+      },
+      {
+        "name": "frame2.obj",
+        "material": "StainlessSteel"
+      },
+      {
+        "name": "left_front_wall.obj",
+        "material": "Walls"
+      },
+      {
+        "name": "rightwall.obj",
+        "material": "Green"
+      },
+      {
+        "name": "picture1.obj",
+        "material": "Painting"
+      },
+      {
+        "name": "picture2.obj",
+        "material": "Painting"
+      },
+      {
+        "name": "plant.obj",
+        "material": "DarkGlossy"
+      },
+      {
+        "name": "shelf.obj",
+        "material": "Walls"
+      },
+      {
+        "name": "table_glass.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "table_legs.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "vase.obj",
+        "material": "Ceramic"
+      },
+      {
+        "name": "shelf_book1.obj",
+        "material": "ShelfBookCover1"
+      },
+      {
+        "name": "shelf_book2.obj",
+        "material": "ShelfBookCover2"
+      },
+      {
+        "name": "shelf_objects.obj",
+        "material": "Aluminium"
+      },
+      {
+        "name": "shelf_object2.obj",
+        "material": "DarkGlossy"
+      },
+      {
+        "name": "book1.obj",
+        "material": "Book1"
+      },
+      {
+        "name": "book2.obj",
+        "material": "Book2"
+      },
+      {
+        "name": "book3.obj",
+        "material": "Book3"
+      },
+      {
+        "name": "book4.obj",
+        "material": "Book4"
+      },
+      {
+        "name": "book5.obj",
+        "material": "ShelfBookCover1"
+      },
+      {
+        "name": "book6.obj",
+        "material": "Book6"
+      },
+      {
+        "name": "book7.obj",
+        "material": "Book7"
+      },
+      {
+        "name": "book8.obj",
+        "material": "Book8"
+      },
+      {
+        "name": "book9.obj",
+        "material": "Book9"
+      },
+      {
+        "name": "book10.obj",
+        "material": "Book10"
+      },
+      {
+        "name": "book11.obj",
+        "material": "Book11"
+      },
+      {
+        "name": "book12.obj",
+        "material": "ShelfBookCover2"
+      },
+      {
+        "name": "book13.obj",
+        "material": "Book3"
+      },
+      {
+        "name": "book14.obj",
+        "material": "Book14"
+      },
+      {
+        "name": "book15.obj",
+        "material": "Book15"
+      },
+      {
+        "name": "book16.obj",
+        "material": "Book16"
+      },
+      {
+        "name": "book17.obj",
+        "material": "Book17"
+      },
+      {
+        "name": "book18.obj",
+        "material": "Book18"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -981,6 +1703,15 @@
       "OPT_MEDIUM"
     ],
     "withTexture": false,
+    "materials": [
+      "glass"
+    ],
+    "meshes": [
+      {
+        "name": "dragon.obj",
+        "material": "glass"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1046,6 +1777,15 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "glass"
+    ],
+    "meshes": [
+      {
+        "name": "sphere.obj",
+        "material": "glass"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1111,6 +1851,62 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "orange",
+      "glass",
+      "silver",
+      "ring_silver",
+      "off_white",
+      "ping",
+      "marb1",
+      "marb2"
+    ],
+    "meshes": [
+      {
+        "name": "glass.obj",
+        "material": "glass"
+      },
+      {
+        "name": "chrome.obj",
+        "material": "silver"
+      },
+      {
+        "name": "plate.obj",
+        "material": "off_white"
+      },
+      {
+        "name": "floor.obj",
+        "material": "off_white"
+      },
+      {
+        "name": "orange.obj",
+        "material": "orange"
+      },
+      {
+        "name": "ring1.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "ring2.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "ring3.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "marb1.obj",
+        "material": "marb1"
+      },
+      {
+        "name": "marb2.obj",
+        "material": "marb2"
+      },
+      {
+        "name": "pingpong.obj",
+        "material": "ping"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1176,6 +1972,68 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "black",
+      "orange",
+      "glass",
+      "silver",
+      "ring_silver",
+      "red",
+      "off_white",
+      "ping",
+      "marb1",
+      "marb2"
+    ],
+    "meshes": [
+      {
+        "name": "glass.obj",
+        "material": "glass"
+      },
+      {
+        "name": "dragon.obj",
+        "material": "black"
+      },
+      {
+        "name": "chrome.obj",
+        "material": "silver"
+      },
+      {
+        "name": "plate.obj",
+        "material": "red"
+      },
+      {
+        "name": "floor.obj",
+        "material": "red"
+      },
+      {
+        "name": "orange.obj",
+        "material": "orange"
+      },
+      {
+        "name": "ring1.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "ring2.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "ring3.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "marb1.obj",
+        "material": "marb1"
+      },
+      {
+        "name": "marb2.obj",
+        "material": "marb2"
+      },
+      {
+        "name": "pingpong.obj",
+        "material": "ping"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1241,6 +2099,62 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "orange",
+      "glass",
+      "silver",
+      "ring_silver",
+      "off_white",
+      "ping",
+      "marb1",
+      "marb2"
+    ],
+    "meshes": [
+      {
+        "name": "glass.obj",
+        "material": "glass"
+      },
+      {
+        "name": "chrome.obj",
+        "material": "silver"
+      },
+      {
+        "name": "plate.obj",
+        "material": "off_white"
+      },
+      {
+        "name": "floor.obj",
+        "material": "off_white"
+      },
+      {
+        "name": "orange.obj",
+        "material": "orange"
+      },
+      {
+        "name": "ring1.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "ring2.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "ring3.obj",
+        "material": "ring_silver"
+      },
+      {
+        "name": "marb1.obj",
+        "material": "marb1"
+      },
+      {
+        "name": "marb2.obj",
+        "material": "marb2"
+      },
+      {
+        "name": "pingpong.obj",
+        "material": "ping"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1305,7 +2219,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "littlesttokyo",
@@ -1365,7 +2281,9 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ALPHA_TEST"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "mustangred",
@@ -1425,6 +2343,60 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "floor",
+      "black",
+      "chrome",
+      "glass",
+      "headlight",
+      "yellow_blinkers",
+      "red_taillight",
+      "paint",
+      "red_interior",
+      "tyres"
+    ],
+    "meshes": [
+      {
+        "name": "Black.obj",
+        "material": "black"
+      },
+      {
+        "name": "Body.obj",
+        "material": "paint"
+      },
+      {
+        "name": "Chrome.obj",
+        "material": "chrome"
+      },
+      {
+        "name": "Floor.obj",
+        "material": "floor"
+      },
+      {
+        "name": "Front_Blinkers.obj",
+        "material": "yellow_blinkers"
+      },
+      {
+        "name": "Glass.obj",
+        "material": "glass"
+      },
+      {
+        "name": "Lights.obj",
+        "material": "headlight"
+      },
+      {
+        "name": "Red_Interior.obj",
+        "material": "red_interior"
+      },
+      {
+        "name": "Tail_Lights.obj",
+        "material": "red_taillight"
+      },
+      {
+        "name": "Tyres.obj",
+        "material": "tyres"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1490,6 +2462,60 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "floor",
+      "black",
+      "chrome",
+      "glass",
+      "headlight",
+      "yellow_blinkers",
+      "red_taillight",
+      "paint",
+      "red_interior",
+      "tyres"
+    ],
+    "meshes": [
+      {
+        "name": "Black.obj",
+        "material": "black"
+      },
+      {
+        "name": "Body.obj",
+        "material": "paint"
+      },
+      {
+        "name": "Chrome.obj",
+        "material": "chrome"
+      },
+      {
+        "name": "Floor.obj",
+        "material": "floor"
+      },
+      {
+        "name": "Front_Blinkers.obj",
+        "material": "yellow_blinkers"
+      },
+      {
+        "name": "Glass.obj",
+        "material": "glass"
+      },
+      {
+        "name": "Lights.obj",
+        "material": "headlight"
+      },
+      {
+        "name": "Red_Interior.obj",
+        "material": "red_interior"
+      },
+      {
+        "name": "Tail_Lights.obj",
+        "material": "red_taillight"
+      },
+      {
+        "name": "Tyres.obj",
+        "material": "tyres"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1555,6 +2581,60 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "floor",
+      "black",
+      "chrome",
+      "glass",
+      "headlight",
+      "yellow_blinkers",
+      "red_taillight",
+      "paint",
+      "red_interior",
+      "tyres"
+    ],
+    "meshes": [
+      {
+        "name": "Black.obj",
+        "material": "black"
+      },
+      {
+        "name": "Body.obj",
+        "material": "paint"
+      },
+      {
+        "name": "Chrome.obj",
+        "material": "chrome"
+      },
+      {
+        "name": "Floor.obj",
+        "material": "floor"
+      },
+      {
+        "name": "Front_Blinkers.obj",
+        "material": "yellow_blinkers"
+      },
+      {
+        "name": "Glass.obj",
+        "material": "glass"
+      },
+      {
+        "name": "Lights.obj",
+        "material": "headlight"
+      },
+      {
+        "name": "Red_Interior.obj",
+        "material": "red_interior"
+      },
+      {
+        "name": "Tail_Lights.obj",
+        "material": "red_taillight"
+      },
+      {
+        "name": "Tyres.obj",
+        "material": "tyres"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1620,7 +2700,9 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ALPHA_TEST"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "panther",
@@ -1681,6 +2763,19 @@
       "OPT_HIDE_EMITTERS"
     ],
     "withTexture": false,
+    "materials": [
+      "orange"
+    ],
+    "meshes": [
+      {
+        "name": "panther.obj",
+        "material": "orange"
+      },
+      {
+        "name": "background.obj",
+        "material": "orange"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1745,7 +2840,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "rank3police",
@@ -1806,6 +2903,282 @@
       "OPT_HIDE_EMITTERS"
     ],
     "withTexture": true,
+    "materials": [
+      "object10",
+      "object11",
+      "object12",
+      "object13",
+      "object14001",
+      "object15",
+      "object16",
+      "object18",
+      "object19",
+      "object20",
+      "object21",
+      "object22",
+      "object23",
+      "object25",
+      "object26",
+      "object3",
+      "object32",
+      "object33",
+      "object35",
+      "object36",
+      "object37",
+      "object38",
+      "object39",
+      "object40",
+      "object42",
+      "object43",
+      "object44",
+      "object45",
+      "object46",
+      "object47",
+      "object48",
+      "object5",
+      "object51",
+      "object52",
+      "object53",
+      "object54",
+      "object57",
+      "object58",
+      "emissive",
+      "emissive_red"
+    ],
+    "meshes": [
+      {
+        "name": "object10.obj",
+        "material": "object10"
+      },
+      {
+        "name": "object11.obj",
+        "material": "object11"
+      },
+      {
+        "name": "object12.obj",
+        "material": "object12"
+      },
+      {
+        "name": "object13.obj",
+        "material": "object13"
+      },
+      {
+        "name": "object14001.obj",
+        "material": "object14001"
+      },
+      {
+        "name": "object15.obj",
+        "material": "object15"
+      },
+      {
+        "name": "object16.obj",
+        "material": "object16"
+      },
+      {
+        "name": "object17.obj",
+        "material": "object16"
+      },
+      {
+        "name": "object18.obj",
+        "material": "object18"
+      },
+      {
+        "name": "object19.obj",
+        "material": "object19"
+      },
+      {
+        "name": "object20.obj",
+        "material": "object20"
+      },
+      {
+        "name": "object21.obj",
+        "material": "object21"
+      },
+      {
+        "name": "object22.obj",
+        "material": "object22"
+      },
+      {
+        "name": "object23.obj",
+        "material": "object23"
+      },
+      {
+        "name": "object24.obj",
+        "material": "object23"
+      },
+      {
+        "name": "object25.obj",
+        "material": "object25"
+      },
+      {
+        "name": "object26.obj",
+        "material": "object26"
+      },
+      {
+        "name": "object27.obj",
+        "material": "object26"
+      },
+      {
+        "name": "object28.obj",
+        "material": "object26"
+      },
+      {
+        "name": "object29.obj",
+        "material": "object26"
+      },
+      {
+        "name": "object30.obj",
+        "material": "object26"
+      },
+      {
+        "name": "object31.obj",
+        "material": "object26"
+      },
+      {
+        "name": "object32.obj",
+        "material": "object32"
+      },
+      {
+        "name": "object33.obj",
+        "material": "object33"
+      },
+      {
+        "name": "object34.obj",
+        "material": "object33"
+      },
+      {
+        "name": "object35.obj",
+        "material": "object35"
+      },
+      {
+        "name": "object36.obj",
+        "material": "object36"
+      },
+      {
+        "name": "object37.obj",
+        "material": "object37"
+      },
+      {
+        "name": "object38.obj",
+        "material": "object38"
+      },
+      {
+        "name": "object39.obj",
+        "material": "object39"
+      },
+      {
+        "name": "object4.obj",
+        "material": "object3"
+      },
+      {
+        "name": "object40.obj",
+        "material": "object40"
+      },
+      {
+        "name": "object41.obj",
+        "material": "object40"
+      },
+      {
+        "name": "object42.obj",
+        "material": "object42"
+      },
+      {
+        "name": "object43.obj",
+        "material": "object43"
+      },
+      {
+        "name": "object44.obj",
+        "material": "object44"
+      },
+      {
+        "name": "object45.obj",
+        "material": "object45"
+      },
+      {
+        "name": "object46.obj",
+        "material": "object46"
+      },
+      {
+        "name": "object47.obj",
+        "material": "object47"
+      },
+      {
+        "name": "object48.obj",
+        "material": "object48"
+      },
+      {
+        "name": "object49.obj",
+        "material": "object48"
+      },
+      {
+        "name": "object5.obj",
+        "material": "object5"
+      },
+      {
+        "name": "object50.obj",
+        "material": "object48"
+      },
+      {
+        "name": "object51.obj",
+        "material": "object51"
+      },
+      {
+        "name": "object52.obj",
+        "material": "object52"
+      },
+      {
+        "name": "object53.obj",
+        "material": "object53"
+      },
+      {
+        "name": "object54.obj",
+        "material": "object54"
+      },
+      {
+        "name": "object55.obj",
+        "material": "object48"
+      },
+      {
+        "name": "object56.obj",
+        "material": "object48"
+      },
+      {
+        "name": "object57.obj",
+        "material": "object57"
+      },
+      {
+        "name": "object58.obj",
+        "material": "object58"
+      },
+      {
+        "name": "object60.obj",
+        "material": "emissive_red"
+      },
+      {
+        "name": "object61.obj",
+        "material": "emissive"
+      },
+      {
+        "name": "object62.obj",
+        "material": "emissive"
+      },
+      {
+        "name": "object63.obj",
+        "material": "emissive"
+      },
+      {
+        "name": "object64.obj",
+        "material": "emissive"
+      },
+      {
+        "name": "object65.obj",
+        "material": "emissive"
+      },
+      {
+        "name": "object66.obj",
+        "material": "emissive"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1872,6 +3245,78 @@
       "OPT_MEDIUM"
     ],
     "withTexture": true,
+    "materials": [
+      "blue_tiles",
+      "rough_glass",
+      "chrome",
+      "purple_glass",
+      "teal_glass",
+      "gold",
+      "blue_cloth",
+      "purple_cloth",
+      "blue_scratched",
+      "marble",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "chrome"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "teal_glass"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "gold"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "blue_scratched"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "marble"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "blue_tiles"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "cloth.obj",
+        "material": "purple_cloth"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -1937,6 +3382,25 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "base",
+      "chrome",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "chrome"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2002,6 +3466,30 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "marble",
+      "purple_cloth",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "marble"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      },
+      {
+        "name": "cloth.obj",
+        "material": "purple_cloth"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2067,6 +3555,25 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "gold",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "gold"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2132,6 +3639,25 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "red_plastic",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "red_plastic"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2197,6 +3723,25 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "blue_scratched",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "blue_scratched"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2263,6 +3808,25 @@
       "OPT_MEDIUM"
     ],
     "withTexture": true,
+    "materials": [
+      "teal_glass",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "teal_glass"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2328,6 +3892,25 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "blue_tiles",
+      "base",
+      "checker"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "checker"
+      },
+      {
+        "name": "teapot.obj",
+        "material": "blue_tiles"
+      },
+      {
+        "name": "teapot_base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2392,7 +3975,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "roughnessmollification",
@@ -2451,6 +4036,20 @@
       "OPT_ROUGHNESS_MOLLIFICATION"
     ],
     "withTexture": false,
+    "materials": [
+      "glass",
+      "white"
+    ],
+    "meshes": [
+      {
+        "name": "box_and_spheres.obj",
+        "material": "glass"
+      },
+      {
+        "name": "background.obj",
+        "material": "white"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2515,7 +4114,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "slumhouse",
@@ -2575,7 +4176,9 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ALPHA_TEST"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "sofa034k",
@@ -2635,7 +4238,9 @@
       "OPT_OPENGL_NORMALMAP",
       "OPT_ALPHA_TEST"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "spaceship",
@@ -2695,6 +4300,366 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "Backdrop",
+      "RoughAluminium",
+      "RoughSteel",
+      "DarkPlastic",
+      "PinkLeather",
+      "Leather",
+      "RedLeather",
+      "BrightPinkLeather",
+      "Glass",
+      "DarkRubber",
+      "Light1",
+      "Light2"
+    ],
+    "meshes": [
+      {
+        "name": "Mesh050.obj",
+        "material": "Backdrop"
+      },
+      {
+        "name": "Mesh042.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh038.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh040.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh072.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh027.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh067.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh060.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh065.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh048.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh066.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh046.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh076.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh059.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh057.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh062.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh074.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh075.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh078.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh081.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh034.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh084.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh085.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh073.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh077.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh087.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh052.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh025.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh024.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh086.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh023.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh021.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh039.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh020.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh032.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh018.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh070.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh016.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh015.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh054.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh013.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh079.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh041.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh012.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh011.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh010.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh083.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh069.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh009.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh007.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh017.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh037.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh005.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh004.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh002.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh056.obj",
+        "material": "RoughAluminium"
+      },
+      {
+        "name": "Mesh033.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh064.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh058.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh026.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh047.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh071.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh019.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh006.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh008.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh045.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh049.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh014.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh003.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh051.obj",
+        "material": "RoughSteel"
+      },
+      {
+        "name": "Mesh001.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Mesh055.obj",
+        "material": "RedLeather"
+      },
+      {
+        "name": "Mesh036.obj",
+        "material": "RedLeather"
+      },
+      {
+        "name": "Mesh031.obj",
+        "material": "RedLeather"
+      },
+      {
+        "name": "Mesh022.obj",
+        "material": "RedLeather"
+      },
+      {
+        "name": "Mesh053.obj",
+        "material": "DarkPlastic"
+      },
+      {
+        "name": "Mesh061.obj",
+        "material": "DarkPlastic"
+      },
+      {
+        "name": "Mesh035.obj",
+        "material": "PinkLeather"
+      },
+      {
+        "name": "Mesh030.obj",
+        "material": "PinkLeather"
+      },
+      {
+        "name": "Mesh000.obj",
+        "material": "BrightPinkLeather"
+      },
+      {
+        "name": "Mesh044.obj",
+        "material": "Leather"
+      },
+      {
+        "name": "Mesh028.obj",
+        "material": "Leather"
+      },
+      {
+        "name": "Mesh063.obj",
+        "material": "DarkRubber"
+      },
+      {
+        "name": "Mesh068.obj",
+        "material": "DarkRubber"
+      },
+      {
+        "name": "Mesh029.obj",
+        "material": "Light2"
+      },
+      {
+        "name": "Mesh043.obj",
+        "material": "Light1"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2760,6 +4725,110 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "WoodFloor",
+      "Wallpaper",
+      "WoodStairs",
+      "WhitePaint",
+      "MagnoliaPaint",
+      "Painting1",
+      "Painting2",
+      "Painting3",
+      "Gold",
+      "WoodChair",
+      "ChairSeat",
+      "WoodLamp",
+      "Brass",
+      "StainlessSteel",
+      "WhitePlastic",
+      "Lampshade",
+      "Black",
+      "BrushedAluminium",
+      "Glass",
+      "Candles"
+    ],
+    "meshes": [
+      {
+        "name": "Black.obj",
+        "material": "Black"
+      },
+      {
+        "name": "Brass.obj",
+        "material": "Brass"
+      },
+      {
+        "name": "BrushedAluminium.obj",
+        "material": "BrushedAluminium"
+      },
+      {
+        "name": "Candles.obj",
+        "material": "Candles"
+      },
+      {
+        "name": "ChairSeat.obj",
+        "material": "ChairSeat"
+      },
+      {
+        "name": "Glass.obj",
+        "material": "Glass"
+      },
+      {
+        "name": "Gold.obj",
+        "material": "Gold"
+      },
+      {
+        "name": "Lampshade.obj",
+        "material": "Lampshade"
+      },
+      {
+        "name": "MagnoliaPaint.obj",
+        "material": "MagnoliaPaint"
+      },
+      {
+        "name": "Painting1.obj",
+        "material": "Painting1"
+      },
+      {
+        "name": "Painting2.obj",
+        "material": "Painting2"
+      },
+      {
+        "name": "Painting3.obj",
+        "material": "Painting3"
+      },
+      {
+        "name": "StainlessSteel.obj",
+        "material": "StainlessSteel"
+      },
+      {
+        "name": "Wallpaper.obj",
+        "material": "Wallpaper"
+      },
+      {
+        "name": "WhitePaint.obj",
+        "material": "WhitePaint"
+      },
+      {
+        "name": "WhitePlastic.obj",
+        "material": "WhitePlastic"
+      },
+      {
+        "name": "WoodChair.obj",
+        "material": "WoodChair"
+      },
+      {
+        "name": "WoodFloor.obj",
+        "material": "WoodFloor"
+      },
+      {
+        "name": "WoodLamp.obj",
+        "material": "WoodLamp"
+      },
+      {
+        "name": "WoodStairs.obj",
+        "material": "WoodStairs"
+      }
+    ],
     "resolution": [
       640,
       800
@@ -2824,6 +4893,25 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "white_helmet",
+      "white_box",
+      "black_visor"
+    ],
+    "meshes": [
+      {
+        "name": "box.obj",
+        "material": "white_box"
+      },
+      {
+        "name": "frame.obj",
+        "material": "black_visor"
+      },
+      {
+        "name": "helmets_simplified.obj",
+        "material": "white_helmet"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2889,6 +4977,42 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "head",
+      "body",
+      "base",
+      "grid"
+    ],
+    "meshes": [
+      {
+        "name": "background.obj",
+        "material": "grid"
+      },
+      {
+        "name": "head.obj",
+        "material": "head"
+      },
+      {
+        "name": "body.obj",
+        "material": "body"
+      },
+      {
+        "name": "base.obj",
+        "material": "base"
+      },
+      {
+        "name": "head.obj",
+        "material": "head"
+      },
+      {
+        "name": "body.obj",
+        "material": "body"
+      },
+      {
+        "name": "base.obj",
+        "material": "base"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -2958,6 +5082,23 @@
       "OPT_VOL_MIS"
     ],
     "withTexture": false,
+    "materials": [
+      "volume_scatter"
+    ],
+    "meshes": [
+      {
+        "name": "head.obj",
+        "material": "volume_scatter"
+      },
+      {
+        "name": "body.obj",
+        "material": "volume_scatter"
+      },
+      {
+        "name": "base.obj",
+        "material": "volume_scatter"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -3023,6 +5164,24 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "checker",
+      "white"
+    ],
+    "meshes": [
+      {
+        "name": "Mesh000.obj",
+        "material": "white"
+      },
+      {
+        "name": "Mesh001.obj",
+        "material": "white"
+      },
+      {
+        "name": "Mesh050.obj",
+        "material": "checker"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -3087,7 +5246,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "test",
@@ -3146,7 +5307,9 @@
       "OPT_RR_DEPTH 2",
       "OPT_OPENGL_NORMALMAP"
     ],
-    "withTexture": true
+    "withTexture": true,
+    "materials": [],
+    "meshes": []
   },
   {
     "scene": "testmaterial",
@@ -3206,6 +5369,24 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "test",
+      "ground"
+    ],
+    "meshes": [
+      {
+        "name": "cube.obj",
+        "material": "test"
+      },
+      {
+        "name": "sphere.obj",
+        "material": "test"
+      },
+      {
+        "name": "floor.obj",
+        "material": "ground"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -3271,6 +5452,19 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "grey"
+    ],
+    "meshes": [
+      {
+        "name": "floor.obj",
+        "material": "grey"
+      },
+      {
+        "name": "cube.obj",
+        "material": "grey"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -3336,6 +5530,15 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "white"
+    ],
+    "meshes": [
+      {
+        "name": "floor.obj",
+        "material": "white"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -3401,6 +5604,15 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "white"
+    ],
+    "meshes": [
+      {
+        "name": "floor.obj",
+        "material": "white"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -3466,6 +5678,15 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "white"
+    ],
+    "meshes": [
+      {
+        "name": "floor.obj",
+        "material": "white"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -3531,6 +5752,39 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": false,
+    "materials": [
+      "white",
+      "metal_1",
+      "metal_2",
+      "metal_3",
+      "metal_4"
+    ],
+    "meshes": [
+      {
+        "name": "plate1.obj",
+        "material": "metal_1"
+      },
+      {
+        "name": "plate2.obj",
+        "material": "metal_2"
+      },
+      {
+        "name": "plate3.obj",
+        "material": "metal_3"
+      },
+      {
+        "name": "plate4.obj",
+        "material": "metal_4"
+      },
+      {
+        "name": "floor.obj",
+        "material": "white"
+      },
+      {
+        "name": "wall.obj",
+        "material": "white"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -3599,6 +5853,265 @@
       "OPT_VOL_MIS"
     ],
     "withTexture": true,
+    "materials": [
+      "water",
+      "wood",
+      "floor",
+      "grass",
+      "rock",
+      "sand",
+      "palm"
+    ],
+    "meshes": [
+      {
+        "name": "boat.obj",
+        "material": "wood"
+      },
+      {
+        "name": "rope.obj",
+        "material": "wood"
+      },
+      {
+        "name": "dock1.obj",
+        "material": "wood"
+      },
+      {
+        "name": "dock2.obj",
+        "material": "wood"
+      },
+      {
+        "name": "oar1.obj",
+        "material": "wood"
+      },
+      {
+        "name": "oar2.obj",
+        "material": "wood"
+      },
+      {
+        "name": "plank1.obj",
+        "material": "wood"
+      },
+      {
+        "name": "plank2.obj",
+        "material": "wood"
+      },
+      {
+        "name": "plank3.obj",
+        "material": "wood"
+      },
+      {
+        "name": "floor.obj",
+        "material": "floor"
+      },
+      {
+        "name": "grass.obj",
+        "material": "grass"
+      },
+      {
+        "name": "rock1.obj",
+        "material": "rock"
+      },
+      {
+        "name": "rock2.obj",
+        "material": "rock"
+      },
+      {
+        "name": "rock3.obj",
+        "material": "rock"
+      },
+      {
+        "name": "rock4.obj",
+        "material": "rock"
+      },
+      {
+        "name": "rock5.obj",
+        "material": "rock"
+      },
+      {
+        "name": "rock6.obj",
+        "material": "rock"
+      },
+      {
+        "name": "rock7.obj",
+        "material": "rock"
+      },
+      {
+        "name": "sand.obj",
+        "material": "sand"
+      },
+      {
+        "name": "water.obj",
+        "material": "water"
+      },
+      {
+        "name": "trunk1.obj",
+        "material": "wood"
+      },
+      {
+        "name": "trunk2.obj",
+        "material": "wood"
+      },
+      {
+        "name": "leaf1.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf2.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf3.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf4.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf5.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf6.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf7.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf8.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf9.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf10.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf11.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf12.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf13.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf14.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf15.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf16.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf17.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf18.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf19.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf20.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf21.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf22.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf23.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf24.obj",
+        "material": "palm"
+      },
+      {
+        "name": "leaf25.obj",
+        "material": "palm"
+      },
+      {
+        "name": "shortleaf1.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf2.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf3.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf4.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf5.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf6.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf7.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf8.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf9.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf10.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf11.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf12.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf13.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf14.obj",
+        "material": "grass"
+      },
+      {
+        "name": "shortleaf15.obj",
+        "material": "grass"
+      }
+    ],
     "resolution": [
       800,
       800
@@ -3664,6 +6177,29 @@
       "OPT_OPENGL_NORMALMAP"
     ],
     "withTexture": true,
+    "materials": [
+      "stand",
+      "checker",
+      "test"
+    ],
+    "meshes": [
+      {
+        "name": "Mesh000.obj",
+        "material": "stand"
+      },
+      {
+        "name": "Mesh001.obj",
+        "material": "test"
+      },
+      {
+        "name": "Mesh002.obj",
+        "material": "test"
+      },
+      {
+        "name": "Plane.obj",
+        "material": "checker"
+      }
+    ],
     "resolution": [
       1280,
       720
@@ -3732,6 +6268,20 @@
       "OPT_VOL_MIS"
     ],
     "withTexture": false,
+    "materials": [
+      "volume",
+      "black"
+    ],
+    "meshes": [
+      {
+        "name": "cube.obj",
+        "material": "volume"
+      },
+      {
+        "name": "floor.obj",
+        "material": "black"
+      }
+    ],
     "resolution": [
       1280,
       720

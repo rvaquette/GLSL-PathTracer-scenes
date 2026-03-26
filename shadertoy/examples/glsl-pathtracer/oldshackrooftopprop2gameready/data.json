@@ -56,5 +56,7 @@
     "OPT_OPENGL_NORMALMAP",
     "OPT_ALPHA_TEST"
   ],
-  "withTexture": true
+  "withTexture": true,
+  "materials": [],
+  "meshes": []
 }

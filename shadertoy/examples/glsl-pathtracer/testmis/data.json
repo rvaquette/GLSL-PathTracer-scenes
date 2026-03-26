@@ -56,6 +56,19 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "grey"
+  ],
+  "meshes": [
+    {
+      "name": "floor.obj",
+      "material": "grey"
+    },
+    {
+      "name": "cube.obj",
+      "material": "grey"
+    }
+  ],
   "resolution": [
     800,
     800

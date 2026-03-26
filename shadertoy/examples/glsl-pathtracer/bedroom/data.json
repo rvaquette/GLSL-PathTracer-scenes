@@ -56,6 +56,320 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "Boxes",
+    "PlasticCable",
+    "LampEmitter",
+    "Blankets",
+    "Bedsheets",
+    "Window",
+    "PictureBacking",
+    "Picture",
+    "Rocks1",
+    "Rocks2",
+    "Rocks3",
+    "DecoPlant",
+    "Black",
+    "Carpet",
+    "Matress",
+    "WoodFloor",
+    "Walls",
+    "Walls2",
+    "WoodFurniture",
+    "Mirror",
+    "Aluminium",
+    "BookCover",
+    "BookPages",
+    "LampMetal",
+    "Glass",
+    "RoughGlass",
+    "PictureFrame",
+    "CurtainRod",
+    "Curtains",
+    "StainlessSmooth"
+  ],
+  "meshes": [
+    {
+      "name": "Mesh044.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh047.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh032.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh028.obj",
+      "material": "StainlessSmooth"
+    },
+    {
+      "name": "Mesh046.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh027.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh022.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh042.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh036.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh043.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh040.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "Mesh037.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh026.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh023.obj",
+      "material": "LampMetal"
+    },
+    {
+      "name": "Mesh059.obj",
+      "material": "LampEmitter"
+    },
+    {
+      "name": "Mesh049.obj",
+      "material": "RoughGlass"
+    },
+    {
+      "name": "Mesh060.obj",
+      "material": "WoodFloor"
+    },
+    {
+      "name": "Mesh033.obj",
+      "material": "DecoPlant"
+    },
+    {
+      "name": "Mesh025.obj",
+      "material": "Rocks1"
+    },
+    {
+      "name": "Mesh055.obj",
+      "material": "Rocks2"
+    },
+    {
+      "name": "Mesh035.obj",
+      "material": "Rocks3"
+    },
+    {
+      "name": "Mesh048.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh056.obj",
+      "material": "LampMetal"
+    },
+    {
+      "name": "Mesh058.obj",
+      "material": "PlasticCable"
+    },
+    {
+      "name": "Mesh061.obj",
+      "material": "LampEmitter"
+    },
+    {
+      "name": "Mesh051.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh066.obj",
+      "material": "LampMetal"
+    },
+    {
+      "name": "Mesh062.obj",
+      "material": "PlasticCable"
+    },
+    {
+      "name": "Mesh054.obj",
+      "material": "LampEmitter"
+    },
+    {
+      "name": "Mesh063.obj",
+      "material": "BookCover"
+    },
+    {
+      "name": "Mesh064.obj",
+      "material": "BookPages"
+    },
+    {
+      "name": "Mesh057.obj",
+      "material": "Curtains"
+    },
+    {
+      "name": "Mesh041.obj",
+      "material": "Bedsheets"
+    },
+    {
+      "name": "Mesh052.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh065.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh067.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh068.obj",
+      "material": "Bedsheets"
+    },
+    {
+      "name": "Mesh034.obj",
+      "material": "Bedsheets"
+    },
+    {
+      "name": "Mesh021.obj",
+      "material": "Matress"
+    },
+    {
+      "name": "Mesh020.obj",
+      "material": "Carpet"
+    },
+    {
+      "name": "Mesh019.obj",
+      "material": "Carpet"
+    },
+    {
+      "name": "Mesh018.obj",
+      "material": "Black"
+    },
+    {
+      "name": "Mesh017.obj",
+      "material": "Black"
+    },
+    {
+      "name": "Mesh069.obj",
+      "material": "Black"
+    },
+    {
+      "name": "Mesh015.obj",
+      "material": "CurtainRod"
+    },
+    {
+      "name": "Mesh014.obj",
+      "material": "CurtainRod"
+    },
+    {
+      "name": "Mesh012.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh011.obj",
+      "material": "Mirror"
+    },
+    {
+      "name": "Mesh013.obj",
+      "material": "Walls"
+    },
+    {
+      "name": "Mesh039.obj",
+      "material": "Window"
+    },
+    {
+      "name": "Mesh010.obj",
+      "material": "Window"
+    },
+    {
+      "name": "Mesh031.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh045.obj",
+      "material": "StainlessSmooth"
+    },
+    {
+      "name": "Mesh038.obj",
+      "material": "Mirror"
+    },
+    {
+      "name": "Mesh009.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh024.obj",
+      "material": "StainlessSmooth"
+    },
+    {
+      "name": "Mesh030.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh029.obj",
+      "material": "StainlessSmooth"
+    },
+    {
+      "name": "Mesh008.obj",
+      "material": "Walls2"
+    },
+    {
+      "name": "Mesh007.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh006.obj",
+      "material": "WoodFurniture"
+    },
+    {
+      "name": "Mesh005.obj",
+      "material": "StainlessSmooth"
+    },
+    {
+      "name": "Mesh004.obj",
+      "material": "Curtains"
+    },
+    {
+      "name": "Mesh050.obj",
+      "material": "PictureFrame"
+    },
+    {
+      "name": "Mesh053.obj",
+      "material": "PictureBacking"
+    },
+    {
+      "name": "Mesh003.obj",
+      "material": "Picture"
+    },
+    {
+      "name": "Mesh002.obj",
+      "material": "Boxes"
+    },
+    {
+      "name": "Mesh016.obj",
+      "material": "Blankets"
+    },
+    {
+      "name": "Mesh001.obj",
+      "material": "Blankets"
+    },
+    {
+      "name": "Mesh000.obj",
+      "material": "Blankets"
+    }
+  ],
   "resolution": [
     1270,
     720

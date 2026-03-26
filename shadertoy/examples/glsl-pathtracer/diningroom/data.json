@@ -56,6 +56,214 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "BlackPlastic",
+    "StainlessSteel",
+    "Aluminium",
+    "Glass",
+    "Ceramic",
+    "WoodenFloor",
+    "WoodenBox",
+    "Painting",
+    "Walls",
+    "Green",
+    "DarkGlossy",
+    "ShelfBookCover1",
+    "ShelfBookCover2",
+    "Book1",
+    "Book2",
+    "Book3",
+    "Book4",
+    "Book6",
+    "Book7",
+    "Book8",
+    "Book9",
+    "Book10",
+    "Book11",
+    "Book14",
+    "Book15",
+    "Book16",
+    "Book17",
+    "Book18"
+  ],
+  "meshes": [
+    {
+      "name": "bucket1.obj",
+      "material": "WoodenBox"
+    },
+    {
+      "name": "bucket2.obj",
+      "material": "WoodenBox"
+    },
+    {
+      "name": "bucket3.obj",
+      "material": "WoodenBox"
+    },
+    {
+      "name": "bucket4.obj",
+      "material": "WoodenBox"
+    },
+    {
+      "name": "chair_legs.obj",
+      "material": "StainlessSteel"
+    },
+    {
+      "name": "chair_nuts.obj",
+      "material": "StainlessSteel"
+    },
+    {
+      "name": "chair_rubber_pegs.obj",
+      "material": "BlackPlastic"
+    },
+    {
+      "name": "chair_seats.obj",
+      "material": "BlackPlastic"
+    },
+    {
+      "name": "cupboards.obj",
+      "material": "DarkGlossy"
+    },
+    {
+      "name": "floor.obj",
+      "material": "WoodenFloor"
+    },
+    {
+      "name": "floor_frame.obj",
+      "material": "WoodenFloor"
+    },
+    {
+      "name": "frame1.obj",
+      "material": "StainlessSteel"
+    },
+    {
+      "name": "frame2.obj",
+      "material": "StainlessSteel"
+    },
+    {
+      "name": "left_front_wall.obj",
+      "material": "Walls"
+    },
+    {
+      "name": "rightwall.obj",
+      "material": "Green"
+    },
+    {
+      "name": "picture1.obj",
+      "material": "Painting"
+    },
+    {
+      "name": "picture2.obj",
+      "material": "Painting"
+    },
+    {
+      "name": "plant.obj",
+      "material": "DarkGlossy"
+    },
+    {
+      "name": "shelf.obj",
+      "material": "Walls"
+    },
+    {
+      "name": "table_glass.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "table_legs.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "vase.obj",
+      "material": "Ceramic"
+    },
+    {
+      "name": "shelf_book1.obj",
+      "material": "ShelfBookCover1"
+    },
+    {
+      "name": "shelf_book2.obj",
+      "material": "ShelfBookCover2"
+    },
+    {
+      "name": "shelf_objects.obj",
+      "material": "Aluminium"
+    },
+    {
+      "name": "shelf_object2.obj",
+      "material": "DarkGlossy"
+    },
+    {
+      "name": "book1.obj",
+      "material": "Book1"
+    },
+    {
+      "name": "book2.obj",
+      "material": "Book2"
+    },
+    {
+      "name": "book3.obj",
+      "material": "Book3"
+    },
+    {
+      "name": "book4.obj",
+      "material": "Book4"
+    },
+    {
+      "name": "book5.obj",
+      "material": "ShelfBookCover1"
+    },
+    {
+      "name": "book6.obj",
+      "material": "Book6"
+    },
+    {
+      "name": "book7.obj",
+      "material": "Book7"
+    },
+    {
+      "name": "book8.obj",
+      "material": "Book8"
+    },
+    {
+      "name": "book9.obj",
+      "material": "Book9"
+    },
+    {
+      "name": "book10.obj",
+      "material": "Book10"
+    },
+    {
+      "name": "book11.obj",
+      "material": "Book11"
+    },
+    {
+      "name": "book12.obj",
+      "material": "ShelfBookCover2"
+    },
+    {
+      "name": "book13.obj",
+      "material": "Book3"
+    },
+    {
+      "name": "book14.obj",
+      "material": "Book14"
+    },
+    {
+      "name": "book15.obj",
+      "material": "Book15"
+    },
+    {
+      "name": "book16.obj",
+      "material": "Book16"
+    },
+    {
+      "name": "book17.obj",
+      "material": "Book17"
+    },
+    {
+      "name": "book18.obj",
+      "material": "Book18"
+    }
+  ],
   "resolution": [
     1280,
     720

@@ -56,6 +56,15 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "white"
+  ],
+  "meshes": [
+    {
+      "name": "floor.obj",
+      "material": "white"
+    }
+  ],
   "resolution": [
     800,
     800

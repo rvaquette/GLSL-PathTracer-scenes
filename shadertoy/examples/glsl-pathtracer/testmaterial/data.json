@@ -56,6 +56,24 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "test",
+    "ground"
+  ],
+  "meshes": [
+    {
+      "name": "cube.obj",
+      "material": "test"
+    },
+    {
+      "name": "sphere.obj",
+      "material": "test"
+    },
+    {
+      "name": "floor.obj",
+      "material": "ground"
+    }
+  ],
   "resolution": [
     1280,
     720

@@ -59,6 +59,20 @@
     "OPT_VOL_MIS"
   ],
   "withTexture": false,
+  "materials": [
+    "volume",
+    "black"
+  ],
+  "meshes": [
+    {
+      "name": "cube.obj",
+      "material": "volume"
+    },
+    {
+      "name": "floor.obj",
+      "material": "black"
+    }
+  ],
   "resolution": [
     1280,
     720

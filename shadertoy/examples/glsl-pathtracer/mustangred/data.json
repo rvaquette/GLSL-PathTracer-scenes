@@ -56,6 +56,60 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "floor",
+    "black",
+    "chrome",
+    "glass",
+    "headlight",
+    "yellow_blinkers",
+    "red_taillight",
+    "paint",
+    "red_interior",
+    "tyres"
+  ],
+  "meshes": [
+    {
+      "name": "Black.obj",
+      "material": "black"
+    },
+    {
+      "name": "Body.obj",
+      "material": "paint"
+    },
+    {
+      "name": "Chrome.obj",
+      "material": "chrome"
+    },
+    {
+      "name": "Floor.obj",
+      "material": "floor"
+    },
+    {
+      "name": "Front_Blinkers.obj",
+      "material": "yellow_blinkers"
+    },
+    {
+      "name": "Glass.obj",
+      "material": "glass"
+    },
+    {
+      "name": "Lights.obj",
+      "material": "headlight"
+    },
+    {
+      "name": "Red_Interior.obj",
+      "material": "red_interior"
+    },
+    {
+      "name": "Tail_Lights.obj",
+      "material": "red_taillight"
+    },
+    {
+      "name": "Tyres.obj",
+      "material": "tyres"
+    }
+  ],
   "resolution": [
     1280,
     720

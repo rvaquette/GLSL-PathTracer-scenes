@@ -60,6 +60,23 @@
     "OPT_VOL_MIS"
   ],
   "withTexture": false,
+  "materials": [
+    "volume_scatter"
+  ],
+  "meshes": [
+    {
+      "name": "head.obj",
+      "material": "volume_scatter"
+    },
+    {
+      "name": "body.obj",
+      "material": "volume_scatter"
+    },
+    {
+      "name": "base.obj",
+      "material": "volume_scatter"
+    }
+  ],
   "resolution": [
     1280,
     720

@@ -56,6 +56,95 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "Plastic_Orange",
+    "Plastic_Black",
+    "Glass",
+    "Metal",
+    "Floor"
+  ],
+  "meshes": [
+    {
+      "name": "Mesh003.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh005.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh007.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh008.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh011.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh013.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh014.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh017.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh018.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh019.obj",
+      "material": "Plastic_Black"
+    },
+    {
+      "name": "Mesh000.obj",
+      "material": "Plastic_Orange"
+    },
+    {
+      "name": "Mesh001.obj",
+      "material": "Plastic_Orange"
+    },
+    {
+      "name": "Mesh006.obj",
+      "material": "Plastic_Orange"
+    },
+    {
+      "name": "Mesh009.obj",
+      "material": "Plastic_Orange"
+    },
+    {
+      "name": "Mesh012.obj",
+      "material": "Plastic_Orange"
+    },
+    {
+      "name": "Mesh016.obj",
+      "material": "Plastic_Orange"
+    },
+    {
+      "name": "Mesh010.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Mesh002.obj",
+      "material": "Metal"
+    },
+    {
+      "name": "Mesh015.obj",
+      "material": "Metal"
+    },
+    {
+      "name": "Mesh004.obj",
+      "material": "Floor"
+    }
+  ],
   "resolution": [
     700,
     900

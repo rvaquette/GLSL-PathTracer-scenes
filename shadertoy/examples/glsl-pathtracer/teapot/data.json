@@ -56,6 +56,24 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "checker",
+    "white"
+  ],
+  "meshes": [
+    {
+      "name": "Mesh000.obj",
+      "material": "white"
+    },
+    {
+      "name": "Mesh001.obj",
+      "material": "white"
+    },
+    {
+      "name": "Mesh050.obj",
+      "material": "checker"
+    }
+  ],
   "resolution": [
     1280,
     720

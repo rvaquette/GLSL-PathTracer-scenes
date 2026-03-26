@@ -57,6 +57,78 @@
     "OPT_MEDIUM"
   ],
   "withTexture": true,
+  "materials": [
+    "blue_tiles",
+    "rough_glass",
+    "chrome",
+    "purple_glass",
+    "teal_glass",
+    "gold",
+    "blue_cloth",
+    "purple_cloth",
+    "blue_scratched",
+    "marble",
+    "base",
+    "checker"
+  ],
+  "meshes": [
+    {
+      "name": "background.obj",
+      "material": "checker"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "chrome"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "teal_glass"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "gold"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "blue_scratched"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "marble"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "teapot.obj",
+      "material": "blue_tiles"
+    },
+    {
+      "name": "teapot_base.obj",
+      "material": "base"
+    },
+    {
+      "name": "cloth.obj",
+      "material": "purple_cloth"
+    }
+  ],
   "resolution": [
     1280,
     720

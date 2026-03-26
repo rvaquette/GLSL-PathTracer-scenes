@@ -56,6 +56,46 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "ceiling_white",
+    "back_wall_white",
+    "floor_white",
+    "small_box_white",
+    "large_box_white",
+    "red",
+    "green",
+    "glass"
+  ],
+  "meshes": [
+    {
+      "name": "cbox_ceiling.obj",
+      "material": "ceiling_white"
+    },
+    {
+      "name": "cbox_floor.obj",
+      "material": "floor_white"
+    },
+    {
+      "name": "cbox_back.obj",
+      "material": "back_wall_white"
+    },
+    {
+      "name": "glass_sphere.obj",
+      "material": "glass"
+    },
+    {
+      "name": "cbox_largebox.obj",
+      "material": "large_box_white"
+    },
+    {
+      "name": "cbox_greenwall.obj",
+      "material": "green"
+    },
+    {
+      "name": "cbox_redwall.obj",
+      "material": "red"
+    }
+  ],
   "resolution": [
     800,
     800

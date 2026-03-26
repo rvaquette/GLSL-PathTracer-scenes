@@ -56,6 +56,20 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "silver",
+    "gold",
+    "redPlastic",
+    "white",
+    "black",
+    "glass"
+  ],
+  "meshes": [
+    {
+      "name": "ajax.obj",
+      "material": "black"
+    }
+  ],
   "resolution": [
     900,
     900

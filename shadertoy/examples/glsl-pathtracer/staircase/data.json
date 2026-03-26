@@ -56,6 +56,110 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": true,
+  "materials": [
+    "WoodFloor",
+    "Wallpaper",
+    "WoodStairs",
+    "WhitePaint",
+    "MagnoliaPaint",
+    "Painting1",
+    "Painting2",
+    "Painting3",
+    "Gold",
+    "WoodChair",
+    "ChairSeat",
+    "WoodLamp",
+    "Brass",
+    "StainlessSteel",
+    "WhitePlastic",
+    "Lampshade",
+    "Black",
+    "BrushedAluminium",
+    "Glass",
+    "Candles"
+  ],
+  "meshes": [
+    {
+      "name": "Black.obj",
+      "material": "Black"
+    },
+    {
+      "name": "Brass.obj",
+      "material": "Brass"
+    },
+    {
+      "name": "BrushedAluminium.obj",
+      "material": "BrushedAluminium"
+    },
+    {
+      "name": "Candles.obj",
+      "material": "Candles"
+    },
+    {
+      "name": "ChairSeat.obj",
+      "material": "ChairSeat"
+    },
+    {
+      "name": "Glass.obj",
+      "material": "Glass"
+    },
+    {
+      "name": "Gold.obj",
+      "material": "Gold"
+    },
+    {
+      "name": "Lampshade.obj",
+      "material": "Lampshade"
+    },
+    {
+      "name": "MagnoliaPaint.obj",
+      "material": "MagnoliaPaint"
+    },
+    {
+      "name": "Painting1.obj",
+      "material": "Painting1"
+    },
+    {
+      "name": "Painting2.obj",
+      "material": "Painting2"
+    },
+    {
+      "name": "Painting3.obj",
+      "material": "Painting3"
+    },
+    {
+      "name": "StainlessSteel.obj",
+      "material": "StainlessSteel"
+    },
+    {
+      "name": "Wallpaper.obj",
+      "material": "Wallpaper"
+    },
+    {
+      "name": "WhitePaint.obj",
+      "material": "WhitePaint"
+    },
+    {
+      "name": "WhitePlastic.obj",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "WoodChair.obj",
+      "material": "WoodChair"
+    },
+    {
+      "name": "WoodFloor.obj",
+      "material": "WoodFloor"
+    },
+    {
+      "name": "WoodLamp.obj",
+      "material": "WoodLamp"
+    },
+    {
+      "name": "WoodStairs.obj",
+      "material": "WoodStairs"
+    }
+  ],
   "resolution": [
     640,
     800

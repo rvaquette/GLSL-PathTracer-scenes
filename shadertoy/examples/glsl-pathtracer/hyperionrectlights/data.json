@@ -56,6 +56,68 @@
     "OPT_OPENGL_NORMALMAP"
   ],
   "withTexture": false,
+  "materials": [
+    "black",
+    "orange",
+    "glass",
+    "silver",
+    "ring_silver",
+    "red",
+    "off_white",
+    "ping",
+    "marb1",
+    "marb2"
+  ],
+  "meshes": [
+    {
+      "name": "glass.obj",
+      "material": "glass"
+    },
+    {
+      "name": "dragon.obj",
+      "material": "black"
+    },
+    {
+      "name": "chrome.obj",
+      "material": "silver"
+    },
+    {
+      "name": "plate.obj",
+      "material": "red"
+    },
+    {
+      "name": "floor.obj",
+      "material": "red"
+    },
+    {
+      "name": "orange.obj",
+      "material": "orange"
+    },
+    {
+      "name": "ring1.obj",
+      "material": "ring_silver"
+    },
+    {
+      "name": "ring2.obj",
+      "material": "ring_silver"
+    },
+    {
+      "name": "ring3.obj",
+      "material": "ring_silver"
+    },
+    {
+      "name": "marb1.obj",
+      "material": "marb1"
+    },
+    {
+      "name": "marb2.obj",
+      "material": "marb2"
+    },
+    {
+      "name": "pingpong.obj",
+      "material": "ping"
+    }
+  ],
   "resolution": [
     1280,
     720
