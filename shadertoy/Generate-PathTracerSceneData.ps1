@@ -407,12 +407,12 @@ foreach ($sceneDir in $sceneDirs) {
 $summary | Format-Table -AutoSize
 Write-Host "`nTermine. Scenes traitees: $($summary.Count)" -ForegroundColor Green
 
-# Aggregate all per-scene data.json files into a single all-data.json
-$allDataPath = Join-Path $BaseDir 'all-data.json'
+# Aggregate all per-scene data.json files into a single scenes.json
+$allDataPath = Join-Path $BaseDir 'scenes.json'
 $allItems = Get-ChildItem -LiteralPath $BaseDir -Directory | Sort-Object Name | ForEach-Object {
     $p = Join-Path $_.FullName 'data.json'
     if (Test-Path -LiteralPath $p) { Get-Content -LiteralPath $p -Raw | ConvertFrom-Json }
 }
 $allItems | ConvertTo-Json -Depth 50 | Set-Content -LiteralPath $allDataPath -Encoding UTF8
-Write-Host "all-data.json written: $($allItems.Count) entries -> $allDataPath" -ForegroundColor Green
+Write-Host "scenes.json written: $($allItems.Count) entries -> $allDataPath" -ForegroundColor Green
 
