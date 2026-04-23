@@ -9,6 +9,10 @@
   "geometry": [
     {
       "mesh": "/scenes/pathtracer/BoomBox.glb",
+      "materialAssignments": {
+        "BoomBoxBody": "hero",
+        "BoomBoxDetails": "accent"
+      },
       "transform": {
         "translation": [0.0, 0.0, 0.0],
         "rotationEulerDeg": [0.0, -35.0, 0.0],
@@ -20,6 +24,27 @@
     "path": "materials/rich.mtlx",
     "look": "studio",
     "material": "boombox_surface"
+  },
+  "materials": {
+    "hero": {
+      "path": "materials/rich.mtlx",
+      "look": "studio",
+      "material": "boombox_surface"
+    },
+    "accent": {
+      "path": "../basic-robot/materials/basic.mtlx",
+      "look": "default",
+      "material": "robot_surface"
+    },
+    "default": {
+      "path": "materials/rich.mtlx",
+      "look": "studio",
+      "material": "boombox_surface"
+    }
+  },
+  "materialAssignments": {
+    "BoomBoxBody": "hero",
+    "BoomBoxLED": "accent"
   },
   "lights": [
     {

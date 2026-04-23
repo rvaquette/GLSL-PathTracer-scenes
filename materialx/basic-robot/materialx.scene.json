@@ -21,6 +21,27 @@
     "look": "default",
     "material": "robot_surface"
   },
+  "materials": {
+    "hero": {
+      "path": "materials/basic.mtlx",
+      "look": "default",
+      "material": "robot_surface"
+    },
+    "accent": {
+      "path": "../lit-boombox/materials/rich.mtlx",
+      "look": "studio",
+      "material": "boombox_surface"
+    },
+    "default": {
+      "path": "materials/basic.mtlx",
+      "look": "default",
+      "material": "robot_surface"
+    }
+  },
+  "materialAssignments": {
+    "RobotMaterial": "hero",
+    "RobotAccent": "accent"
+  },
   "lights": [
     {
       "type": "directional",
