@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<materialx version="1.38">
+  <surfacematerial name="warm_gold_surface" type="material">
+    <input name="surfaceshader" type="surfaceshader" nodename="warm_gold_standard_surface" />
+  </surfacematerial>
+
+  <standard_surface name="warm_gold_standard_surface" type="surfaceshader">
+    <input name="base" type="float" value="1.0" />
+    <input name="base_color" type="color3" value="0.83, 0.68, 0.22" />
+    <input name="metalness" type="float" value="0.95" />
+    <input name="specular_roughness" type="float" value="0.12" />
+  </standard_surface>
+</materialx>
