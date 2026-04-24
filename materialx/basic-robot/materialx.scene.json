@@ -2,17 +2,37 @@
   "mode": "materialx",
   "name": "basic-robot",
   "camera": {
-    "position": [0.0, 1.0, 3.0],
-    "lookAt": [0.0, 0.7, 0.0],
+    "position": [
+      0.0,
+      1.0,
+      3.0
+    ],
+    "lookAt": [
+      0.0,
+      0.7,
+      0.0
+    ],
     "fov": 45
   },
   "geometry": [
     {
       "mesh": "/scenes/pathtracer/robot.gltf",
       "transform": {
-        "translation": [0.0, 0.0, 0.0],
-        "rotationEulerDeg": [0.0, 25.0, 0.0],
-        "scale": [1.0, 1.0, 1.0]
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationEulerDeg": [
+          0.0,
+          25.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
       }
     }
   ],
@@ -45,10 +65,17 @@
   "lights": [
     {
       "type": "directional",
-      "direction": [-0.4, -1.0, -0.2],
-      "color": [1.0, 0.98, 0.95],
+      "direction": [
+        -0.4,
+        -1.0,
+        -0.2
+      ],
+      "color": [
+        1.0,
+        0.98,
+        0.95
+      ],
       "intensity": 2.5
     }
-  ],
-  "offlinePassCount": 4
+  ]
 }

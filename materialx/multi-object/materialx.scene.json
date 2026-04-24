@@ -2,8 +2,16 @@
   "mode": "materialx",
   "name": "multi-object",
   "camera": {
-    "position": [0.0, 1.2, 4.0],
-    "lookAt": [0.0, 0.8, 0.0],
+    "position": [
+      0.0,
+      1.2,
+      4.0
+    ],
+    "lookAt": [
+      0.0,
+      0.8,
+      0.0
+    ],
     "fov": 45
   },
   "geometry": [
@@ -11,18 +19,42 @@
       "mesh": "/scenes/pathtracer/robot.gltf",
       "materialKey": "silver",
       "transform": {
-        "translation": [-1.5, 0.0, 0.0],
-        "rotationEulerDeg": [0.0, 20.0, 0.0],
-        "scale": [1.0, 1.0, 1.0]
+        "translation": [
+          -1.5,
+          0.0,
+          0.0
+        ],
+        "rotationEulerDeg": [
+          0.0,
+          20.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
       }
     },
     {
       "mesh": "/scenes/pathtracer/BoomBox.glb",
       "materialKey": "warm_gold",
       "transform": {
-        "translation": [1.5, 0.0, 0.0],
-        "rotationEulerDeg": [0.0, -30.0, 0.0],
-        "scale": [1.0, 1.0, 1.0]
+        "translation": [
+          1.5,
+          0.0,
+          0.0
+        ],
+        "rotationEulerDeg": [
+          0.0,
+          -30.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
       }
     }
   ],
@@ -43,10 +75,17 @@
   "lights": [
     {
       "type": "directional",
-      "direction": [-0.4, -1.0, -0.2],
-      "color": [1.0, 0.98, 0.95],
+      "direction": [
+        -0.4,
+        -1.0,
+        -0.2
+      ],
+      "color": [
+        1.0,
+        0.98,
+        0.95
+      ],
       "intensity": 3.0
     }
-  ],
-  "offlinePassCount": 4
+  ]
 }
