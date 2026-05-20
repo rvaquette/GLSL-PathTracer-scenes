@@ -101,6 +101,7 @@ material proceduralMarble
 
 material sssMarbleDense
 {
+	materialgraphfile materialgraphs/ajax_sssMarbleDense.graph.json
 	color 0.78 0.81 0.86
 	roughness 0.28
 	metallic 0.0
@@ -131,6 +132,7 @@ material sssMarbleDense
 
 material sssWaxWarm
 {
+	materialgraphfile materialgraphs/ajax_sssWaxWarm.graph.json
 	color 0.93 0.80 0.62
 	roughness 0.28
 	metallic 0.0
@@ -144,6 +146,7 @@ material sssWaxWarm
 
 material sssJadeCool
 {
+	materialxfile materialx/ajax_sssJadeCool.mtlx
 	color 0.56 0.82 0.72
 	roughness 0.20
 	metallic 0.0
