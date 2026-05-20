@@ -26,7 +26,96 @@ material gold
 {
 	color 1.0 0.71 0.29
 	roughness 0.1
-	metallic 1.0	
+	metallic 1.0
+	proceduralshaderglsl
+	{
+		// Ray-driven stylized anisotropic tint with edge glow.
+		vec3 V = normalize(-ray.direction);
+		vec3 N = normalize(normal);
+		float ndotv = clamp(dot(N, V), 0.0, 1.0);
+		float edge = pow(1.0 - ndotv, 3.0);
+		float bands = 0.5 + 0.5 * sin((uv.x + uv.y) * 42.0 + pos.y * 3.0);
+
+		vec3 baseA = vec3(1.0, 0.72, 0.25);
+		vec3 baseB = vec3(0.95, 0.35, 0.08);
+		mat.baseColor = mix(baseA, baseB, bands);
+
+		mat.roughness = clamp(0.08 + edge * 0.35, 0.03, 0.7);
+		mat.metallic = 1.0;
+		mat.clearcoat = clamp(0.2 + edge * 0.5, 0.0, 1.0);
+		mat.emission += vec3(1.0, 0.4, 0.1) * edge * 0.2;
+	}
+}
+
+material proceduralEdgeWear
+{
+	color 0.65 0.66 0.68
+	roughness 0.28
+	metallic 1.0
+	proceduralshaderglsl
+	{
+		vec3 V = normalize(-ray.direction);
+		vec3 N = normalize(normal);
+		float edge = pow(1.0 - clamp(dot(N, V), 0.0, 1.0), 4.0);
+		float grunge = 0.5 + 0.5 * sin(pos.x * 16.0 + pos.y * 11.0 + pos.z * 13.0);
+		float wear = clamp(edge * 0.9 + grunge * 0.25, 0.0, 1.0);
+
+		vec3 baseMetal = vec3(0.35, 0.36, 0.38);
+		vec3 polishedEdge = vec3(0.92, 0.9, 0.84);
+		mat.baseColor = mix(baseMetal, polishedEdge, wear);
+		mat.roughness = clamp(mix(0.55, 0.08, wear), 0.04, 0.8);
+		mat.metallic = 1.0;
+		mat.clearcoat = mix(0.1, 0.45, wear);
+	}
+}
+
+material proceduralMarble
+{
+	color 0.82 0.84 0.88
+	roughness 0.22
+	metallic 0.0
+	proceduralshaderglsl
+	{
+		float flow = pos.x * 2.3 + pos.z * 2.1;
+		float swirl = sin(flow + sin(pos.y * 5.0) * 1.2 + sin(pos.x * 7.0 + pos.z * 6.0) * 0.4);
+		float veins = smoothstep(0.25, 0.85, 0.5 + 0.5 * swirl);
+		float haze = 0.5 + 0.5 * sin((pos.x + pos.z) * 3.0 + pos.y * 2.0);
+
+		vec3 stoneA = vec3(0.9, 0.92, 0.94);
+		vec3 stoneB = vec3(0.68, 0.72, 0.78);
+		vec3 stone = mix(stoneA, stoneB, haze * 0.4);
+		vec3 veinColor = vec3(0.22, 0.24, 0.28);
+
+		mat.baseColor = mix(stone, veinColor, veins * 0.75);
+		mat.roughness = mix(0.14, 0.32, veins * 0.6);
+		mat.metallic = 0.0;
+		mat.clearcoat = 0.08;
+	}
+}
+
+material proceduralCarbonFiber
+{
+	color 0.1 0.1 0.1
+	roughness 0.22
+	metallic 0.0
+	proceduralshaderglsl
+	{
+		vec2 p = uv * 70.0;
+		float warpX = 0.5 + 0.5 * sin(p.x + sin(p.y * 0.35) * 1.3);
+		float warpY = 0.5 + 0.5 * sin(p.y + sin(p.x * 0.35) * 1.3);
+		float weave = clamp(max(warpX, warpY), 0.0, 1.0);
+
+		vec3 V = normalize(-ray.direction);
+		vec3 N = normalize(normal);
+		float grazing = pow(1.0 - clamp(dot(N, V), 0.0, 1.0), 2.0);
+
+		vec3 dark = vec3(0.03, 0.03, 0.035);
+		vec3 fiber = vec3(0.18, 0.19, 0.21);
+		mat.baseColor = mix(dark, fiber, weave * 0.75 + grazing * 0.15);
+		mat.roughness = clamp(mix(0.34, 0.14, weave) + grazing * 0.08, 0.08, 0.5);
+		mat.metallic = 0.0;
+		mat.clearcoat = 0.5;
+	}
 }
 
 material redPlastic
@@ -60,6 +149,6 @@ material glass
 mesh
 {
 	file ajax/ajax.obj
-	material black
+	material proceduralCarbonFiber
 }
 
