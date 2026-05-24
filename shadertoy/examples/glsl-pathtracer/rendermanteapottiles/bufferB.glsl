@@ -1430,8 +1430,8 @@ bool AnyHit(Ray r, float maxDist)
 
                     vec2 texCoord = t0 * uvt.w + t1 * uvt.x + t2 * uvt.y;
 
-                    vec4 texIDs      = texelFetch(materialsTex, ivec2(currMatID * 8 + 6, 0), 0);
-                    vec4 alphaParams = texelFetch(materialsTex, ivec2(currMatID * 8 + 7, 0), 0);
+                    vec4 texIDs      = texelFetch(materialsTex, ivec2(currMatID * 9 + 6, 0), 0);
+                    vec4 alphaParams = texelFetch(materialsTex, ivec2(currMatID * 9 + 7, 0), 0);
 
                     float alpha = texture(textureMapsArrayTex, vec3(texCoord, texIDs.x)).a;
                     float opacity = alphaParams.x;
@@ -1555,7 +1555,7 @@ bool AnyHit(Ray r, float maxDist)
 
 void GetMaterial(inout State state, in Ray r)
 {
-    int index = state.matID * 8;
+    int index = state.matID * 9;
     Material mat;
     Medium medium;
 
