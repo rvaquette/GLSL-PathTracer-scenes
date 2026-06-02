@@ -1,0 +1,125 @@
+renderer
+{
+    resolution 1600 900
+    maxdepth 8
+    tilewidth 320
+    tileheight 180
+    enabletonemap false
+    bsdfbackend materialx
+}
+
+camera
+{
+    position 0 5 11
+    lookat 0 1 0
+    fov 45
+}
+
+# D4.6 campaign scene
+# Four MaterialX closure-composition cases side-by-side:
+# - layer_bsdf_test1
+# - mix_bsdf_test2
+# - multiply_bsdf_test
+# - vertical_layering_ex7 (scaled_layer)
+
+material d46_layer
+{
+    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/layer_bsdf.mtlx
+    materialx_surface layer_bsdf_test1
+}
+
+material d46_mix
+{
+    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/mix_bsdf.mtlx
+    materialx_surface mix_bsdf_test2
+}
+
+material d46_multiply
+{
+    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/multiply_bsdf.mtlx
+    materialx_surface multiply_bsdf_test
+}
+
+material d46_scaled_layer
+{
+    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/vertical_layering.mtlx
+    materialx_surface vertical_layering_ex7
+}
+
+material neutral_ref
+{
+    color 0.82 0.82 0.82
+    roughness 0.35
+    metallic 0.0
+}
+
+material ground
+{
+    color 0.50 0.50 0.50
+    roughness 0.55
+    metallic 0.0
+}
+
+mesh
+{
+    name cube_d46_layer
+    file material_test/cube.obj
+    material d46_layer
+    position -4.5 1.0 0.0
+}
+
+mesh
+{
+    name cube_d46_mix
+    file material_test/cube.obj
+    material d46_mix
+    position -1.5 1.0 0.0
+}
+
+mesh
+{
+    name cube_d46_multiply
+    file material_test/cube.obj
+    material d46_multiply
+    position 1.5 1.0 0.0
+}
+
+mesh
+{
+    name cube_d46_scaled_layer
+    file material_test/cube.obj
+    material d46_scaled_layer
+    position 4.5 1.0 0.0
+}
+
+mesh
+{
+    name sphere_ref
+    file material_test/sphere.obj
+    material neutral_ref
+    position 0.0 1.0 -3.0
+}
+
+mesh
+{
+    name ground
+    file material_test/floor.obj
+    material ground
+}
+
+light
+{
+    emission 6.0 6.0 6.0
+    position 0 6 2
+    radius 1.2
+    type sphere
+}
+
+light
+{
+    emission 3.125 3.125 3.125
+    position -5.500000 2.500000 2.000000
+    v2 5.500000 2.500000 2.000000
+    v1 -5.500000 2.500000 -2.000000
+    type quad
+}
