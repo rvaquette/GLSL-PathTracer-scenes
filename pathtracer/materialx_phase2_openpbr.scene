@@ -17,7 +17,7 @@ camera
 
 material openpbr_from_doc
 {
-    materialx_document ../materialx/OpenPbr/open_pbr_default.mtlx
+    materialx_document ../materialx/Materials/Examples/OpenPbr/open_pbr_default.mtlx
     materialx_surface open_pbr_surface_surfaceshader
 }
 

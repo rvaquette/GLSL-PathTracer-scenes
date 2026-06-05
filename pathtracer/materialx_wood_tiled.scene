@@ -16,7 +16,7 @@ camera
 
 material wood_tiled
 {
-    materialx_document ../materialx/StandardSurface/standard_surface_wood_tiled.mtlx
+    materialx_document ../materialx/Materials/Examples/StandardSurface/standard_surface_wood_tiled.mtlx
     materialx_surface Tiled_Wood
 }
 

@@ -17,7 +17,7 @@ camera
 
 material materialx_from_doc
 {
-    materialx_document ../materialx/StandardSurface/standard_surface_gold.mtlx
+    materialx_document ../materialx/Materials/Examples/StandardSurface/standard_surface_gold.mtlx
     materialx_surface SR_gold
 }
 
