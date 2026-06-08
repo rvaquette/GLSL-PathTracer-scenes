@@ -1,0 +1,18 @@
+render
+{
+    width 256
+    height 256
+    spp 64
+	envmapfile HDR/syferfontein_18d_clear_1k.hdr
+}
+
+material absval_materialx
+{
+    materialx_document ../materialx/Tests/materials/nodes/absval/absval.mtlx
+}
+
+mesh
+{
+    file ShaderBall.glb
+    material absval_materialx
+}
