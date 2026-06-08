@@ -13,6 +13,6 @@ material absval_materialx
 
 mesh
 {
-    file ShaderBall.glb
+    file ShaderBall.obj
     material absval_materialx
 }
