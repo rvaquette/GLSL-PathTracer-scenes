@@ -1,0 +1,27 @@
+renderer
+{
+    resolution 256 256
+    maxdepth 8
+    tilewidth 32
+    tileheight 32
+}
+
+camera
+{
+    position 7.5 5 7
+    lookat 0 0 0
+    fov 45
+}
+
+material brass_tiled
+{
+    materialx_document ../materialx/Materials/Examples/StandardSurface/standard_surface_brass_tiled.mtlx
+    materialx_surface Tiled_Brass
+}
+
+mesh
+{
+    name ShaderBall
+    file material_test/ShaderBall.obj
+    material brass_tiled
+}
