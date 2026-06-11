@@ -15,8 +15,8 @@ camera
 
 material mtlx_test
 {
-    materialx_document ../materialx/Materials/nodes/XXX/XXX.mtlx
-    materialx_surface M_XXX
+    materialx_document ../materialx/Materials/nodes/absval/absval.mtlx
+    materialx_surface M_absval
 }
 
 mesh
