@@ -1,0 +1,59 @@
+# Case 07: file + inline in same material (combined body)
+renderer
+{
+    resolution 512 512
+    maxdepth 8
+    tilewidth 128
+    tileheight 128
+}
+
+camera
+{
+    position 0.0 2.0 6.0
+    lookat 0.0 1.0 0.0
+    fov 40
+}
+
+material proc_combo
+{
+    glsl_material_file ../../../shaders/procedural/mat_worldpos_bands.glsl
+    glsl_material_code = mat.clearcoat = 1.0; mat.clearcoatGloss = 0.95;
+}
+
+material ground
+{
+    color 0.35 0.35 0.35
+    roughness 0.85
+}
+
+mesh
+{
+    name proc_sphere
+    file material_test/sphere.obj
+    material proc_combo
+    position 0.0 1.0 0.0
+}
+
+mesh
+{
+    name ground
+    file material_test/floor.obj
+    material ground
+}
+
+light
+{
+    emission 5.0 5.0 5.0
+    position 1 5 1
+    radius 1.0
+    type sphere
+}
+
+light
+{
+    emission 3.0 3.0 3.0
+    position -3.5 2.5 0.5
+    v2 -1.5 2.5 0.5
+    v1 -3.5 2.5 -1.5
+    type quad
+}

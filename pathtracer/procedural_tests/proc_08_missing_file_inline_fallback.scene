@@ -1,31 +1,28 @@
-# Case 01: file-based procedural material (checkerboard baseline)
+# Case 08: missing glsl_material_file + inline fallback
 renderer
 {
     resolution 512 512
-    maxdepth 6
+    maxdepth 8
     tilewidth 128
     tileheight 128
-    enabletonemap false
 }
 
 camera
 {
-    position 7.5 5.0 7.0
-    lookat 0.0 0.0 0.0
-    fov 45
+    position 0.0 2.0 6.0
+    lookat 0.0 1.0 0.0
+    fov 40
 }
 
-material proc_checker
+material proc_missing_file
 {
-    color 0.65 0.65 0.65
-    roughness 0.35
-    //glsl_material_file ../../../shaders/procedural/mat_checkerboard.glsl
+    glsl_material_file ../../../shaders/procedural/not_found_material.glsl
+    glsl_material_code = mat.baseColor = vec3(0.15, 0.75, 0.25); mat.roughness = 0.45;
 }
 
-material ref_gray
+material proc_transmission
 {
-    color 0.65 0.65 0.65
-    roughness 0.35
+    glsl_material_file ../../../shaders/procedural/mat_transmission_debug.glsl
 }
 
 material ground
@@ -36,17 +33,17 @@ material ground
 
 mesh
 {
-    name proc_sphere
+    name left_sphere
     file material_test/sphere.obj
-    material proc_checker
+    material proc_missing_file
     position -1.2 1.0 0.0
 }
 
 mesh
 {
-    name ref_sphere
+    name right_sphere
     file material_test/sphere.obj
-    material ref_gray
+    material proc_transmission
     position 1.2 1.0 0.0
 }
 

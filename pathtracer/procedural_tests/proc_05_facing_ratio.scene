@@ -1,0 +1,58 @@
+# Case 05: file-based, view-dependent behavior (ffnormal/rayDir)
+renderer
+{
+    resolution 512 512
+    maxdepth 6
+    tilewidth 128
+    tileheight 128
+}
+
+camera
+{
+    position 0.0 2.0 6.0
+    lookat 0.0 1.0 0.0
+    fov 40
+}
+
+material proc_facing
+{
+    glsl_material_file ../../../shaders/procedural/mat_facing_ratio.glsl
+}
+
+material ground
+{
+    color 0.35 0.35 0.35
+    roughness 0.85
+}
+
+mesh
+{
+    name proc_sphere
+    file material_test/sphere.obj
+    material proc_facing
+    position 0.0 1.0 0.0
+}
+
+mesh
+{
+    name ground
+    file material_test/floor.obj
+    material ground
+}
+
+light
+{
+    emission 5.0 5.0 5.0
+    position 1 5 1
+    radius 1.0
+    type sphere
+}
+
+light
+{
+    emission 3.0 3.0 3.0
+    position -3.5 2.5 0.5
+    v2 -1.5 2.5 0.5
+    v1 -3.5 2.5 -1.5
+    type quad
+}
