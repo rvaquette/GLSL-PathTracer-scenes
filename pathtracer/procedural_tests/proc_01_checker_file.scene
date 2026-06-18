@@ -19,7 +19,7 @@ material proc_checker
 {
     color 0.65 0.65 0.65
     roughness 0.35
-    //glsl_material_file ../../../shaders/procedural/mat_checkerboard.glsl
+    glsl_material_file ../../../shaders/procedural/mat_checkerboard.glsl
 }
 
 material ref_gray
