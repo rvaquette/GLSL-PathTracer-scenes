@@ -16,7 +16,7 @@ camera
 
 material brass_wire_mesh
 {
-    materialx_document ../materialx/Materials/TestSuite/libraries/metal/brass_wire_mesh.mtlx
+    materialx_document ../materialx/TestSuite/libraries/metal/brass_wire_mesh.mtlx
     materialx_surface Brass_Wire_Mesh
 }
 

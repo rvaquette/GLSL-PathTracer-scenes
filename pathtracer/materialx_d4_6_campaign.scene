@@ -24,25 +24,25 @@ camera
 
 material d46_layer
 {
-    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/layer_bsdf.mtlx
+    materialx_document ../materialx/TestSuite/pbrlib/bsdf/layer_bsdf.mtlx
     materialx_surface layer_bsdf_test1
 }
 
 material d46_mix
 {
-    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/mix_bsdf.mtlx
+    materialx_document ../materialx/TestSuite/pbrlib/bsdf/mix_bsdf.mtlx
     materialx_surface mix_bsdf_test2
 }
 
 material d46_multiply
 {
-    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/multiply_bsdf.mtlx
+    materialx_document ../materialx/TestSuite/pbrlib/bsdf/multiply_bsdf.mtlx
     materialx_surface multiply_bsdf_test
 }
 
 material d46_scaled_layer
 {
-    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/vertical_layering.mtlx
+    materialx_document ../materialx/TestSuite/pbrlib/bsdf/vertical_layering.mtlx
     materialx_surface vertical_layering_ex7
 }
 

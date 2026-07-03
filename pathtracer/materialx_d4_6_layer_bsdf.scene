@@ -19,7 +19,7 @@ camera
 # Target graph: layer_bsdf_test1
 material d46_layer_from_doc
 {
-    materialx_document ../materialx/Materials/TestSuite/pbrlib/bsdf/layer_bsdf.mtlx
+    materialx_document ../materialx/TestSuite/pbrlib/bsdf/layer_bsdf.mtlx
     materialx_surface layer_bsdf_test1
 }
 
