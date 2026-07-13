@@ -16,7 +16,7 @@ camera
 
 material onyx_hextiled
 {
-    materialx_document ../materialx/Materials/Examples/StandardSurface/standard_surface_onyx_hextiled.mtlx
+    materialx_document ../materialx/Examples/StandardSurface/standard_surface_onyx_hextiled.mtlx
     materialx_surface M_OnyxHextiled
 }
 
