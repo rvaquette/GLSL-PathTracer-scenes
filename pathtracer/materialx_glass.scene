@@ -1,14 +1,12 @@
+materialx_generator essl
+
 renderer
 {
     resolution 1280 720
     maxdepth 12
     tilewidth 256
     tileheight 144
-    enabletonemap true
-    enableaces true
-    envmapfile HDR/material-test.hdr
-    envmapintensity 1.5
-    enablebackground true
+    envmapfile HDR/san_giuseppe_bridge_2k.hdr
 }
 
 camera
