@@ -1,3 +1,5 @@
+materialx_generator essl
+
 renderer
 {
     resolution 1280 720
