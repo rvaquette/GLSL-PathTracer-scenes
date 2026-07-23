@@ -4,7 +4,7 @@ renderer
     maxdepth 8
     tilewidth 256
     tileheight 144
-    envmapfile HDR/san_giuseppe_bridge_2k.hdr
+    //envmapfile HDR/san_giuseppe_bridge_2k.hdr
 }
 
 camera
@@ -25,4 +25,21 @@ mesh
     name cube_onyx
     file materialx_test/ShaderBall.obj
     material mtlx_test
+}
+
+light
+{
+    emission 5.0 5.0 5.0
+    position 1 5 1
+    radius 1.0
+    type sphere
+}
+
+light
+{
+    emission 3.125 3.125 3.125
+    position -3.500000 2.500000 0.500000
+    v2 -1.500000 2.500000 0.500000
+    v1 -3.500000 2.500000 -1.500000
+    type quad
 }
