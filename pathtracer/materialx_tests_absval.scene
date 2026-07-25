@@ -1,9 +1,10 @@
 renderer
 {
-    resolution 256 256
+    resolution 1280 720
     maxdepth 8
-    tilewidth 32
-    tileheight 32
+    tilewidth 256
+    tileheight 144
+    //envmapfile HDR/san_giuseppe_bridge_2k.hdr
 }
 
 camera
@@ -15,22 +16,15 @@ camera
 
 material mtlx_test
 {
-    materialx_document ../materialx/Materials/nodes/absval/absval.mtlx
+    materialx_document ../materialx/materials/nodes/absval/absval.mtlx
     materialx_surface M_absval
 }
 
 mesh
 {
     name cube_onyx
-    file material_test/cube.obj
+    file materialx_test/ShaderBall.obj
     material mtlx_test
-}
-
-mesh
-{
-    name ground
-    file material_test/floor.obj
-    material ground
 }
 
 light
