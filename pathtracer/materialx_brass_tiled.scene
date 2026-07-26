@@ -4,13 +4,13 @@ renderer
     maxdepth 8
     tilewidth 256
     tileheight 144
-    enabletonemap false
+    envmapfile HDR/san_giuseppe_bridge_split.hdr
 }
 
 camera
 {
-    position 7.5 5 7
-    lookat 0 0 0
+    position -0.05 1.05 3.58
+    lookat -0.05 1.05 -0.06
     fov 45
 }
 
@@ -20,40 +20,27 @@ material brass_tiled
     materialx_surface Tiled_Brass
 }
 
-material ground
-{
-    color 0.50 0.50 0.50
-    roughness 0.55
-    metallic 0.0
-}
-
 mesh
 {
-    name cube_brass
-    file material_test/cube.obj
+    name cube_onyx
+    file materialx_test/ShaderBall.obj
     material brass_tiled
 }
 
-mesh
-{
-    name ground
-    file material_test/floor.obj
-    material ground
-}
+//light
+//{
+//    emission 5.0 5.0 5.0
+//    position 1 5 1
+//    radius 1.0
+//    type sphere
+//}
+//
+//light
+//{
+//    emission 3.125 3.125 3.125
+//    position -3.500000 2.500000 0.500000
+//    v2 -1.500000 2.500000 0.500000
+//    v1 -3.500000 2.500000 -1.500000
+//    type quad
+//}
 
-light
-{
-    emission 5.0 5.0 5.0
-    position 1 5 1
-    radius 1.0
-    type sphere
-}
-
-light
-{
-    emission 3.125 3.125 3.125
-    position -3.500000 2.500000 0.500000
-    v2 -1.500000 2.500000 0.500000
-    v1 -3.500000 2.500000 -1.500000
-    type quad
-}
