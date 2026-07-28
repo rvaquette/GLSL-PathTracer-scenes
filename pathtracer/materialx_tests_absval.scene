@@ -5,6 +5,7 @@ renderer
     tilewidth 256
     tileheight 144
     envmapfile HDR/san_giuseppe_bridge_split.hdr
+    envmapintensity 4.0
 }
 
 camera
