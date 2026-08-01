@@ -6,7 +6,7 @@ renderer
     maxdepth 12
     tilewidth 256
     tileheight 144
-    envmapfile HDR/san_giuseppe_bridge_2k.hdr
+    envmapfile HDR/san_giuseppe_bridge_split.hdr
 }
 
 camera
