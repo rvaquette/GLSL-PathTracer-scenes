@@ -24,7 +24,7 @@ material glass
 mesh
 {
     name glass_sphere
-    //file material_test/sphere.obj
-    file materialx_test/ShaderBall.obj
+    file material_test/sphere.obj
+    //file materialx_test/ShaderBall.obj
     material glass
 }
