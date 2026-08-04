@@ -11,9 +11,9 @@ renderer
 
 camera
 {
-    position -0.05 1.05 3.58
-    lookat -0.05 1.05 -0.06
-    fov 45
+	position 7.5 5 7
+	lookat 0 0 0
+	fov 45
 }
 
 material mtlx_test
@@ -24,24 +24,21 @@ material mtlx_test
 
 mesh
 {
-    name cube_onyx
-    file materialx_test/ShaderBall.obj
-    material mtlx_test
+	name cube
+	file material_test/cube.obj
+	material mtlx_test
 }
 
-//light
-//{
-//    emission 5.0 5.0 5.0
-//    position 1 5 1
-//    radius 1.0
-//    type sphere
-//}
-//
-//light
-//{
-//    emission 3.125 3.125 3.125
-//    position -3.500000 2.500000 0.500000
-//    v2 -1.500000 2.500000 0.500000
-//    v1 -3.500000 2.500000 -1.500000
-//    type quad
-//}
+mesh
+{
+	name sphere
+	file material_test/sphere.obj
+	material mtlx_test
+}
+
+mesh
+{
+	name ground
+	file material_test/floor.obj
+	material mtlx_test
+}
