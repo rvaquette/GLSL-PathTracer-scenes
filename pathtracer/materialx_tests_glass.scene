@@ -5,6 +5,7 @@ renderer
     tilewidth 256
     tileheight 144
     envmapfile HDR/san_giuseppe_bridge_2k.hdr
+    envmapirradiancefile HDR/irradiance/san_giuseppe_bridge.hdr
 }
 
 camera

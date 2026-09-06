@@ -91,6 +91,6 @@ light
 	type quad
 	position -2.5 4.5 2.5
 	v1 2.5 4.5 2.5
-	v2 -2.5 4.5 -2.5
+	v2 -2.5 4.5 7.5
 	emission 8.0 8.0 8.0
 }
