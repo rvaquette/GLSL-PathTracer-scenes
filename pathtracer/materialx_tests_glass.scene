@@ -21,9 +21,9 @@ material mtlx_test
     materialx_surface DisneyPrincipled_Glass
 }
 
-mesh
+gltf
 {
     name shaderball
-    file materialx_test/ShaderBall.obj
+    file ShaderBall.glb
     material mtlx_test
 }

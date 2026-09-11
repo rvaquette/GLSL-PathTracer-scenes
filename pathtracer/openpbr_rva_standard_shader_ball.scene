@@ -1,32 +1,39 @@
 renderer
 {
     resolution 1280 720
-    maxdepth 16
-    maxvolumesteps 64
-    fireflyclamp 10.0
-    rrdepth 2
+    maxdepth 8
     tilewidth 256
     tileheight 144
-    envmapfile HDR/san_giuseppe_bridge_split.hdr
-    envmapintensity 1.0
+    envmapfile HDR/san_giuseppe_bridge_2k.hdr
+    envmapirradiancefile HDR/irradiance/san_giuseppe_bridge.hdr
 }
 
 camera
 {
-    position 6.531538924716362 19.5 17.948521838355774
-    lookat 0.41067785252168587 4.4299998220307355 1.131594254882085
-    fov 23.6701655
+    position -0.05 1.05 3.58
+    lookat -0.05 1.05 -0.06
+    fov 45
 }
 
-material mtlx_reference
+material mtlx_test
+{
+    materialx_document ../materialx/materials/Examples/StandardSurface/standard_surface_glass.mtlx
+}
+
+material mtlx_default
 {
     materialx_document ../materialx/materials/Examples/StandardSurface/standard_surface_default.mtlx
-    materialx_surface StandardSurface_Default
 }
 
+.gltf
+{
+    file ShaderBall.glb
+    object Preview_Mesh mtlx_test
+    object Calibration_Mesh mtlx_default
+}
 gltf
 {
-    name openpbr_objects
-    file openpbr-rva-standard-shader-ball/openpbr_objects.glb
-    material mtlx_reference
+    file ShaderBall.glb
+    object Preview_Mesh mtlx_test
+    object Calibration_Mesh mtlx_default
 }
