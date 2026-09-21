@@ -25,12 +25,6 @@ material mtlx_default
     materialx_document ../materialx/materials/Examples/StandardSurface/standard_surface_default.mtlx
 }
 
-.gltf
-{
-    file ShaderBall.glb
-    object Preview_Mesh mtlx_test
-    object Calibration_Mesh mtlx_default
-}
 gltf
 {
     file ShaderBall.glb
